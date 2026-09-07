@@ -15,6 +15,7 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 ### 3 sept - [Workshop] 
 Ik heb 2 workshops gevolgd deze dag. Een over schetsen van Charley. We hebben geoefend met het maken van rechte lijnen en vierkanten.
 Bij Diederik heb ik een workshop gevolgd over typografie. De workshop begon met de geschiedenis van typografie en daarna hebben we aan de hand van twee foto's van dolly Parton, lettertypes gezocht die bij haar passen. Dit deden we door woorden op te schrijven die passen bij de foto's en daarna woorden op te schrijven die passen bij die woorden.
+
 [...]
 
 ### 31 aug - Kickoff
