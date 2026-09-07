@@ -19,3 +19,15 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 ### 31 aug - Kickoff
 
 Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github omgeving.
+
+
+
+SPRINT 1 MAANDAG
+We hebben in groepjes artikelen gelezen en daarna klassikaal besproken.
+Ik heb 'A Brief History & Ethos of the Digital Garden' gelezen en daarna een korte samenvatting gemaakt zonder weer in het artikel te kijken tijdens het maken van de samenvatting.
+
+Een digital garden is een plek op het web waar er veel ruimte is voor groei. Er wordt niet zo zeer gelet op wanneer iets is gepubliceerd als het wordt aanbevolen, er wordt meer gelet op de inhoud. Je ziet naast de datum dat het is gepubliceerd ook de datum waar er het laast aan is gewerkt. 
+Een digital garden is een persoonlijke plek waar je alles zo persoonlijk en gek kan maken als je wil en deze is nooit klaar met groeien.
+
+
+
