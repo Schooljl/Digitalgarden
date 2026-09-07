@@ -23,7 +23,7 @@ Bij Diederik heb ik een workshop gevolgd over typografie. De workshop begon met 
 [...]
 
 
-**Sprint 1 maandag**
+**Sprint 1 maandag 7 september**
 We hebben in groepjes artikelen gelezen en daarna klassikaal besproken.
 Ik heb 'A Brief History & Ethos of the Digital Garden' gelezen en daarna een korte samenvatting gemaakt zonder weer in het artikel te kijken tijdens het maken van de samenvatting.
 
@@ -44,5 +44,7 @@ Dit betekent dat ik kijk naar welk onderwerp ik wil gebruiken voor mijn website 
 1. Een digital garden is een plek op het web waar er veel ruimte is voor groei. Er wordt niet zo zeer gelet op wanneer iets is gepubliceerd als het wordt aanbevolen, er wordt meer gelet op de inhoud. Je ziet naast de datum dat het is gepubliceerd ook de datum waar er het laast aan is gewerkt. 
 Een digital garden is een persoonlijke plek waar je alles zo persoonlijk en gek kan maken als je wil en deze is nooit klaar met groeien.
 
-2. Een website is webby als het fluïde, interactief, toegankelijk, volwassen, expressief en leuk/verassend is. Ik weet nu niet uit mijn hoofd welke websites me inspireren
+2. Een website is webby als het fluïde, interactief, toegankelijk, volwassen, expressief en leuk/verassend is. Ik weet nu niet uit mijn hoofd welke websites me inspireren.
+
+3. Ik wil in mijn website gebruik maken van animaties en ik vind een focus-state en hover state ook erg belangrijk. Ik ga van tevoren ook een kleurenpalet maken zodat het er aesthetic uit ziet.
 
