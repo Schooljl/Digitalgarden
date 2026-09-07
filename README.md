@@ -23,7 +23,7 @@ Bij Diederik heb ik een workshop gevolgd over typografie. De workshop begon met 
 [...]
 
 
-###Sprint 1 maandag 7 september
+### Sprint 1 maandag 7 september
 We hebben in groepjes artikelen gelezen en daarna klassikaal besproken.
 Ik heb 'A Brief History & Ethos of the Digital Garden' gelezen en daarna een korte samenvatting gemaakt zonder weer in het artikel te kijken tijdens het maken van de samenvatting.
 
