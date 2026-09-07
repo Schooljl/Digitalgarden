@@ -2,7 +2,7 @@
 
 Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door studenten worden gemaakt.
 
-## Learning Log (Met Christina)
+## Check-out (Met Christina)
 1. Een source hosting platform (broncodehostingsplatform) is een online platform waar ontwikkelaars de broncode van hun software opslaan, beheren en samen bewerken via versiebeheersystemen. Wij hadden keuze tussen Github en Codeberg, maar ik had vernomen dat Github makkelijker is en ik had daar al een account van dus ik heb gekozen voor Github.
 
 2. Ik heb gekozen voor de domeinnaam Createmyidea.nl en ik heb dat gekoppeld door op Transit.nl mijn GitHub account te koppelen door het in te vullen bij 'waarde', daarna heb ik mijn domeinnaam ingevuld op GitHub.
@@ -32,4 +32,18 @@ Een digital garden is een plek op het web waar er veel ruimte is voor groei. Er 
 Een digital garden is een persoonlijke plek waar je alles zo persoonlijk en gek kan maken als je wil en deze is nooit klaar met groeien.
 
 
+In groepjes hebben we websites bekeken en beoordeeld hoe 'webby' ze zijn. Wij hebben een formulier met criteria ingevuld. Daarna hebben we als groep de websites besproken en bepaald welke van deze websites het meest en minst webby is. Daar kwam uit:
+
+-meest webby: Ericwbailey.website
+-minst webby: Virtualvampirehaven.neocities.org
+
+
+Ik ga nu verder met het huiswerk.
+Dit betekent dat ik kijk naar welk onderwerp ik wil gebruiken voor mijn website en hoe ik wil dat het er ongeveer uit gaat zien.
+
+**Check-out**
+1. Een digital garden is een plek op het web waar er veel ruimte is voor groei. Er wordt niet zo zeer gelet op wanneer iets is gepubliceerd als het wordt aanbevolen, er wordt meer gelet op de inhoud. Je ziet naast de datum dat het is gepubliceerd ook de datum waar er het laast aan is gewerkt. 
+Een digital garden is een persoonlijke plek waar je alles zo persoonlijk en gek kan maken als je wil en deze is nooit klaar met groeien.
+
+2. Een website is webby als het fluïde, interactief, toegankelijk, volwassen, expressief en leuk/verassend is. Ik weet nu niet uit mijn hoofd welke websites me inspireren
 
