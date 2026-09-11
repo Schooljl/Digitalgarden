@@ -48,3 +48,8 @@ Een digital garden is een persoonlijke plek waar je alles zo persoonlijk en gek 
 
 3. Ik wil in mijn website gebruik maken van animaties en ik vind een focus-state en hover state ook erg belangrijk. Ik ga van tevoren ook een kleurenpalet maken zodat het er aesthetic uit ziet.
 
+
+### Sprint 1 woensdag 9 sept
+Wij hadden online les.
+We hebben kort in duo's gepresenteerd
+
