@@ -51,5 +51,18 @@ Een digital garden is een persoonlijke plek waar je alles zo persoonlijk en gek 
 
 ### Sprint 1 woensdag 9 sept
 Wij hadden online les.
+
+
+
+
 We hebben kort in duo's gepresenteerd
 
+
+### Maandag 14 sept
+Check out met Ella:
+Wanneer is een website lelijk?
+Ik vind een website lelijk als content niet op schaal is. Als het te groot of te klein is.
+
+De volgende stappen om mijn website responsive te maken zijn de afbeeldingen op een breed scherm naast elkaar te plaatsen en op een kleiner scherm onder elkaar.
+
+Ik kan de bouw van mijn digital garden misschien wel uitleggen in 'Webby vocabulaire.'
