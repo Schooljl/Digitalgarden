@@ -15,7 +15,7 @@ body {
 nav {
  display: flex;
   gap: 50px;
-  background-image: url("../Afbeeldingen/kant3.png");
+  background-image: url("../../Afbeeldingen/kant3.png");
   background-size: contain;
   align-items: center;
   background-repeat: repeat;
@@ -31,7 +31,7 @@ nav a {
   font-size: x-large;
 }
 
-img[src="../Afbeeldingen/logo200.png"] {
+img[src="Afbeeldingen/logo200.png"] {
     width: 400px;
     height: auto;
 }
