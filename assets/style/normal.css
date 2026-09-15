@@ -6,9 +6,32 @@
   font-style: normal;
 }
 
+h1 {
+  font-family: sewn, sans-serif;
+font-style: normal;
+font-weight: 400; }
+
 body {
   font-family: "Comic Relief", system-ui;
-  background-color: Canvas;
+  background-color: #ffb2d3;
   color: CanvasText;
   color-scheme: light dark;
+}
+
+nav {
+   display: flex;
+  gap: 50px;
+  background-image: url("../Afbeeldingen/kant3.png");
+  background-size: contain;
+  align-items: center;
+  background-repeat: repeat;
+  height: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-family: sewn, sans-serif;
+font-style: normal;
+font-weight: 400;
 }
