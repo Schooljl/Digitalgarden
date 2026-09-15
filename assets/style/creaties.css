@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Comic Relief";
+  src: url(../type/ComicRelief-Regular.woff2);
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Comic Relief", system-ui;
+  background-color: #f3beed;
+  color: CanvasText;
+  color-scheme: light dark;
+}
+
+nav {
+ display: flex;
+  gap: 50px;
+  background-image: url("../Afbeeldingen/kant3.png");
+  background-size: contain;
+  align-items: center;
+  background-repeat: repeat;
+  height: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2C1A0B;
+  font-family: "p22-folk-art-cross", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+}
+
+img[src="../Afbeeldingen/logo200.png"] {
+    width: 400px;
+    height: auto;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

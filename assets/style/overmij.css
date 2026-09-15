@@ -22,11 +22,13 @@ nav {
   display: flex;
   gap: 50px;
   background-image: url("../Afbeeldingen/kant3.png");
-  background-size: contain;
+  background-size: auto 50px;
+  background-repeat: repeat-x;
   align-items: center;
-  background-repeat: repeat;
   height: 50px;
 }
+
+
 nav a {
   text-decoration: none;
   color: #2c1a0b;
@@ -45,7 +47,7 @@ img[src="../Afbeeldingen/selfie.png"] {
   height: auto;
 }
 
-img[src="../Afbeeldingen/logo200.png"] {
+img[src="../Afbeeldingen/logo200"] {
   width: 400px;
   height: auto;
 }
