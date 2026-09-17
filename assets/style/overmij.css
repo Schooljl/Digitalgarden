@@ -20,12 +20,12 @@ body {
 
 nav {
   display: flex;
-  gap: 50px;
+  gap: 1em;
   background-image: url("../../Afbeeldingen/kant3.png");
   background-size: auto 50px;
   background-repeat: repeat-x;
   align-items: center;
-  height: 50px;
+  padding: 1em;
 }
 
 
@@ -35,7 +35,7 @@ nav a {
   font-family: "p22-folk-art-cross", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: x-large;
+  font-size: large;
 }
 
 
@@ -45,7 +45,7 @@ img[src="Afbeeldingen/selfie.png"] {
   height: auto;
 }
 
-img[src="Afbeeldingen/logo200.png"] {
+img[src="Afbeeldingen/logo200"] {
   width: 400px;
   height: auto;
 }
