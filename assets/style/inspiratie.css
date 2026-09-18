@@ -80,14 +80,16 @@ figure {
   margin: 0;
 }
 
-figure img {
+figure a {
   width: 40%;
 }
 
-figure img:hover {
-  transform: scale(1.05);
+figure img {
+  display: block;
+  width: 100%;
 }
 
 figure img:hover {
   transform: scale(1.05);
 }
+
