@@ -13,7 +13,6 @@ body {
   font-family: "Comic Relief", system-ui;
   background-color: #f3beed;
   color: CanvasText;
-  color-scheme: light dark;
 }
 
 nav {
@@ -38,9 +37,10 @@ nav a:hover {
   font-size: 1.4em;
 }
 
-img[src="Afbeeldingen/logo200.png"] {
-  width: 400px;
+header img {
+  width: 60%;
   height: auto;
+  max-width: 30%;
 }
 
 header {
