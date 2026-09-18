@@ -7,8 +7,6 @@
 
 h1 {
   font-family: "sweet-fancy-script", sans-serif;
-  font-style: normal;
-  font-weight: 400;
 }
 
 body {
@@ -45,12 +43,6 @@ img[src="Afbeeldingen/logo200.png"] {
   height: auto;
 }
 
-div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
 header {
   text-align: center;
 }
@@ -68,6 +60,9 @@ header picture img {
 p {
   max-width: 50%;
   justify-self: center;
+  font-family: "farnham-display", serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 @media (min-width: 35em) {
@@ -79,12 +74,20 @@ p {
 
 /*Chatgpt gevraagd hoe ik een preview van mijn pinterest board maak: Je kunt een screenshot van je Pinterest-bord opslaan in je Afbeeldingen-map en die klikbaar maken:*/
 
-a img {
-  width: 40%;
-  border-radius: 15px;
-  align-items: center;
+figure {
+  display: flex;
+  justify-content: center;
+  margin: 0;
 }
 
-a img:hover {
+figure img {
+  width: 40%;
+}
+
+figure img:hover {
+  transform: scale(1.05);
+}
+
+figure img:hover {
   transform: scale(1.05);
 }
