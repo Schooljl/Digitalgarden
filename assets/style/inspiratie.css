@@ -87,6 +87,7 @@ figure a {
 figure img {
   display: block;
   width: 100%;
+  box-shadow: 1em 1em lightblue;
 }
 
 figure img:hover {
