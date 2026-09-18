@@ -65,6 +65,7 @@ main section > picture img {
   height: auto;
 }
 
+/*mag eigenlijk geen div gebruiken dus heb chatgpt gevraagd wat ik kan gebruiken ipv div, hij zei figure bedoeld voor zelfstandige inhoud zoals een afbeelding, illustratie, diagram of foto, eventueel met een bijschrift*/
 figure {
   display: grid;
   width: 100%;

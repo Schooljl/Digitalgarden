@@ -80,10 +80,9 @@ p {
 /*Chatgpt gevraagd hoe ik een preview van mijn pinterest board maak: Je kunt een screenshot van je Pinterest-bord opslaan in je Afbeeldingen-map en die klikbaar maken:*/
 
 a img {
-  width: 500px;
-  max-width: 90%;
+  width: 40%;
   border-radius: 15px;
-  align-self: center;
+  align-items: center;
 }
 
 a img:hover {
