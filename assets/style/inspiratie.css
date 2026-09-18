@@ -5,16 +5,15 @@
   font-style: normal;
 }
 
-
 h1 {
-  font-family: sewn, sans-serif;
-font-style: normal;
-font-weight: 400;
+  font-family: "sweet-fancy-script", sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 body {
   font-family: "Comic Relief", system-ui;
-   background-color: #f3beed;
+  background-color: #f3beed;
   color: CanvasText;
   color-scheme: light dark;
 }
@@ -37,9 +36,14 @@ nav a {
   font-size: 1.2em;
 }
 
+
+nav a:hover {
+  font-size: 1.4em;
+}
+
 img[src="Afbeeldingen/logo200.png"] {
-    width: 400px;
-    height: auto;
+  width: 400px;
+  height: auto;
 }
 
 div {
@@ -55,4 +59,16 @@ header {
 header > img {
   width: 60%;
   height: auto;
+}
+
+p {
+  max-width: 50%;
+  justify-self: center;
+}
+
+@media (min-width: 35em) {
+  nav {
+    flex-direction: row;
+    justify-content: center;
+  }
 }

@@ -2,9 +2,12 @@
   font-family: "Comic Relief";
   src: url(../type/ComicRelief-Regular.woff2);
 }
+
+/* https://share.google/ysmEpWU0e08Q0jgHY box sizing */
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   font-family: "Comic Relief", sans-serif;
@@ -12,19 +15,24 @@ body {
   color: canvastext;
   color-scheme: light dark;
 }
+
 h1 {
   font-family: "sweet-fancy-script", sans-serif;
 }
+
 header {
   text-align: center;
 }
+
 header picture {
   display: block;
 }
+
 header picture img {
   width: 60%;
   height: auto;
 }
+
 nav {
   display: flex;
   flex-direction: column;
@@ -35,38 +43,50 @@ nav {
   background-repeat: repeat-x;
   background-size: auto 3em;
 }
+
 nav a {
   color: #2c1a0b;
   text-decoration: underline;
   font-family: "p22-folk-art-cross", sans-serif;
   font-size: 1.2em;
 }
+
+nav a:hover {
+  font-size: 1.4em;
+}
+
 main section {
   display: grid;
   gap: 1em;
   padding: 1em 5%;
 }
+
 main section > picture img {
   width: 100%;
   height: auto;
 }
+
 figure {
   display: grid;
   width: 100%;
   margin: 0;
 }
+
 figure picture,
 figure img,
 figure p {
   grid-area: 1 / 1;
 }
+
 figure picture {
   width: 100%;
 }
+
 figure img {
   width: 100%;
   height: auto;
 }
+
 figure p {
   align-self: center;
   justify-self: center;
@@ -74,6 +94,10 @@ figure p {
   margin: 0;
   overflow-wrap: break-word;
 }
+
+/* https://dlo.mijnhva.nl/d2l/le/lessons/759389/lessons/3004970
+responsive */
+
 @media (min-width: 35em) {
   nav {
     flex-direction: row;
@@ -85,6 +109,8 @@ figure p {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+/*https://dlo.mijnhva.nl/d2l/le/lessons/759389/lessons/3004967 light dark mode */
 @media (prefers-color-scheme: dark) {
   body {
     background: #59445c;
@@ -102,4 +128,3 @@ figure p {
     color: black;
   }
 }
-
