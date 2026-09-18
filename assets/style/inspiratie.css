@@ -36,7 +36,6 @@ nav a {
   font-size: 1.2em;
 }
 
-
 nav a:hover {
   font-size: 1.4em;
 }
@@ -56,9 +55,14 @@ header {
   text-align: center;
 }
 
-header > img {
+header picture {
+  display: block;
+}
+
+header picture img {
   width: 60%;
   height: auto;
+  max-width: 30%;
 }
 
 p {
@@ -71,4 +75,17 @@ p {
     flex-direction: row;
     justify-content: center;
   }
+}
+
+/*Chatgpt gevraagd hoe ik een preview van mijn pinterest board maak: Je kunt een screenshot van je Pinterest-bord opslaan in je Afbeeldingen-map en die klikbaar maken:*/
+
+a img {
+  width: 500px;
+  max-width: 90%;
+  border-radius: 15px;
+  align-self: center;
+}
+
+a img:hover {
+  transform: scale(1.05);
 }
