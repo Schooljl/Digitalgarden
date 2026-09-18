@@ -1,56 +1,105 @@
 @font-face {
   font-family: "Comic Relief";
   src: url(../type/ComicRelief-Regular.woff2);
-  font-weight: 400;
-  font-style: normal;
 }
-
-h1 {
-  font-family: "sweet-fancy-script", sans-serif;
-  font-weight: 500;
-  font-style: normal;
+* {
+  box-sizing: border-box;
 }
-
 body {
-  font-family: "Comic Relief", system-ui;
-  background-color: #f3beed;
-  color: CanvasText;
+  margin: 0;
+  font-family: "Comic Relief", sans-serif;
+  background: #f3beed;
+  color: canvastext;
   color-scheme: light dark;
 }
-
+h1 {
+  font-family: "sweet-fancy-script", sans-serif;
+}
+header {
+  text-align: center;
+}
+header picture {
+  display: block;
+}
+header picture img {
+  width: 60%;
+  height: auto;
+}
 nav {
   display: flex;
-  gap: 1em;
-  background-image: url("../../Afbeeldingen/kant3.png");
-  background-size: auto 50px;
-  background-repeat: repeat-x;
+  flex-direction: column;
   align-items: center;
+  gap: 1em;
   padding: 1em;
+  background-image: url("../../Afbeeldingen/kant3.png");
+  background-repeat: repeat-x;
+  background-size: auto 3em;
 }
-
-
 nav a {
-  text-decoration: none;
   color: #2c1a0b;
+  text-decoration: underline;
   font-family: "p22-folk-art-cross", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: large;
+  font-size: 1.2em;
 }
-
-
-
-img[src="Afbeeldingen/selfie.png"] {
-  width: 500px;
+main section {
+  display: grid;
+  gap: 1em;
+  padding: 1em 5%;
+}
+main section > picture img {
+  width: 100%;
   height: auto;
 }
-
-img[src="Afbeeldingen/logo200"] {
-  width: 400px;
+figure {
+  display: grid;
+  width: 100%;
+  margin: 0;
+}
+figure picture,
+figure img,
+figure p {
+  grid-area: 1 / 1;
+}
+figure picture {
+  width: 100%;
+}
+figure img {
+  width: 100%;
   height: auto;
 }
+figure p {
+  align-self: center;
+  justify-self: center;
+  width: 70%;
+  margin: 0;
+  overflow-wrap: break-word;
+}
+@media (min-width: 35em) {
+  nav {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media (min-width: 50em) {
+  main section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #59445c;
+    color: #f3beed;
+  }
+  nav {
+    background-image: url("../../Afbeeldingen/kantdark.png");
+  }
 
-div p {
-  position: absolute;
+  nav a {
+    color: white;
+  }
+
+  p {
+    color: black;
+  }
 }
 

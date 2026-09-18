@@ -19,19 +19,19 @@ body {
 }
 
 nav {
-   display: flex;
-  gap: 50px;
-  background-image: url("../../Afbeeldingen/kant3.png");
-  background-size: contain;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  background-repeat: repeat;
-  height: 50px;
+  gap: 1em;
+  padding: 1em;
+  background-image: url("../../Afbeeldingen/kant3.png");
+  background-repeat: repeat-x;
+  background-size: auto 3em;
 }
 
 nav a {
+  color: #2c1a0b;
   text-decoration: none;
-  color: black;
-  font-family: sewn, sans-serif;
-font-style: normal;
-font-weight: 400;
+  font-family: "p22-folk-art-cross", sans-serif;
+  font-size: 1.2em;
 }
