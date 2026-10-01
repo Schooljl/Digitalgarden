@@ -56,6 +56,7 @@ Wij hadden online les.
 
 
 We hebben kort in duo's gepresenteerd
+Daarna hebben we inspo gezocht voor lettertypes. Ik heb posterss verzameld die er wel interessant uitzagen en ik heb geschetst.
 
 
 ### Maandag 14 sept
@@ -66,3 +67,7 @@ Ik vind een website lelijk als content niet op schaal is. Als het te groot of te
 De volgende stappen om mijn website responsive te maken zijn de afbeeldingen op een breed scherm naast elkaar te plaatsen en op een kleiner scherm onder elkaar.
 
 Ik kan de bouw van mijn digital garden misschien wel uitleggen in 'Webby vocabulaire.'
+
+
+### Week tot 18 sept
+Ik heb veel gewerkt in illustrator en photoshop aangezien we alleen eigen content mogen gebruiken. Daarna heb ik deze ook aangepast om extra afbeeldingen te krijgen voor dark mode. Ik heb ook een hover toegevoegd bij de nav en ik heb een klikbare afbeelding naar mijn pinterest board gezet op mijn website.
