@@ -13,7 +13,8 @@ font-weight: 400; }
 
 body {
   font-family: "Comic Relief", system-ui;
-  background-color: #ffb2d3;
+  background-image: url("../../Afbeeldingen/backgroundpage10.png");
+  background-size: 100% auto;
   color: CanvasText;
   color-scheme: light dark;
 }
@@ -34,4 +35,50 @@ nav a {
   text-decoration: none;
   font-family: "p22-folk-art-cross", sans-serif;
   font-size: 1.2em;
+}
+
+
+header {
+  text-align: center;
+}
+
+header img {
+  width: 60%;
+  height: auto;
+  max-width: 30%;
+}
+
+/* https://dlo.mijnhva.nl/d2l/le/lessons/759389/lessons/3004970
+responsive */
+
+@media (min-width: 35em) {
+  nav {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media (min-width: 50em) {
+  main section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/*https://dlo.mijnhva.nl/d2l/le/lessons/759389/lessons/3004967 light dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #59445c;
+    background-image: url("../../Afbeeldingen/backgroundpagedark.png");
+    color: #f3beed;
+  }
+  nav {
+    background-image: url("../../Afbeeldingen/kantdark.png");
+  }
+
+  nav a {
+    color: white;
+  }
+
+  p {
+    color: black;
+  }
 }

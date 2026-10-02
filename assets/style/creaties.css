@@ -25,9 +25,10 @@ header {
 
 header img {
   width: 60%;
+  max-width: 20em;
   height: auto;
-  max-width: 30%;
 }
+
 
 nav {
   display: flex;
@@ -49,7 +50,7 @@ nav a {
 
 
 nav a:hover {
-  font-size: 1.4em;
+  transform: scale(1.1);
 }
 
 main {

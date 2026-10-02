@@ -24,11 +24,7 @@ header {
   text-align: center;
 }
 
-header picture {
-  display: block;
-}
-
-header picture img {
+header img {
   width: 60%;
   height: auto;
   max-width: 30%;
