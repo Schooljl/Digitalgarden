@@ -86,3 +86,39 @@ Naast de gebruikte techniek zijn er eigenlijk altijd ook andere randvoorwaarden.
 Wees je bewust van de mogelijkheden en de onmogelijkheden van HTML en CSS. HTML is om content te structureren en om interactie mogelijk te maken. CSS is om vorm te geven, om dingen te verduidelijken, en om interactie prettiger te maken.
 -Wat kan er allemaal met CSS?
 Niemand weet wat er allemaal kan met CSS, er kan zoveel, steeds meer, en nog niet alles is ontdekt. Maar je kan wel een heel goed beeld krijgen van wat er allemaal ongeveer kan. Je kan op allerlei manieren dingen layouten, je kan eindeloze hoeveelheden visuele effecten toepassen, en je kan op talloze manieren dingen laten animeren. Je hoeft natuurlijk niet alles te kunnen, daar is dit blok veel te kort voor, maar het is wel lang genoeg om te zien wat er allemaal kan. Dan kan je kiezen wat je wil gaan leren, zowel tijdens het blok als daarna.
+
+
+### Sprint 2 maandag 21 sept.
+Vandaag hebben we gekeken naar bestaande cookie pop ups van website's. Bijvoorbeeld van de volkskrant. 
+![alt text](image.png)
+Na het bekijken van de websites hebben we een formulier ingevuld. en we hebben uitleg gekregen over de html structuur.
+
+### Woensdag 23 sept
+Ziek thuis gewerkt.
+### Vrijdag 25 sept
+ziek thuis gewerkt
+
+### Maandag 28 sept:
+-Wat bedoelt Vasilis met de uitspraak: Semantiek doet mij niet zo veel, ik ben liever bezig met de UX van HTML?
+Hiermee bedoelt Vasilis dat hij minder waarde hecht aan de betekenis/structuur van HTML-elementen en vooral kijkt naar hoe HTML zich gedraagt en hoe prettig het voor de gebruiker werkt.
+
+-Wat voor type beperkingen hebben invloed op het gebruiken van websites?
+Visueel
+Auditief
+Motorisch
+Cognitief
+
+-Noem drie manieren om door een website te navigeren met jouw screenreader.
+Er zijn shortcuts:
+[control]+[option]+[U]	open lijst met headings, links, formelementen
+↳ [←][→]	wissel tussen de lijsten
+↳ [↓][↑]	op en neer in een lijst.
+
+We hebben deze les gekeken naar hoe het is om een beperking te hebben. d.m.v brillen bijvoorbeeld waardoor je zicht minder goed is.
+
+
+### Woensdag 30 sept:
+ziek thuis gewerkt.
+
+### Vrijdag 2 okt:
+Vandaag hebben we voortgangsgesprekken.

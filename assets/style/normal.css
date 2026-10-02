@@ -8,15 +8,21 @@
 
 h1 {
   font-family: sewn, sans-serif;
-font-style: normal;
-font-weight: 400; }
+  font-style: normal;
+  font-weight: 400;
+}
 
 body {
   font-family: "Comic Relief", system-ui;
-  background-image: url("../../Afbeeldingen/backgroundpage10.png");
-  background-size: 100% auto;
+  background-color:#f3beed;
   color: CanvasText;
   color-scheme: light dark;
+}
+
+main {
+  background-image: url("../../Afbeeldingen/backgroundpage10.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 nav {
@@ -37,15 +43,14 @@ nav a {
   font-size: 1.2em;
 }
 
-
 header {
   text-align: center;
 }
 
 header img {
   width: 60%;
+  max-width: 20em;
   height: auto;
-  max-width: 30%;
 }
 
 /* https://dlo.mijnhva.nl/d2l/le/lessons/759389/lessons/3004970
@@ -67,7 +72,6 @@ responsive */
 @media (prefers-color-scheme: dark) {
   body {
     background: #59445c;
-    background-image: url("../../Afbeeldingen/backgroundpagedark.png");
     color: #f3beed;
   }
   nav {
@@ -81,4 +85,38 @@ responsive */
   p {
     color: black;
   }
+}
+
+
+/*cookie pop up*/
+/*https://dlo.mijnhva.nl/d2l/le/lessons/759389/folders/3091863*/
+
+.privacy-popup {
+  position: fixed;
+  bottom: 1em;
+  left: 1em;
+  right: 1em;
+
+  padding: 1em;
+  background-color: #c87fb9;
+  color: #2c1a0b;
+
+  border: 0.15em solid #2c1a0b;
+  border-radius: 1em;
+}
+
+.privacy-popup button {
+  padding: 0.5em 1em;
+
+  background-color: white;
+  color: #2c1a0b;
+
+  border: 0.15em solid #2c1a0b;
+  border-radius: 0.5em;
+
+  font: inherit;
+}
+
+.privacy-popup.is-hidden {
+  display: none;
 }

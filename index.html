@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="nl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="[jouw naam]" />
+    <meta name="author" content="[joelle]" />
     <meta name="color-scheme" content="dark light" />
 
     <title>[Digitaal Tuintje van ...]</title>
@@ -15,12 +15,12 @@
   <body>
     <header>
       <picture>
-  <source
-    srcset="Afbeeldingen/logodark.png"
-    media="(prefers-color-scheme: dark)"
-  />
-  <img src="Afbeeldingen/logo200.png" alt="Joëlle's Craft Room logo" />
-</picture>
+        <source
+          srcset="Afbeeldingen/logodark.png"
+          media="(prefers-color-scheme: dark)"
+        />
+        <img src="Afbeeldingen/logo200.png" alt="Joëlle's Craft Room logo" />
+      </picture>
 
       <nav>
         <a href="index.html">Joëlle's craft room</a>
@@ -28,6 +28,30 @@
         <a href="creaties.html">Mijn creaties</a>
         <a href="inspiratie.html">Inspiratie</a>
       </nav>
+
+      <picture>
+        <source
+          srcset="Afbeeldingen/backgroundpagedark.png"
+          media="(prefers-color-scheme: dark)"
+        />
+        <img src="Afbeeldingen/backgroundpage10.png" alt="" />
+      </picture>
     </header>
+
+    <!-- https://www.keurigonline.nl/blog/cookie-melding-website 
+     informatie cookie pop up en coderen 
+     
+     -->
+    <section class="privacy-popup" aria-labelledby="privacy-title">
+  <h2 id="privacy-title">Privacy en cookies</h2>
+
+  <p>
+    Deze website gebruikt functionele cookies. Deze cookies zijn nodig om bepaalde onderdelen van de website goed te laten werken.
+Deze cookies worden niet gebruikt om je internetgedrag te volgen of om persoonlijke advertenties te tonen.
+  </p>
+
+  <button type="button">Begrepen</button>
+</section>
+<script src="assets/script.js"></script>
   </body>
 </html>

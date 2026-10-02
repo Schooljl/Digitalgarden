@@ -44,8 +44,8 @@ header {
 
 header img {
   width: 60%;
+  max-width: 20em;
   height: auto;
-  max-width: 30%;
 }
 
 p {
