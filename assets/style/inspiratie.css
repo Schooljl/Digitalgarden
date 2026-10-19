@@ -14,7 +14,7 @@ body {
   background-color: #f3beed;
   color: CanvasText;
   display: grid;
-  cursor: url("../../kleineafbeeldingen/toverstaf.png"), 4 4, auto;
+  cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, auto;
 }
 
 nav {

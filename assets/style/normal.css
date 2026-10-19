@@ -17,7 +17,7 @@ body {
   background-color: #f3beed;
   color: CanvasText;
   color-scheme: light dark;
-  cursor: url("../../kleineafbeeldingen/toverstaf.png"), 4 4, auto;
+  cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, auto;
 }
 
 body {
