@@ -22,7 +22,7 @@ nav {
   align-items: center;
   gap: 1em;
   padding: 1em;
-  background-image: url("../../Kleineafbeeldingen/kant3.jpg");
+  background-image: url("../../kleineafbeeldingen/kant3.jpg");
   background-repeat: repeat-x;
   background-size: auto 3em;
   a {
@@ -95,7 +95,7 @@ figure img:hover {
     color: #f3beed;
   }
   nav {
-    background-image: url("../../Kleineafbeeldingen/kantdark.jpg");
+    background-image: url("../../kleineafbeeldingen/kantdark.jpg");
   }
 
   nav a {

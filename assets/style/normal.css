@@ -45,7 +45,7 @@ nav {
   align-items: center;
   gap: 1em;
   padding: 1em;
-  background-image: url("../../Kleineafbeeldingen/kant3.jpg");
+  background-image: url("../../kleineafbeeldingen/kant3.jpg");
   background-repeat: repeat-x;
   background-size: auto 3em;
   a {
@@ -94,7 +94,7 @@ responsive */
     color: #f3beed;
   }
   nav {
-    background-image: url("../../Kleineafbeeldingen/kantdark.jpg");
+    background-image: url("../../kleineafbeeldingen/kantdark.jpg");
   }
 
   nav a {
@@ -120,7 +120,7 @@ responsive */
   max-width: 35em;
   padding: 2em;
 
-  background-image: url("../../Kleineafbeeldingen/cookieachtergrond.png");
+  background-image: url("../../kleineafbeeldingen/cookieachtergrond.jpg");
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
