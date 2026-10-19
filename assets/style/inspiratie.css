@@ -25,17 +25,19 @@ nav {
   background-image: url("../../Afbeeldingen/kant3.png");
   background-repeat: repeat-x;
   background-size: auto 3em;
-}
-
-nav a {
-  color: #2c1a0b;
-  text-decoration: underline;
-  font-family: "p22-folk-art-cross", sans-serif;
-  font-size: 1.2em;
+  a {
+    color: #2c1a0b;
+    text-decoration: underline;
+    font-family: "p22-folk-art-cross", sans-serif;
+    font-size: 1.2em;
+    &:hover {
+      font-size: 1.4em;
+    }
+  }
 }
 
 nav a:hover {
-  font-size: 1.4em;
+  transform: scale(1.1);
 }
 
 header {
@@ -85,4 +87,3 @@ figure img {
 figure img:hover {
   transform: scale(1.05);
 }
-
