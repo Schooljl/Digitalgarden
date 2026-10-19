@@ -14,7 +14,7 @@ body {
   background: #f3beed;
   color: canvastext;
   color-scheme: light dark;
-  cursor: url("../../kleineafbeeldingen/toverstaf.svg"), auto;
+  cursor: url("../../kleineafbeeldingen/toverstaf.png"), 4 4, auto;
 }
 
 h1 {
