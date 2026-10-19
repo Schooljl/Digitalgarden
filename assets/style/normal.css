@@ -147,4 +147,9 @@ responsive */
   .privacy-popup {
   background-image: url("../../kleineafbeeldingen/cookieachtergronddark.svg");
   }
+
+  .privacy-popup button {
+    border: solid purple;
+    background-color: cadetblue
+  }
 }
