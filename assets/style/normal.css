@@ -87,6 +87,45 @@ responsive */
   }
 }
 
+
+/*cookie pop up*/
+/*https://dlo.mijnhva.nl/d2l/le/lessons/759389/folders/3091863*/
+
+.privacy-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  text-align: center;
+
+  width: 60%;
+  max-width: 35em;
+  min-height: 25em;
+  padding: 3em;
+
+  background-image: url("../../kleineafbeeldingen/cookieachtergrond.svg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: #2c1a0b;
+  box-sizing: border-box;
+}
+
+.privacy-popup button {
+  padding: 0.5em 1em;
+  background-color: #ffbffe;
+  color: #2c1a0b;
+  border: 0.15em solid #d81e79;
+  font: inherit;
+  font-size: large
+}
+
+.privacy-popup.is-hidden {
+  display: none;
+}
+
 /*https://dlo.mijnhva.nl/d2l/le/lessons/759389/lessons/3004967 light dark mode */
 @media (prefers-color-scheme: dark) {
   body {
@@ -104,40 +143,8 @@ responsive */
   p {
     color: black;
   }
-}
 
-/*cookie pop up*/
-/*https://dlo.mijnhva.nl/d2l/le/lessons/759389/folders/3091863*/
-
-.privacy-popup {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 10;
-
-  width: 90%;
-  max-width: 35em;
-  padding: 2em;
-
-  background-image: url("../../kleineafbeeldingen/cookieachtergrond.svg");
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  color: #2c1a0b;
-  box-sizing: border-box;
-}
-
-.privacy-popup button {
-  padding: 0.5em 1em;
-  background-color: white;
-  color: #2c1a0b;
-  border: 0.15em solid #2c1a0b;
-  border-radius: 0.5em;
-  font: inherit;
-}
-
-.privacy-popup.is-hidden {
-  display: none;
+  .privacy-popup {
+  background-image: url("../../kleineafbeeldingen/cookieachtergronddark.svg");
+  }
 }
