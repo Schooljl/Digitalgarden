@@ -87,3 +87,22 @@ figure img {
 figure img:hover {
   transform: scale(1.05);
 }
+
+/*https://dlo.mijnhva.nl/d2l/le/lessons/759389/lessons/3004967 light dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #59445c;
+    color: #f3beed;
+  }
+  nav {
+    background-image: url("../../Afbeeldingen/kantdark.png");
+  }
+
+  nav a {
+    color: white;
+  }
+
+  p {
+    color: black;
+  }
+}
