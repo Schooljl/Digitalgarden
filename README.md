@@ -122,3 +122,27 @@ ziek thuis gewerkt.
 
 ### Vrijdag 2 okt:
 Vandaag hebben we voortgangsgesprekken.
+
+
+### maandag
+We hebben schetsen gemaakt voor onze songteksten.
+Zijn begonnen aan eerste versie html
+een lied gekozen.
+
+
+
+### Woensdag 7 okt:
+Vandaag zijn we verder gegaan met onze schetsen. We hebben gewerkt in html css. 
+
+Check-out:
+
+-Waarom is het goed om een grid in je ontwerp toe te passen? 
+Noem een reden voor de ontwerper en een voor de bezoeker.
+Voor de ontwerper: Met grid kan je makkelijk dingen positioneren en per onderdeel aanpassen.
+Voor de bezoeker: Door een grid is de website overzichtelijk. Als een website overzichtelijk is dan is het voor een bezoeker fijn om een website te gebruiken.
+
+-Noem drie manieren om chaos in je ontwerp te voorkomen.
+Let op de hierachie. Niet alles moet even erg opvallen. De dingen die bijvoorbeeld duiddelijk moeten uitspringen kan je bijvoorbeeld groter maken.
+
+-Hoeveel gekkigheid moet er in je werk zitten?
+Dat kan je zelf bepalen. Het hangt er ook vanaf wat het doel van je ontwerp is. In dit geval moet de hierarchie duidelijk zijn dus de gekkigheid moet de hierarchie niet negatief beinvloeden. Dat kan gebeuren als er heel veel gekkigheid is.
