@@ -14,7 +14,7 @@ h1 {
 
 body {
   font-family: "Comic Relief", system-ui;
-  background-color:#f3beed;
+  background-color: #f3beed;
   color: CanvasText;
   color-scheme: light dark;
 }
@@ -106,33 +106,35 @@ responsive */
   }
 }
 
-
 /*cookie pop up*/
 /*https://dlo.mijnhva.nl/d2l/le/lessons/759389/folders/3091863*/
 
 .privacy-popup {
   position: fixed;
-  bottom: 1em;
-  left: 1em;
-  right: 1em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
 
-  padding: 1em;
-  background-color: #c87fb9;
+  width: 90%;
+  max-width: 35em;
+  padding: 2em;
+
+  background-image: url("../../Kleineafbeeldingen/cookieachtergrond.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
   color: #2c1a0b;
-
-  border: 0.15em solid #2c1a0b;
-  border-radius: 1em;
+  box-sizing: border-box;
 }
 
 .privacy-popup button {
   padding: 0.5em 1em;
-
   background-color: white;
   color: #2c1a0b;
-
   border: 0.15em solid #2c1a0b;
   border-radius: 0.5em;
-
   font: inherit;
 }
 
