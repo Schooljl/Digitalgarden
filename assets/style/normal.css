@@ -17,6 +17,7 @@ body {
   background-color: #f3beed;
   color: CanvasText;
   color-scheme: light dark;
+  cursor: url("../../kleineafbeeldingen/toverstaf.svg"), auto;
 }
 
 body {
