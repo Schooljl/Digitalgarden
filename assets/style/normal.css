@@ -130,6 +130,19 @@ responsive */
   display: none;
 }
 
+/*Zorgt voor een donkere laag achter de cookie pop up zolang de cookie pop up zichtbaar is
+gevonden via deze youtube video https://www.youtube.com/watch?v=MbSlUw3Dtk0 en https://www.w3schools.com/cssref/css3_pr_backdrop-filter.php */
+.donkerelaag-cookie {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(1em);
+  z-index: 9;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
 /*Zorgt ervoor dat de toverstaf muis overal te zien is, ook over knoppen want dat was voorheen nog niet*/
 a,
 button,

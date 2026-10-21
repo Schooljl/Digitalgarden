@@ -146,3 +146,42 @@ Let op de hierachie. Niet alles moet even erg opvallen. De dingen die bijvoorbee
 
 -Hoeveel gekkigheid moet er in je werk zitten?
 Dat kan je zelf bepalen. Het hangt er ook vanaf wat het doel van je ontwerp is. In dit geval moet de hierarchie duidelijk zijn dus de gekkigheid moet de hierarchie niet negatief beinvloeden. Dat kan gebeuren als er heel veel gekkigheid is.
+
+### Vrijdag 9 okt:
+ Vandaag hebben we onze website's klasikaal gepresenteerd. Het plan was om dit in duo's te doen, maar er waren maar 7 mensen aanwegzig, dus we hebben het klasikaal gedaan en feedback gekregen.
+ Daarna heeft een student mij goed geholpen met het positioneren van mijn lyrics.
+
+
+Mijn feedback:
+
+Songtekst:
+- Goed gebruik gemaakt van groottes 
+- Voor wat het nu is, ookal is het niet af, al heel mooi opgemaakt en goed gebruik van witruimtes
+- Ontwerp ook wat er gebeurd op verschillende dimensies, dus stel je hebt een kleiner scherm
+- Gebruik css om dingen dikgedrukt te maken ipv meerdere elementen in html
+- Gebruik sections binnen een article in plaats van verschillende h's
+
+Digital Garden:
+- Minder verschillende lettertypes
+- Ze waren heel erg impressed met je mooie kledingontwerpen :)
+- Over het algemeen ziet je site er echt super uitdagend
+- Het is leuk hoe je in het begin bij je home scherm 'naar je kamer' ontwerpen
+
+Na de les heb ik nog een paar uur in de media lounge aan mijn website gewerkt.
+Ik heb de illustratie van mijn cookie pop up in light en dark mode gemaakt in illustrator, de afbeelding op de home page groter gemaakt en gekeken naar welke informatie in mijn cookie pop up moet.
+
+### Maandag 12 okt:
+
+### Woensdag 14 okt:
+
+### Vrijdag 16 okt:
+
+### Maandag 19 okt:
+
+
+
+### Woensdag 21 okt:
+
+We zijn de les begonnen met klasikaal naar elkaars werk kijken van de songteksten.
+Daarna zijn we begonnen met de Bi-Weekly.
+Dit ging over betrouwbare informatie op het internet.
