@@ -17,7 +17,9 @@ body {
   background-color: #f3beed;
   color: CanvasText;
   color-scheme: light dark;
-  cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, auto;
+  cursor:
+    url("../../kleineafbeeldingen/toverstaf.png") 4 4,
+    auto;
 }
 
 body {
@@ -88,7 +90,6 @@ responsive */
   }
 }
 
-
 /*cookie pop up*/
 /*https://dlo.mijnhva.nl/d2l/le/lessons/759389/folders/3091863*/
 
@@ -122,7 +123,7 @@ responsive */
   color: #2c1a0b;
   border: 0.15em solid #d81e79;
   font: inherit;
-  font-size: large
+  font-size: large;
 }
 
 .privacy-popup.is-hidden {
@@ -148,11 +149,20 @@ responsive */
   }
 
   .privacy-popup {
-  background-image: url("../../kleineafbeeldingen/cookieachtergronddark.svg");
+    background-image: url("../../kleineafbeeldingen/cookieachtergronddark.svg");
   }
 
   .privacy-popup button {
     border: solid purple;
-    background-color: cadetblue
+    background-color: cadetblue;
+  }
+
+  /*Zorgt ervoor dat de toverstaf muis overal te zien is, ook over knoppen want dat was voorheen nog niet*/
+  a,
+  .privacy-popup button,
+  img {
+    cursor:
+      url("../../kleineafbeeldingen/toverstaf.png") 4 4,
+      pointer;
   }
 }
