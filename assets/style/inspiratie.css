@@ -89,6 +89,16 @@ figure img:hover {
   transform: scale(1.05);
 }
 
+/*Zorgt ervoor dat de toverstaf muis overal te zien is, ook over knoppen want dat was voorheen nog niet*/
+  a,
+  button,
+  img {
+    cursor:
+      url("../../kleineafbeeldingen/toverstaf.png") 4 4,
+      pointer;
+  }
+
+
 /*https://dlo.mijnhva.nl/d2l/le/lessons/759389/lessons/3004967 light dark mode */
 @media (prefers-color-scheme: dark) {
   body {
