@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1753.25 558.34">
+  <!-- Generator: Adobe Illustrator 30.8.2, SVG Export Plug-In . SVG Version: 2.1.4 Build 7)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#Naamloos_verloop_199);
+      }
+
+      .st1 {
+        font-family: PTSerif-Caption, 'PT Serif Caption';
+        font-size: 106.35px;
+        opacity: .84;
+      }
+
+      .st2 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+    <linearGradient id="Naamloos_verloop_199" data-name="Naamloos verloop 199" x1="593.38" y1="281.52" x2="1533.79" y2="281.52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fccb00"/>
+      <stop offset=".33" stop-color="#fef8cd"/>
+      <stop offset=".33" stop-color="#fffad2"/>
+      <stop offset=".4" stop-color="#fbf2c0"/>
+      <stop offset=".53" stop-color="#f3de94"/>
+      <stop offset=".55" stop-color="#f2dc8e"/>
+      <stop offset=".73" stop-color="#fffad2"/>
+      <stop offset="1" stop-color="#c9961a"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path class="st0" d="M593.38,558.12V4.92h940.41v553.2h-940.41ZM703.56,238.06c-21.07,0-38.22,17.14-38.22,38.22s17.14,38.22,38.22,38.22,38.22-17.14,38.22-38.22-17.14-38.22-38.22-38.22Z"/>
+    <path d="M1531.79,6.92v549.2h-936.41V6.92h936.41ZM703.56,316.5c22.18,0,40.22-18.04,40.22-40.22s-18.04-40.22-40.22-40.22-40.22,18.04-40.22,40.22,18.04,40.22,40.22,40.22h0ZM1535.79,2.92h-944.41v557.2h944.41V2.92h0ZM703.56,312.5c-20,0-36.22-16.22-36.22-36.22s16.22-36.22,36.22-36.22,36.22,16.22,36.22,36.22-16.22,36.22-36.22,36.22h0Z"/>
+  </g>
+  <text class="st1" transform="translate(811.13 239.81)"><tspan x="0" y="0">Privacy</tspan><tspan x="0" y="127.62">en Cookies</tspan></text>
+  <path class="st2" d="M668.63,290.69c-17.33,6.51-35.89,9.74-54.4,9.48-9.54-.14-20.29-1.88-25.77-9.69-6.67-9.51-1.42-23.67,8.19-30.19,9.61-6.52,21.95-7.23,33.56-6.86,14.09.45,29.62,2.93,38.57,13.82"/>
+  <path class="st2" d="M592.76,280.88c-119.08,53.1-254.74,55.21-384.35,41.06-129.62-14.14-257.55-43.57-387.76-50.37-72.85-3.81-148.06-.05-214.85,29.3-84.45,37.11-146.36,110.64-205.12,181.74"/>
+  <path class="st2" d="M593.41,275.89c-125.28,28.28-259.57,9-385.56-23.67-125.99-32.67-248.1-78.55-375.73-104.84-71.41-14.71-146.23-23.11-216.44-7.63-88.76,19.57-160.52,74.78-228.82,128.33"/>
+</svg>

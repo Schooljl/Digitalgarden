@@ -14,3 +14,11 @@ if (closeBtn && popupScreen) {
     sessionStorage.setItem("cookiePopupGezien", "true");
   });
 }
+
+const cookiesOpnieuw = document.querySelector("#cookies-opnieuw");
+
+if (cookiesOpnieuw && popupScreen) {
+  cookiesOpnieuw.addEventListener("click", () => {
+    popupScreen.classList.add("active");
+  });
+}

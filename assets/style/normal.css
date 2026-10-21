@@ -155,6 +155,30 @@ gevonden via deze youtube video https://www.youtube.com/watch?v=MbSlUw3Dtk0 en h
   z-index: 1;
 }
 
+#cookies-opnieuw {
+  position: fixed;
+  bottom: 3em;
+  left:0;
+  z-index: 8;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+#cookies-opnieuw img {
+  display: block;
+  width: 15em;
+  height: auto;
+  margin: 0;
+  transition: transform 0.3s ease;
+}
+
+#cookies-opnieuw:hover img {
+  transform: scale(1.1);
+}
+
 /*Zorgt ervoor dat de toverstaf muis overal te zien is, ook over knoppen want dat was voorheen nog niet*/
 a,
 button,
