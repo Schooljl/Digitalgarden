@@ -46,7 +46,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1em;
+  gap: 1.3em;
   padding: 1em;
   background-image: url("../../kleineafbeeldingen/kant3.jpg");
   background-repeat: repeat-x;
@@ -56,15 +56,15 @@ nav {
     text-decoration: underline;
     font-family: "p22-folk-art-cross", sans-serif;
     font-size: 1.2em;
+    display: inline-block;
+    transition: transform 0.3s ease;
+
     &:hover {
-      font-size: 1.4em;
+      transform: scale(1.2);
     }
   }
 }
 
-nav a:hover {
-  transform: scale(1.1);
-}
 header {
   text-align: center;
 }
@@ -131,14 +131,14 @@ responsive */
 }
 
 /*Zorgt ervoor dat de toverstaf muis overal te zien is, ook over knoppen want dat was voorheen nog niet*/
-  a,
-  button,
-  img {
-    cursor:
-      url("../../kleineafbeeldingen/toverstaf.png") 4 4,
-      pointer;
-  }
-  
+a,
+button,
+img {
+  cursor:
+    url("../../kleineafbeeldingen/toverstaf.png") 4 4,
+    pointer;
+}
+
 button {
   transition:
     box-shadow 0.3s ease,
@@ -184,5 +184,4 @@ button:active {
     border: solid purple;
     background-color: cadetblue;
   }
-
 }
