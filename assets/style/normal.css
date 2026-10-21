@@ -110,6 +110,8 @@ responsive */
   background-position: center;
   background-repeat: no-repeat;
 
+  filter: drop-shadow(1em 1em lightblue);
+
   color: #2c1a0b;
   box-sizing: border-box;
 }
