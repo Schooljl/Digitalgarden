@@ -32,43 +32,53 @@
         <a href="inspiratie.html">Inspiratie</a>
         <a href="./freezing/freezing.html"> Freezing</a>
       </nav>
-
     </header>
 
     <picture>
-        <source
-          srcset="kleineafbeeldingen/backgroundpagedark.jpg"
-          media="(prefers-color-scheme: dark)"
-        />
-        <img
-          src="./kleineafbeeldingen/backgroundpage10.jpg"
-          alt="afbeelding naaikamer"
-        />
-      </picture>
+      <source
+        srcset="kleineafbeeldingen/backgroundpagedark.jpg"
+        media="(prefers-color-scheme: dark)"
+      />
+      <img
+        src="./kleineafbeeldingen/backgroundpage10.jpg"
+        alt="afbeelding naaikamer"
+      />
+    </picture>
 
     <!-- https://www.keurigonline.nl/blog/cookie-melding-website 
      informatie cookie pop up en coderen 
      
      -->
 
-     <div class="donkerelaag-cookie"></div>
+    <div class="popup-screen">
+      <div class="donkerelaag-cookie"></div>
 
-    <section class="privacy-popup" aria-labelledby="privacy-title">
-      <h2 id="privacy-title">Privacy en cookies</h2>
+      <section class="privacy-popup" aria-labelledby="privacy-titel">
+        <h2 id="privacy-titel">Privacy en cookies</h2>
 
-      <p>
-        Deze website maakt gebruik van functionele cookies. Deze cookies zijn
-        noodzakelijk om bepaalde onderdelen van de website goed te laten werken.
-        Deze website is gehost via GitHub Pages. Klik
-        <a
-          href="https://docs.github.com/en/site-policy/privacy-policies/github-cookies"
-          >hier</a
-        >
-        voor meer informatie over het cookiebeleid en privacybeleid van GitHub.
-      </p>
+        <p>
+          Deze website maakt gebruik van functionele cookies. Deze cookies zijn
+          noodzakelijk om bepaalde onderdelen van de website goed te laten
+          werken. Deze website is gehost via GitHub Pages. Klik
+          <a
+            href="https://docs.github.com/en/site-policy/privacy-policies/github-cookies"
+          >
+            hier
+          </a>
+          voor meer informatie over het cookiebeleid en privacybeleid van
+          GitHub.
+        </p>
 
-      <button type="button">Begrepen</button>
-    </section>
+        <button type="button" class="knop-sluiten">Begrepen</button>
+      </section>
+    </div>
+    <button
+  type="button"
+  id="cookies-opnieuw"
+  aria-label="Cookie-popup opnieuw openen"
+>
+  <img src="kleineafbeeldingen/cookiepricetag.png" alt="de knop om cookies melding opnieuw te openen" />
+</button>
     <script src="assets/script.js"></script>
   </body>
 </html>

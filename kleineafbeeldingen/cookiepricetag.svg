@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1753.25 558.34">
+  <!-- Generator: Adobe Illustrator 30.8.2, SVG Export Plug-In . SVG Version: 2.1.4 Build 7)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #fff;
+        stroke-width: 3px;
+      }
+
+      .st0, .st1 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .st2 {
+        fill: url(#Naamloos_verloop_176);
+      }
+
+      .st3 {
+        font-family: PTSerif-Caption, 'PT Serif Caption';
+        font-size: 106.35px;
+        opacity: .84;
+      }
+
+      .st1 {
+        fill: none;
+        stroke-width: 4px;
+      }
+    </style>
+    <linearGradient id="Naamloos_verloop_176" data-name="Naamloos verloop 176" x1="2.33" y1="279.25" x2="941.73" y2="279.25" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fccb00"/>
+      <stop offset=".25" stop-color="#fffad2"/>
+      <stop offset=".34" stop-color="#fbf2c0"/>
+      <stop offset=".53" stop-color="#f3de94"/>
+      <stop offset=".55" stop-color="#f2dc8e"/>
+      <stop offset=".73" stop-color="#fffad2"/>
+      <stop offset="1" stop-color="#c9961a"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect class="st2" x="2.33" y="2.94" width="939.4" height="552.6"/>
+    <path d="M939.73,4.94v548.6H4.33V4.94h935.4ZM943.73.94H.33v556.6h943.4V.94h0Z"/>
+  </g>
+  <text class="st3" transform="translate(184.57 250.27)"><tspan x="0" y="0">Privacy</tspan><tspan x="0" y="127.62">en Cookies</tspan></text>
+  <circle class="st0" cx="831.56" cy="282.21" r="36.2"/>
+  <path class="st1" d="M866.47,267.81c17.32-6.51,35.87-9.74,54.37-9.47,9.53.14,20.28,1.87,25.75,9.68,6.67,9.5,1.42,23.66-8.19,30.18s-21.94,7.23-33.54,6.86c-14.08-.45-29.61-2.93-38.55-13.82"/>
+  <path class="st1" d="M941.93,274.05c87.61-45.01,189.85-52.24,288.2-46.96,98.36,5.28,196.08,22.14,294.58,21.86,55.11-.16,111.68-6.13,160.84-31.04,62.15-31.5,105.79-89.55,147.16-145.62"/>
+  <path class="st1" d="M943.49,277.37c93.32-26.54,195.41-17.59,291.8,1.81,96.39,19.4,190.41,48.93,287.77,63.45,54.48,8.12,111.26,11.35,163.57-3.25,66.14-18.45,117.97-63.08,167.25-106.32"/>
+</svg>
