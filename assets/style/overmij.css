@@ -90,7 +90,12 @@ figure p {
   width: 70%;
   margin: 0;
   overflow-wrap: break-word;
+  position: relative;
+  left: 1.5em;
+  top: 1em;
 }
+
+
 
 /*Zorgt ervoor dat de toverstaf muis overal te zien is, ook over knoppen want dat was voorheen nog niet*/
   a,
