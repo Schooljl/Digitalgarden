@@ -138,7 +138,25 @@ responsive */
       url("../../kleineafbeeldingen/toverstaf.png") 4 4,
       pointer;
   }
+  
+button {
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s ease,
+    background-color 0.3s ease;
+}
 
+button:hover {
+  box-shadow:
+    0 0 0.5rem #ffb6e6,
+    0 0 1.2rem #ff69c9,
+    0 0 2rem #e754c8;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.97);
+}
 
 /*https://dlo.mijnhva.nl/d2l/le/lessons/759389/lessons/3004967 light dark mode */
 @media (prefers-color-scheme: dark) {
