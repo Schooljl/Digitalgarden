@@ -173,6 +173,7 @@ gevonden via deze youtube video https://www.youtube.com/watch?v=MbSlUw3Dtk0 en h
   height: auto;
   margin: 0;
   transition: transform 0.3s ease;
+  filter: drop-shadow(0.3em 0.3em rgba(0, 0, 0, 0.2));
 }
 
 #cookies-opnieuw:hover img {
