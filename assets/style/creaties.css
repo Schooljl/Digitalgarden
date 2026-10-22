@@ -108,25 +108,36 @@ main img {
 .overlay-tekst {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   color: white;
 
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-
   text-align: center;
-  font-size: 1.5em;
   padding: 1em;
 
-  opacity: 1;
-  transition: background 0.3s ease;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .afbeelding-overlay:hover .overlay-tekst {
-  background: rgba(0, 0, 0, 0.65);
+  opacity: 1;
 }
 
+
+.overlay-tekst p {
+  margin: 0;
+  max-width: 70%;
+}
+
+.afbeelding-overlay span {
+  font-size: 1.5em;
+   display: block;
+  font-weight: bold;
+  margin-bottom: 0.7em;
+}
 
 
 
