@@ -94,7 +94,38 @@ main img {
       pointer;
   }
 
+.afbeelding-overlay {
+  position: relative;
+  overflow: hidden;
+}
 
+.afbeelding-overlay img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay-tekst {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  font-size: 1.5em;
+  padding: 1em;
+
+  opacity: 1;
+  transition: background 0.3s ease;
+}
+
+.afbeelding-overlay:hover .overlay-tekst {
+  background: rgba(0, 0, 0, 0.65);
+}
 
 
 
