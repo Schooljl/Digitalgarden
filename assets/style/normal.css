@@ -1,7 +1,36 @@
 /* HIER KOMT JOUW CSS */
+
+/* Custom properties voor light mode */
+:root {
+  --achtergrondkleur: #f3beed;
+  --tekstkleur: CanvasText;
+  --navigatietekstkleur: #2c1a0b;
+  --navigatieachtergrond: url("../../kleineafbeeldingen/kant3.jpg");
+  --cookie-achtergrond: url("../../kleineafbeeldingen/cookieachtergrond.svg");
+  --cookie-tekstkleur: #2c1a0b;
+  --cookie-knopachtergrond: #ffbffe;
+  --cookie-knoptekst: #2c1a0b;
+  --cookie-knoprand: #d81e79;
+}
+
+/* Custom properties voor dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --achtergrondkleur: #59445c;
+    --tekstkleur: #f3beed;
+    --navigatietekstkleur: white;
+    --navigatieachtergrond: url("../../kleineafbeeldingen/kantdark.jpg");
+    --cookie-achtergrond: url("../../kleineafbeeldingen/cookieachtergronddark.svg");
+    --cookie-tekstkleur: #2c1a0b;
+    --cookie-knopachtergrond: cadetblue;
+    --cookie-knoptekst: #2c1a0b;
+    --cookie-knoprand: purple;
+  }
+}
+
 @font-face {
   font-family: "Comic Relief";
-  src: url(../type/ComicRelief-Regular.woff2);
+  src: url("../type/ComicRelief-Regular.woff2");
   font-weight: 400;
   font-style: normal;
 }
@@ -14,19 +43,30 @@ h1 {
 
 body {
   font-family: "Comic Relief", system-ui;
-  background-color: #f3beed;
-  color: CanvasText;
+  background-color: var(--achtergrondkleur);
+  color: var(--tekstkleur);
   color-scheme: light dark;
-  cursor:
-    url("../../kleineafbeeldingen/toverstaf.png") 4 4,
-    auto;
-}
-
-body {
+  cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, auto;
   margin: 0;
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr;
+}
+
+#light-darkknop {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  z-index: 20;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+#kroonluchter {
+  display: block;
+  width: 6em;
+  height: auto;
 }
 
 body > picture {
@@ -48,21 +88,22 @@ nav {
   align-items: center;
   gap: 1.3em;
   padding: 1em;
-  background-image: url("../../kleineafbeeldingen/kant3.jpg");
+  background-image: var(--navigatieachtergrond);
   background-repeat: repeat-x;
   background-size: auto 3em;
-  a {
-    color: #2c1a0b;
-    text-decoration: underline;
-    font-family: "p22-folk-art-cross", sans-serif;
-    font-size: 1.2em;
-    display: inline-block;
-    transition: transform 0.3s ease;
+}
 
-    &:hover {
-      transform: scale(1.2);
-    }
-  }
+nav a {
+  color: var(--navigatietekstkleur);
+  text-decoration: underline;
+  font-family: "p22-folk-art-cross", sans-serif;
+  font-size: 1.2em;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+nav a:hover {
+  transform: scale(1.2);
 }
 
 header {
@@ -84,14 +125,15 @@ responsive */
     justify-content: center;
   }
 }
+
 @media (min-width: 50em) {
   main section {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-/*cookie pop up*/
-/*https://dlo.mijnhva.nl/d2l/le/lessons/759389/folders/3091863*/
+/* cookie pop up */
+/* https://dlo.mijnhva.nl/d2l/le/lessons/759389/folders/3091863 */
 
 .privacy-popup {
   position: fixed;
@@ -100,34 +142,33 @@ responsive */
   transform: translate(-50%, -50%);
   z-index: 10;
   text-align: center;
-
   width: 60%;
   max-width: 35em;
   min-height: 25em;
   padding: 3em;
-
-  background-image: url("../../kleineafbeeldingen/cookieachtergrond.svg");
+  background-image: var(--cookie-achtergrond);
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
-
   filter: drop-shadow(1em 1em lightblue);
-
-  color: #2c1a0b;
+  color: var(--cookie-tekstkleur);
   box-sizing: border-box;
 }
 
 .privacy-popup button {
   padding: 0.5em 1em;
-  background-color: #ffbffe;
-  color: #2c1a0b;
-  border: 0.15em solid #d81e79;
+  background-color: var(--cookie-knopachtergrond);
+  color: var(--cookie-knoptekst);
+  border: 0.15em solid var(--cookie-knoprand);
   font: inherit;
   font-size: large;
 }
 
-/*Zorgt voor een donkere laag achter de cookie pop up zolang de cookie pop up zichtbaar is
-gevonden via deze youtube video https://www.youtube.com/watch?v=MbSlUw3Dtk0 en https://www.w3schools.com/cssref/css3_pr_backdrop-filter.php */
+/* Zorgt voor een donkere laag achter de cookie pop up zolang de cookie pop up zichtbaar is.
+Gevonden via deze YouTube-video:
+https://www.youtube.com/watch?v=MbSlUw3Dtk0
+en https://www.w3schools.com/cssref/css3_pr_backdrop-filter.php */
+
 .popup-screen {
   position: fixed;
   inset: 0;
@@ -186,13 +227,13 @@ gevonden via deze youtube video https://www.youtube.com/watch?v=MbSlUw3Dtk0 en h
   transform: none;
 }
 
-/*Zorgt ervoor dat de toverstaf muis overal te zien is, ook over knoppen want dat was voorheen nog niet*/
+/* Zorgt ervoor dat de toverstafmuis overal te zien is,
+ook over knoppen, omdat dit voorheen nog niet werkte. */
+
 a,
 button,
 img {
-  cursor:
-    url("../../kleineafbeeldingen/toverstaf.png") 4 4,
-    pointer;
+  cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, pointer;
 }
 
 button {
@@ -214,30 +255,15 @@ button:active {
   transform: scale(0.97);
 }
 
-/*https://dlo.mijnhva.nl/d2l/le/lessons/759389/lessons/3004967 light dark mode */
+/* https://dlo.mijnhva.nl/d2l/le/lessons/759389/lessons/3004967
+light dark mode */
+
 @media (prefers-color-scheme: dark) {
-  body {
-    background: #59445c;
-    color: #f3beed;
-  }
-  nav {
-    background-image: url("../../kleineafbeeldingen/kantdark.jpg");
-  }
-
-  nav a {
-    color: white;
-  }
-
   p {
     color: black;
   }
 
-  .privacy-popup {
-    background-image: url("../../kleineafbeeldingen/cookieachtergronddark.svg");
-  }
-
-  .privacy-popup button {
-    border: solid purple;
-    background-color: cadetblue;
+  #light-darkknop {
+    background-image: url("../../kleineafbeeldingen/chandelierdark.svg");
   }
 }
