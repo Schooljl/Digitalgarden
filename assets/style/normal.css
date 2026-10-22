@@ -60,20 +60,33 @@ body {
 
 #light-darkknop {
   position: fixed;
-  top: -12em;
+  top: -15em;
   right: 5em;
-  z-index: 20;
+  z-index: 9;
   padding: 0;
   border: none;
   background: transparent;
+  box-shadow: none;
+  transform: none;
 }
 
 #kroonluchter {
   display: block;
-  width: 15em;
+  width: 14em;
   height: auto;
+  filter: drop-shadow(0 0 0.2em #F3E5AB);
+  transition: 0.3s ease, filter 0.3s ease;
 }
 
+/* De kroonluchter zakt een beetje bij hover */
+#light-darkknop:hover #kroonluchter {
+  transform: translateY(2em);
+}
+
+/* Geen witte gloed in dark mode */
+body.dark-mode #kroonluchter {
+  filter: none;
+}
 body > picture {
   display: grid;
   min-height: 0;

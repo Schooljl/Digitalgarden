@@ -34,7 +34,7 @@ function pasKroonluchterAan() {
   if (!kroonluchter) return;
 
   kroonluchter.src = document.body.classList.contains("dark-mode")
-    ? "kleineafbeeldingen/chandelierdark.svg"
+    ? "kleineafbeeldingen/chandelierdark.png"
     : "kleineafbeeldingen/chandelier.png";
 }
 
