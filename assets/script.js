@@ -48,22 +48,29 @@ if (cookiesOpnieuw && popupScreen) {
 
 function pasAfbeeldingenAan(isDark) {
   const afbeeldingen = [
-    kroonluchter,
-    logo,
-    achtergrond
+    {
+      element: kroonluchter,
+      licht: "kleineafbeeldingen/chandelier.png",
+      donker: "kleineafbeeldingen/chandelierdark.png"
+    },
+    {
+      element: logo,
+      licht: "./kleineafbeeldingen/logo200.jpg",
+      donker: "./kleineafbeeldingen/logodark.jpg"
+    },
+    {
+      element: achtergrond,
+      licht: "./kleineafbeeldingen/backgroundpage10.jpg",
+      donker: "./kleineafbeeldingen/backgroundpagedark.jpg"
+    }
   ];
 
-  afbeeldingen.forEach((afbeelding) => {
-    if (!afbeelding) return;
+  afbeeldingen.forEach(({ element, licht, donker }) => {
+    if (!element) return;
 
-    const nieuweBron = isDark
-      ? afbeelding.getAttribute("data-dark")
-      : afbeelding.getAttribute("data-light");
-
-    if (nieuweBron) {
-      afbeelding.src = nieuweBron;
-    }
+    element.src = isDark ? donker : licht;
   });
+
 }
 
 

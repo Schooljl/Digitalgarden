@@ -19,25 +19,7 @@
   --paragraafkleur: inherit;
 }
 
-/* Volg de systeeminstelling als er geen eigen keuze is */
-@media (prefers-color-scheme: dark) {
-  :root:not(.light-mode-forced) {
-    color-scheme: dark;
 
-    --achtergrondkleur: #59445c;
-    --tekstkleur: #f3beed;
-    --navigatietekstkleur: white;
-    --navigatieachtergrond: url("../../kleineafbeeldingen/kantdark.jpg");
-
-    --cookie-achtergrond: url("../../kleineafbeeldingen/cookieachtergronddark.svg");
-    --cookie-tekstkleur: #2c1a0b;
-    --cookie-knopachtergrond: cadetblue;
-    --cookie-knoptekst: #2c1a0b;
-    --cookie-knoprand: purple;
-
-    --paragraafkleur: #f3beed;
-  }
-}
 
 @font-face {
   font-family: "Comic Relief";
@@ -309,6 +291,27 @@ body.dark-mode {
   --cookie-knoprand: purple;
 
   --paragraafkleur: #f3beed;
+}
+
+/* Navigatie */
+body.dark-mode nav {
+  background-image: var(--navigatieachtergrond);
+}
+
+body.dark-mode nav a {
+  color: var(--navigatietekstkleur);
+}
+
+/* Cookie-popup */
+body.dark-mode .privacy-popup {
+  background-image: var(--cookie-achtergrond);
+  color: var(--cookie-tekstkleur);
+}
+
+body.dark-mode .privacy-popup button {
+  background-color: var(--cookie-knopachtergrond);
+  color: var(--cookie-knoptekst);
+  border-color: var(--cookie-knoprand);
 }
 
 /* Kroonluchter */
