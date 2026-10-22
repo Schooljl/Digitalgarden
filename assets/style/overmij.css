@@ -10,7 +10,18 @@
   font-style: normal;
 }
 
-/* https://share.google/ysmEpWU0e08Q0jgHY box sizing */
+/* Custom properties voor kleuren */
+:root {
+  color-scheme: light;
+
+  --achtergrondkleur: #f3beed;
+  --tekstkleur: canvastext;
+  --navigatiekleur: #2c1a0b;
+  --titelkleur: canvastext;
+  --paragraafkleur: canvastext;
+}
+
+/* Box sizing */
 * {
   box-sizing: border-box;
 }
@@ -18,10 +29,11 @@
 body {
   margin: 0;
   font-family: "Comic Relief", sans-serif;
-  background: #f3beed;
-  color: canvastext;
-  color-scheme: light dark;
-  cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, auto;
+  background: var(--achtergrondkleur);
+  color: var(--tekstkleur);
+  cursor:
+    url("../../kleineafbeeldingen/toverstaf.png") 4 4,
+    auto;
 }
 
 h1 {
@@ -29,6 +41,8 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 2.5em;
+  color: var(--titelkleur);
+  animation: verschijnen 1s ease-out;
 }
 
 header {
@@ -50,8 +64,9 @@ nav {
   background-image: url("../../kleineafbeeldingen/kant3.jpg");
   background-repeat: repeat-x;
   background-size: auto 3em;
+
   a {
-    color: #2c1a0b;
+    color: var(--navigatiekleur);
     text-decoration: underline;
     font-family: "p22-folk-art-cross", sans-serif;
     font-size: 1.2em;
@@ -75,7 +90,7 @@ main section > picture img {
   height: auto;
 }
 
-/*mag eigenlijk geen div gebruiken dus heb chatgpt gevraagd wat ik kan gebruiken ipv div, hij zei figure bedoeld voor zelfstandige inhoud zoals een afbeelding, illustratie, diagram of foto, eventueel met een bijschrift*/
+/* Figure voor zelfstandige inhoud zoals een afbeelding */
 figure {
   display: grid;
   width: 100%;
@@ -106,49 +121,57 @@ figure p {
   position: relative;
   left: 1.5em;
   top: 1em;
+  color: var(--paragraafkleur);
 }
 
-
-
-/*Zorgt ervoor dat de toverstaf muis overal te zien is, ook over knoppen want dat was voorheen nog niet*/
-  a,
-  button,
-  img {
-    cursor:
-      url("../../kleineafbeeldingen/toverstaf.png") 4 4,
-      pointer;
+@keyframes verschijnen {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
   }
 
-/* https://dlo.mijnhva.nl/d2l/le/lessons/759389/lessons/3004970
-responsive */
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
+/* Toverstafcursor op links, knoppen en afbeeldingen */
+a,
+button,
+img {
+  cursor:
+    url("../../kleineafbeeldingen/toverstaf.png") 4 4,
+    pointer;
+}
+
+/* Responsive */
 @media (min-width: 35em) {
   nav {
     flex-direction: row;
     justify-content: center;
   }
 }
+
 @media (min-width: 50em) {
   main section {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-/*https://dlo.mijnhva.nl/d2l/le/lessons/759389/lessons/3004967 light dark mode */
+/* Dark mode */
 @media (prefers-color-scheme: dark) {
-  body {
-    background: #59445c;
-    color: #f3beed;
+  :root {
+    color-scheme: dark;
+
+    --achtergrondkleur: #59445c;
+    --tekstkleur: #f3beed;
+    --navigatiekleur: white;
+    --titelkleur: #f3beed;
+    --paragraafkleur: white;
   }
+
   nav {
     background-image: url("../../kleineafbeeldingen/kantdark.jpg");
-  }
-
-  nav a {
-    color: white;
-  }
-
-  p {
-    color: black;
   }
 }
