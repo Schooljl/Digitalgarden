@@ -1,4 +1,8 @@
-/* Kleuren voor light mode */
+/* ========================================
+   KLEUREN
+======================================== */
+
+/* Light mode: standaard */
 :root {
   color-scheme: light;
 
@@ -9,25 +13,28 @@
   --rand: #8b527e;
   --schaduw: lightblue;
   --h1-kleur: #8b527e;
+  --figcaption-kleur: #2c1a0b;
 }
 
-/* Kleuren voor dark mode */
-@media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: dark;
+/* Dark mode: ingesteld door JavaScript */
+body.dark-mode {
+  color-scheme: dark;
 
-    --achtergrond: #59445c;
-    --tekst: white;
-    --navigatie-tekst: white;
-    --tekstvak: #443047;
-    --rand: #c99ac3;
-    --schaduw: #342b36;
-    --h1-kleur: #f3beed;
-    --figcaprion-kleur: #f3beed;
-  }
+  --achtergrond: #59445c;
+  --tekst: white;
+  --navigatie-tekst: white;
+  --tekstvak: #443047;
+  --rand: #c99ac3;
+  --schaduw: #342b36;
+  --h1-kleur: #f3beed;
+  --figcaption-kleur: #f3beed;
 }
 
-/* Lettertype */
+
+/* ========================================
+   LETTERTYPEN
+======================================== */
+
 @font-face {
   font-family: "Comic Relief";
   src: url("../type/ComicRelief-Regular.woff2") format("woff2");
@@ -42,7 +49,11 @@
   font-style: normal;
 }
 
-/* Algemene opmaak */
+
+/* ========================================
+   ALGEMENE OPMAAK
+======================================== */
+
 body {
   display: grid;
   margin: 0;
@@ -52,7 +63,11 @@ body {
   cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, auto;
 }
 
-/* Header en logo */
+
+/* ========================================
+   HEADER EN LOGO
+======================================== */
+
 header {
   text-align: center;
 }
@@ -64,20 +79,26 @@ header img {
 }
 
 h1 {
-  font-family: "Romantic";
+  color: var(--h1-kleur);
+  font-family: "Romantic", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 2.5em;
   animation: verschijnen 1s ease-out;
 }
 
-/* Navigatie */
+
+/* ========================================
+   NAVIGATIE
+======================================== */
+
 nav {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1.3em;
   padding: 1em;
+
   background-image: url("../../kleineafbeeldingen/kant3.jpg");
   background-repeat: repeat-x;
   background-size: auto 3em;
@@ -96,6 +117,16 @@ nav a:hover {
   transform: scale(1.2);
 }
 
+/* Donkere navigatieachtergrond */
+body.dark-mode nav {
+  background-image: url("../../kleineafbeeldingen/kantdark.jpg");
+}
+
+
+/* ========================================
+   INHOUD
+======================================== */
+
 /* Mobiele basis: tekst en afbeelding onder elkaar */
 .inspiratie-inhoud {
   display: grid;
@@ -106,7 +137,11 @@ nav a:hover {
   margin: 2rem auto;
 }
 
-/* Tekstvak */
+
+/* ========================================
+   TEKSTVAK
+======================================== */
+
 .inspiratie-tekst {
   padding: 1.5rem;
   background-color: var(--tekstvak);
@@ -127,7 +162,11 @@ nav a:hover {
   line-height: 1.7;
 }
 
-/* Pinterest-afbeelding */
+
+/* ========================================
+   PINTEREST-AFBEELDING
+======================================== */
+
 .pinterest-preview {
   align-self: center;
   margin: 0;
@@ -150,30 +189,50 @@ nav a:hover {
   transform: scale(1.03);
 }
 
+
+/* ========================================
+   BIJSCHRIFT
+======================================== */
+
 figcaption {
   margin-top: 0.8rem;
   font-size: 0.9rem;
+  color: var(--figcaption-kleur);
 }
+
+
+/* ========================================
+   ANIMATIES
+======================================== */
 
 @keyframes verschijnen {
   from {
     opacity: 0;
     transform: translateY(15px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
 
-/* Toverstafcursor */
+
+/* ========================================
+   TOVERSTAFCURSOR
+======================================== */
+
 a,
 button,
 img {
   cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, pointer;
 }
 
-/* Grotere schermen: tekst links, afbeelding rechts */
+
+/* ========================================
+   GROTERE SCHERMEN
+======================================== */
+
 @media (min-width: 45rem) {
   nav {
     flex-direction: row;
@@ -184,12 +243,5 @@ img {
     grid-template-columns: minmax(0, 0.9fr) minmax(0, 0.8fr);
     align-items: center;
     gap: 3rem;
-  }
-}
-
-/* Kantachtergrond voor dark mode */
-@media (prefers-color-scheme: dark) {
-  nav {
-    background-image: url("../../kleineafbeeldingen/kantdark.jpg");
   }
 }

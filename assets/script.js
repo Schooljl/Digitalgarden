@@ -6,17 +6,19 @@ const lightDarkKnop = document.querySelector("#light-darkknop");
 const kroonluchter = document.querySelector("#kroonluchter");
 const logo = document.querySelector("#logo");
 const achtergrond = document.querySelector("#achtergrond");
+const selfie = document.querySelector("#selfie");
 
 const systeemDarkMode = window.matchMedia(
   "(prefers-color-scheme: dark)"
 );
+
+const modusSleutel = "websiteModus";
 
 
 /* ========================================
    COOKIE-POPUP
 ======================================== */
 
-// Cookie-popup automatisch tonen
 if (
   popupScreen &&
   !sessionStorage.getItem("cookiePopupGezien")
@@ -26,7 +28,6 @@ if (
   });
 }
 
-// Cookie-popup sluiten
 if (closeBtn && popupScreen) {
   closeBtn.addEventListener("click", () => {
     popupScreen.classList.remove("active");
@@ -34,7 +35,6 @@ if (closeBtn && popupScreen) {
   });
 }
 
-// Cookie-popup opnieuw openen
 if (cookiesOpnieuw && popupScreen) {
   cookiesOpnieuw.addEventListener("click", () => {
     popupScreen.classList.add("active");
@@ -62,7 +62,12 @@ function pasAfbeeldingenAan(isDark) {
       element: achtergrond,
       licht: "./kleineafbeeldingen/backgroundpage10.jpg",
       donker: "./kleineafbeeldingen/backgroundpagedark.jpg"
-    }
+    },
+    {
+  element: selfie,
+  licht: "./kleineafbeeldingen/selfie.jpg",
+  donker: "./kleineafbeeldingen/selfiedark.jpg"
+}
   ];
 
   afbeeldingen.forEach(({ element, licht, donker }) => {
@@ -70,7 +75,6 @@ function pasAfbeeldingenAan(isDark) {
 
     element.src = isDark ? donker : licht;
   });
-
 }
 
 
@@ -79,14 +83,12 @@ function pasAfbeeldingenAan(isDark) {
 ======================================== */
 
 function stelModusIn(isDark) {
-  // De juiste CSS-klassen instellen
   document.body.classList.toggle("dark-mode", isDark);
-  document.body.classList.toggle(
-    "light-mode-forced",
-    !isDark
-  );
+  document.body.classList.toggle("light-mode-forced", !isDark);
 
-  // Alle afbeeldingen aanpassen
+  document.documentElement.style.colorScheme =
+    isDark ? "dark" : "light";
+
   pasAfbeeldingenAan(isDark);
 }
 
@@ -95,12 +97,8 @@ function stelModusIn(isDark) {
    MODUS BIJ HET LADEN
 ======================================== */
 
-// Een handmatige keuze heeft voorrang.
-// Zonder handmatige keuze volgen we de systeeminstelling.
-
 function laadOpgeslagenModus() {
-  const opgeslagenModus =
-    localStorage.getItem("websiteModus");
+  const opgeslagenModus = localStorage.getItem(modusSleutel);
 
   if (opgeslagenModus === "dark") {
     stelModusIn(true);
@@ -123,13 +121,11 @@ if (lightDarkKnop) {
     const wordtDark =
       !document.body.classList.contains("dark-mode");
 
-    // De gekozen modus bewaren
     localStorage.setItem(
-      "websiteModus",
+      modusSleutel,
       wordtDark ? "dark" : "light"
     );
 
-    // De modus en afbeeldingen aanpassen
     stelModusIn(wordtDark);
   });
 }
@@ -139,11 +135,8 @@ if (lightDarkKnop) {
    SYSTEEMINSTELLING VOLGEN
 ======================================== */
 
-// Als de systeeminstelling verandert, volgen we die
-// alleen wanneer er geen handmatige keuze is opgeslagen.
-
 systeemDarkMode.addEventListener("change", (event) => {
-  if (localStorage.getItem("websiteModus") === null) {
+  if (localStorage.getItem(modusSleutel) === null) {
     stelModusIn(event.matches);
   }
 });

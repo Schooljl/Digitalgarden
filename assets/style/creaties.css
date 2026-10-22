@@ -1,6 +1,12 @@
+/* ========================================
+   LETTERTYPEN
+======================================== */
+
 @font-face {
   font-family: "Comic Relief";
-  src: url(../type/ComicRelief-Regular.woff2);
+  src: url("../type/ComicRelief-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
@@ -10,7 +16,11 @@
   font-style: normal;
 }
 
-/* Custom properties voor kleuren */
+
+/* ========================================
+   CUSTOM PROPERTIES: LIGHT MODE
+======================================== */
+
 :root {
   color-scheme: light;
 
@@ -22,19 +32,26 @@
   --h1-kleur: canvastext;
 }
 
-/* Kleuren voor dark mode */
-@media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: dark;
 
-    --achtergrondkleur: #59445c;
-    --tekstkleur: white;
-    --navigatiekleur: white;
-    --overlaykleur: rgba(0, 0, 0, 0.8);
-    --overlay-tekstkleur: white;
-    --h1-kleur: #f3beed;
-  }
+/* ========================================
+   CUSTOM PROPERTIES: DARK MODE
+======================================== */
+
+body.dark-mode {
+  color-scheme: dark;
+
+  --achtergrondkleur: #59445c;
+  --tekstkleur: white;
+  --navigatiekleur: white;
+  --overlaykleur: rgba(0, 0, 0, 0.8);
+  --overlay-tekstkleur: white;
+  --h1-kleur: #f3beed;
 }
+
+
+/* ========================================
+   ALGEMENE OPMAAK
+======================================== */
 
 * {
   box-sizing: border-box;
@@ -48,14 +65,24 @@ body {
   cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, auto;
 }
 
+
+/* ========================================
+   TITELS
+======================================== */
+
 h1 {
-  font-family: "Romantic";
+  font-family: "Romantic", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 2.5em;
   color: var(--h1-kleur);
   animation: verschijnen 1s ease-out;
 }
+
+
+/* ========================================
+   HEADER EN LOGO
+======================================== */
 
 header {
   text-align: center;
@@ -67,6 +94,11 @@ header img {
   height: auto;
 }
 
+
+/* ========================================
+   NAVIGATIE
+======================================== */
+
 nav {
   display: flex;
   flex-direction: column;
@@ -76,20 +108,30 @@ nav {
   background-image: url("../../kleineafbeeldingen/kant3.jpg");
   background-repeat: repeat-x;
   background-size: auto 3em;
-
-  a {
-    color: var(--navigatiekleur);
-    text-decoration: underline;
-    font-family: "p22-folk-art-cross", sans-serif;
-    font-size: 1.2em;
-    display: inline-block;
-    transition: transform 0.3s ease;
-
-    &:hover {
-      transform: scale(1.2);
-    }
-  }
 }
+
+nav a {
+  color: var(--navigatiekleur);
+  text-decoration: underline;
+  font-family: "p22-folk-art-cross", sans-serif;
+  font-size: 1.2em;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+nav a:hover {
+  transform: scale(1.2);
+}
+
+/* Donkere navigatieachtergrond */
+body.dark-mode nav {
+  background-image: url("../../kleineafbeeldingen/kantdark.jpg");
+}
+
+
+/* ========================================
+   HOOFDINHOUD
+======================================== */
 
 main {
   display: grid;
@@ -104,7 +146,11 @@ main img {
   display: block;
 }
 
-/* Responsive */
+
+/* ========================================
+   RESPONSIVE
+======================================== */
+
 @media (min-width: 35em) {
   nav {
     flex-direction: row;
@@ -122,12 +168,21 @@ main img {
   }
 }
 
-/* Toverstafcursor op links, knoppen en afbeeldingen */
+
+/* ========================================
+   TOVERSTAFCURSOR
+======================================== */
+
 a,
 button,
 img {
   cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, pointer;
 }
+
+
+/* ========================================
+   AFBEELDINGEN MET OVERLAY
+======================================== */
 
 .afbeelding-overlay {
   position: relative;
@@ -173,6 +228,11 @@ img {
   margin-bottom: 0.7em;
 }
 
+
+/* ========================================
+   ANIMATIE
+======================================== */
+
 @keyframes verschijnen {
   from {
     opacity: 0;
@@ -182,12 +242,5 @@ img {
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-
-/* Kantachtergrond voor dark mode */
-@media (prefers-color-scheme: dark) {
-  nav {
-    background-image: url("../../kleineafbeeldingen/kantdark.jpg");
   }
 }

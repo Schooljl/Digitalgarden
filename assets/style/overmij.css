@@ -1,6 +1,12 @@
+/* ========================================
+   LETTERTYPEN
+======================================== */
+
 @font-face {
   font-family: "Comic Relief";
-  src: url(../type/ComicRelief-Regular.woff2);
+  src: url("../type/ComicRelief-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
@@ -10,7 +16,11 @@
   font-style: normal;
 }
 
-/* Custom properties voor kleuren */
+
+/* ========================================
+   CUSTOM PROPERTIES: LIGHT MODE
+======================================== */
+
 :root {
   color-scheme: light;
 
@@ -21,10 +31,34 @@
   --paragraafkleur: canvastext;
 }
 
-/* Box sizing */
+
+/* ========================================
+   CUSTOM PROPERTIES: DARK MODE
+======================================== */
+
+body.dark-mode {
+  color-scheme: dark;
+
+  --achtergrondkleur: #59445c;
+  --tekstkleur: #f3beed;
+  --navigatiekleur: white;
+  --titelkleur: #f3beed;
+  --paragraafkleur: white;
+}
+
+
+/* ========================================
+   BOX SIZING
+======================================== */
+
 * {
   box-sizing: border-box;
 }
+
+
+/* ========================================
+   ALGEMENE OPMAAK
+======================================== */
 
 body {
   margin: 0;
@@ -36,14 +70,24 @@ body {
     auto;
 }
 
+
+/* ========================================
+   TITELS
+======================================== */
+
 h1 {
-  font-family: "Romantic";
+  font-family: "Romantic", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 2.5em;
   color: var(--titelkleur);
   animation: verschijnen 1s ease-out;
 }
+
+
+/* ========================================
+   HEADER EN LOGO
+======================================== */
 
 header {
   text-align: center;
@@ -55,6 +99,11 @@ header img {
   height: auto;
 }
 
+
+/* ========================================
+   NAVIGATIE
+======================================== */
+
 nav {
   display: flex;
   flex-direction: column;
@@ -64,20 +113,30 @@ nav {
   background-image: url("../../kleineafbeeldingen/kant3.jpg");
   background-repeat: repeat-x;
   background-size: auto 3em;
-
-  a {
-    color: var(--navigatiekleur);
-    text-decoration: underline;
-    font-family: "p22-folk-art-cross", sans-serif;
-    font-size: 1.2em;
-    display: inline-block;
-    transition: transform 0.3s ease;
-
-    &:hover {
-      transform: scale(1.2);
-    }
-  }
 }
+
+nav a {
+  color: var(--navigatiekleur);
+  text-decoration: underline;
+  font-family: "p22-folk-art-cross", sans-serif;
+  font-size: 1.2em;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+nav a:hover {
+  transform: scale(1.2);
+}
+
+/* Donkere navigatieachtergrond */
+body.dark-mode nav {
+  background-image: url("../../kleineafbeeldingen/kantdark.jpg");
+}
+
+
+/* ========================================
+   HOOFDINHOUD
+======================================== */
 
 main section {
   display: grid;
@@ -90,7 +149,11 @@ main section > picture img {
   height: auto;
 }
 
-/* Figure voor zelfstandige inhoud zoals een afbeelding */
+
+/* ========================================
+   FIGURE EN AFBEELDINGEN
+======================================== */
+
 figure {
   display: grid;
   width: 100%;
@@ -124,6 +187,11 @@ figure p {
   color: var(--paragraafkleur);
 }
 
+
+/* ========================================
+   ANIMATIE
+======================================== */
+
 @keyframes verschijnen {
   from {
     opacity: 0;
@@ -136,7 +204,11 @@ figure p {
   }
 }
 
-/* Toverstafcursor op links, knoppen en afbeeldingen */
+
+/* ========================================
+   TOVERSTAFCURSOR
+======================================== */
+
 a,
 button,
 img {
@@ -145,7 +217,11 @@ img {
     pointer;
 }
 
-/* Responsive */
+
+/* ========================================
+   RESPONSIVE
+======================================== */
+
 @media (min-width: 35em) {
   nav {
     flex-direction: row;
@@ -156,22 +232,5 @@ img {
 @media (min-width: 50em) {
   main section {
     grid-template-columns: 1fr 1fr;
-  }
-}
-
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: dark;
-
-    --achtergrondkleur: #59445c;
-    --tekstkleur: #f3beed;
-    --navigatiekleur: white;
-    --titelkleur: #f3beed;
-    --paragraafkleur: white;
-  }
-
-  nav {
-    background-image: url("../../kleineafbeeldingen/kantdark.jpg");
   }
 }
