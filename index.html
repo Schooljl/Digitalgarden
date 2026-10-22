@@ -18,16 +18,19 @@
       id="light-darkknop"
       aria-label="Schakel light/dark mode om"
     >
-      <img id="kroonluchter" src="kleineafbeeldingen/chandelier.png" alt="kroonluchter" />
+      <img
+        id="kroonluchter"
+        src="kleineafbeeldingen/chandelier.png"
+        alt="kroonluchter"
+      />
     </button>
     <header>
       <picture>
-        <source
-          srcset="kleineafbeeldingen/logodark.jpg"
-          media="(prefers-color-scheme: dark)"
-        />
         <img
+          id="logo"
           src="./kleineafbeeldingen/logo200.jpg"
+          data-light="./kleineafbeeldingen/logo200.jpg"
+          data-dark="./kleineafbeeldingen/logodark.jpg"
           alt="Joëlle's Craft Room logo"
         />
       </picture>
@@ -42,12 +45,11 @@
     </header>
 
     <picture>
-      <source
-        srcset="kleineafbeeldingen/backgroundpagedark.jpg"
-        media="(prefers-color-scheme: dark)"
-      />
       <img
+        id="achtergrond"
         src="./kleineafbeeldingen/backgroundpage10.jpg"
+        data-light="./kleineafbeeldingen/backgroundpage10.jpg"
+        data-dark="./kleineafbeeldingen/backgroundpagedark.jpg"
         alt="afbeelding naaikamer"
       />
     </picture>

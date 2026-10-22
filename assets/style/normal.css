@@ -11,6 +11,7 @@
   --cookie-knopachtergrond: #ffbffe;
   --cookie-knoptekst: #2c1a0b;
   --cookie-knoprand: #d81e79;
+  --paragraafkleur: inherit;
 }
 
 /* Custom properties voor dark mode */
@@ -25,6 +26,7 @@
     --cookie-knopachtergrond: cadetblue;
     --cookie-knoptekst: #2c1a0b;
     --cookie-knoprand: purple;
+    --paragraafkleur: black;
   }
 }
 
@@ -46,7 +48,10 @@ body {
   background-color: var(--achtergrondkleur);
   color: var(--tekstkleur);
   color-scheme: light dark;
-  cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, auto;
+  cursor:
+    url("../../kleineafbeeldingen/toverstaf.png") 4 4,
+    auto;
+
   margin: 0;
   min-height: 100vh;
   display: grid;
@@ -55,8 +60,8 @@ body {
 
 #light-darkknop {
   position: fixed;
-  top: 1em;
-  right: 1em;
+  top: -12em;
+  right: 5em;
   z-index: 20;
   padding: 0;
   border: none;
@@ -65,7 +70,7 @@ body {
 
 #kroonluchter {
   display: block;
-  width: 6em;
+  width: 15em;
   height: auto;
 }
 
@@ -132,7 +137,7 @@ responsive */
   }
 }
 
-/* cookie pop up */
+/* Cookie pop-up */
 /* https://dlo.mijnhva.nl/d2l/le/lessons/759389/folders/3091863 */
 
 .privacy-popup {
@@ -142,15 +147,19 @@ responsive */
   transform: translate(-50%, -50%);
   z-index: 10;
   text-align: center;
+
   width: 60%;
   max-width: 35em;
   min-height: 25em;
   padding: 3em;
+
   background-image: var(--cookie-achtergrond);
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
+
   filter: drop-shadow(1em 1em lightblue);
+
   color: var(--cookie-tekstkleur);
   box-sizing: border-box;
 }
@@ -164,10 +173,10 @@ responsive */
   font-size: large;
 }
 
-/* Zorgt voor een donkere laag achter de cookie pop up zolang de cookie pop up zichtbaar is.
-Gevonden via deze YouTube-video:
+/* Zorgt voor een donkere laag achter de cookie pop-up zolang deze zichtbaar is.
+Gevonden via:
 https://www.youtube.com/watch?v=MbSlUw3Dtk0
-en https://www.w3schools.com/cssref/css3_pr_backdrop-filter.php */
+https://www.w3schools.com/cssref/css3_pr_backdrop-filter.php */
 
 .popup-screen {
   position: fixed;
@@ -227,13 +236,15 @@ en https://www.w3schools.com/cssref/css3_pr_backdrop-filter.php */
   transform: none;
 }
 
-/* Zorgt ervoor dat de toverstafmuis overal te zien is,
-ook over knoppen, omdat dit voorheen nog niet werkte. */
+/* Zorgt ervoor dat de toverstafmuis overal zichtbaar is,
+ook boven knoppen. */
 
 a,
 button,
 img {
-  cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, pointer;
+  cursor:
+    url("../../kleineafbeeldingen/toverstaf.png") 4 4,
+    pointer;
 }
 
 button {
@@ -255,15 +266,33 @@ button:active {
   transform: scale(0.97);
 }
 
-/* https://dlo.mijnhva.nl/d2l/le/lessons/759389/lessons/3004967
-light dark mode */
+/* Paragraafkleur gebruikt een custom property */
+p {
+  color: var(--paragraafkleur);
+}
 
-@media (prefers-color-scheme: dark) {
-  p {
-    color: black;
-  }
+/* Dark mode wanneer je op de kandelaar klikt */
+body.dark-mode {
+  --achtergrondkleur: #59445c;
+  --tekstkleur: #f3beed;
+  --navigatietekstkleur: white;
+  --navigatieachtergrond: url("../../kleineafbeeldingen/kantdark.jpg");
+  --cookie-achtergrond: url("../../kleineafbeeldingen/cookieachtergronddark.svg");
+  --paragraafkleur: black;
+}
 
-  #light-darkknop {
-    background-image: url("../../kleineafbeeldingen/chandelierdark.svg");
-  }
+/* Kleuren van de navigatie */
+body.dark-mode nav a {
+  color: var(--navigatietekstkleur);
+}
+
+/* Achtergrond van de navigatie */
+body.dark-mode nav {
+  background-image: var(--navigatieachtergrond);
+}
+
+/* Achtergrond van de cookie-popup */
+body.dark-mode .privacy-popup {
+  background-image: var(--cookie-achtergrond);
+  color: var(--cookie-tekstkleur);
 }
