@@ -3,9 +3,10 @@
 //  A self-contained sparkle/dot effect that you can turn on/off by calling
 //    sparkle(true)  or  sparkle(false)  or  sparkle() to toggle.
 //  No external CSS or other files needed.
-
-bron: "https://gist.github.com/priyanshiisosmart/4151d0b3cf035189d9c81beaa93b0f0a"
 // ─────────────────────────────────────────────────────────────────────────────
+
+/* bron:https://gist.github.com/priyanshiisosmart/4151d0b3cf035189d9c81beaa93b0f0a
+ik heb de kleur van de sterretjes verandert naar wit. Ik vond het anders te druk */
 
 (function () {
     // ───────────────────────────────────────────────────────────────────────────
