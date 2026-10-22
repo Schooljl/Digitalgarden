@@ -126,7 +126,6 @@ responsive */
   font-size: large;
 }
 
-
 /*Zorgt voor een donkere laag achter de cookie pop up zolang de cookie pop up zichtbaar is
 gevonden via deze youtube video https://www.youtube.com/watch?v=MbSlUw3Dtk0 en https://www.w3schools.com/cssref/css3_pr_backdrop-filter.php */
 .popup-screen {
@@ -158,7 +157,7 @@ gevonden via deze youtube video https://www.youtube.com/watch?v=MbSlUw3Dtk0 en h
 #cookies-opnieuw {
   position: fixed;
   bottom: 3em;
-  left:0;
+  left: 0;
   z-index: 8;
   margin: 0;
   padding: 0;
@@ -178,6 +177,13 @@ gevonden via deze youtube video https://www.youtube.com/watch?v=MbSlUw3Dtk0 en h
 
 #cookies-opnieuw:hover img {
   transform: scale(1.1);
+  filter: drop-shadow(0 0 0.3em gold);
+  box-shadow: none;
+}
+
+#cookies-opnieuw:hover {
+  box-shadow: none;
+  transform: none;
 }
 
 /*Zorgt ervoor dat de toverstaf muis overal te zien is, ook over knoppen want dat was voorheen nog niet*/
