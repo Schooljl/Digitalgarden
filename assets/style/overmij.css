@@ -3,6 +3,13 @@
   src: url(../type/ComicRelief-Regular.woff2);
 }
 
+@font-face {
+  font-family: "Romantic";
+  src: url("../type/ROMANTIC.TTF") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* https://share.google/ysmEpWU0e08Q0jgHY box sizing */
 * {
   box-sizing: border-box;

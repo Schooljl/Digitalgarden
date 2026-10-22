@@ -28,6 +28,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Romantic";
+  src: url("../type/ROMANTIC.TTF") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 h1 {
   font-family: sewn, sans-serif;
   font-style: normal;

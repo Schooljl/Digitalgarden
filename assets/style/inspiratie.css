@@ -1,22 +1,72 @@
+/* Kleuren voor light mode */
+:root {
+  color-scheme: light;
+
+  --achtergrond: #f3beed;
+  --tekst: #2c1a0b;
+  --navigatie-tekst: #2c1a0b;
+  --tekstvak: #fff4fc;
+  --rand: #8b527e;
+  --schaduw: lightblue;
+}
+
+/* Kleuren voor dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+
+    --achtergrond: #59445c;
+    --tekst: #f3beed;
+    --navigatie-tekst: white;
+    --tekstvak: #342b36;
+    --rand: #c99ac3;
+    --schaduw: #342b36;
+  }
+}
+
+/* Lettertype */
 @font-face {
   font-family: "Comic Relief";
-  src: url(../type/ComicRelief-Regular.woff2);
+  src: url("../type/ComicRelief-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
-h1 {
-  font-family: "sweet-fancy-script", sans-serif;
+@font-face {
+  font-family: "Romantic";
+  src: url("../type/ROMANTIC.TTF") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
 
+/* Algemene opmaak */
 body {
-  font-family: "Comic Relief", system-ui;
-  background-color: #f3beed;
-  color: CanvasText;
   display: grid;
+  margin: 0;
+  background-color: var(--achtergrond);
+  color: var(--tekst);
+  font-family: "Comic Relief", system-ui, sans-serif;
   cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, auto;
 }
 
+/* Header en logo */
+header {
+  text-align: center;
+}
+
+header img {
+  width: 60%;
+  max-width: 20rem;
+  height: auto;
+}
+
+h1 {
+  font-family: "Romantic";
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Navigatie */
 nav {
   display: flex;
   flex-direction: column;
@@ -26,93 +76,99 @@ nav {
   background-image: url("../../kleineafbeeldingen/kant3.jpg");
   background-repeat: repeat-x;
   background-size: auto 3em;
-  a {
-    color: #2c1a0b;
-    text-decoration: underline;
-    font-family: "p22-folk-art-cross", sans-serif;
-    font-size: 1.2em;
-    display: inline-block;
-    transition: transform 0.3s ease;
-
-    &:hover {
-      transform: scale(1.2);
-    }
-  }
 }
 
-header {
+nav a {
+  display: inline-block;
+  color: var(--navigatie-tekst);
+  font-family: "p22-folk-art-cross", sans-serif;
+  font-size: 1.2em;
+  text-decoration: underline;
+  transition: transform 0.3s ease;
+}
+
+nav a:hover {
+  transform: scale(1.2);
+}
+
+/* Mobiele basis: tekst en afbeelding onder elkaar */
+.inspiratie-inhoud {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  width: 90%;
+  max-width: 75rem;
+  margin: 2rem auto;
+}
+
+/* Tekstvak */
+.inspiratie-tekst {
+  padding: 1.5rem;
+  background-color: var(--tekstvak);
+  color: var(--tekst);
+  border: 0.15rem solid var(--rand);
+}
+
+.inspiratie-tekst h2 {
+  margin-top: 0;
+  font-family: "sweet-fancy-script", sans-serif;
   text-align: center;
 }
 
-header img {
-  width: 60%;
-  max-width: 20em;
-  height: auto;
-}
-
-p {
-  max-width: 50%;
-  justify-self: center;
-  text-align: center;
+.inspiratie-tekst p {
   font-family: "farnham-display", serif;
   font-weight: 300;
   font-style: normal;
+  line-height: 1.7;
 }
 
-@media (min-width: 35em) {
+/* Pinterest-afbeelding */
+.pinterest-preview {
+  align-self: center;
+  margin: 0;
+  text-align: center;
+}
+
+.pinterest-preview a {
+  display: block;
+}
+
+.pinterest-preview img {
+  display: block;
+  width: 100%;
+  height: auto;
+  box-shadow: 0.6rem 0.6rem var(--schaduw);
+  transition: transform 0.3s ease;
+}
+
+.pinterest-preview img:hover {
+  transform: scale(1.03);
+}
+
+/* Toverstafcursor */
+a,
+button,
+img {
+  cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, pointer;
+}
+
+/* Grotere schermen: tekst links, afbeelding rechts */
+@media (min-width: 45rem) {
   nav {
     flex-direction: row;
     justify-content: center;
   }
-}
 
-/*Chatgpt gevraagd hoe ik een preview van mijn pinterest board maak: Je kunt een screenshot van je Pinterest-bord opslaan in je Afbeeldingen-map en die klikbaar maken:*/
-
-figure {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-}
-
-figure a {
-  width: 40%;
-}
-
-figure img {
-  display: block;
-  width: 100%;
-  box-shadow: 1em 1em lightblue;
-}
-
-figure img:hover {
-  transform: scale(1.05);
-}
-
-/*Zorgt ervoor dat de toverstaf muis overal te zien is, ook over knoppen want dat was voorheen nog niet*/
-  a,
-  button,
-  img {
-    cursor:
-      url("../../kleineafbeeldingen/toverstaf.png") 4 4,
-      pointer;
+  .inspiratie-inhoud {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 0.8fr);
+    align-items: center;
+    gap: 3rem;
   }
+}
 
-
-/*https://dlo.mijnhva.nl/d2l/le/lessons/759389/lessons/3004967 light dark mode */
+/* Kantachtergrond voor dark mode */
 @media (prefers-color-scheme: dark) {
-  body {
-    background: #59445c;
-    color: #f3beed;
-  }
   nav {
     background-image: url("../../kleineafbeeldingen/kantdark.jpg");
-  }
-
-  nav a {
-    color: white;
-  }
-
-  p {
-    color: black;
   }
 }
