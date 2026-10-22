@@ -1,32 +1,41 @@
 /* HIER KOMT JOUW CSS */
 
 /* Custom properties voor light mode */
+/* Standaard: light mode */
 :root {
+  color-scheme: light;
+
   --achtergrondkleur: #f3beed;
-  --tekstkleur: CanvasText;
+  --tekstkleur: #2c1a0b;
   --navigatietekstkleur: #2c1a0b;
   --navigatieachtergrond: url("../../kleineafbeeldingen/kant3.jpg");
+
   --cookie-achtergrond: url("../../kleineafbeeldingen/cookieachtergrond.svg");
   --cookie-tekstkleur: #2c1a0b;
   --cookie-knopachtergrond: #ffbffe;
   --cookie-knoptekst: #2c1a0b;
   --cookie-knoprand: #d81e79;
+
   --paragraafkleur: inherit;
 }
 
-/* Custom properties voor dark mode */
+/* Volg de systeeminstelling als er geen eigen keuze is */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not(.light-mode-forced) {
+    color-scheme: dark;
+
     --achtergrondkleur: #59445c;
     --tekstkleur: #f3beed;
     --navigatietekstkleur: white;
     --navigatieachtergrond: url("../../kleineafbeeldingen/kantdark.jpg");
+
     --cookie-achtergrond: url("../../kleineafbeeldingen/cookieachtergronddark.svg");
     --cookie-tekstkleur: #2c1a0b;
     --cookie-knopachtergrond: cadetblue;
     --cookie-knoptekst: #2c1a0b;
     --cookie-knoprand: purple;
-    --paragraafkleur: black;
+
+    --paragraafkleur: #f3beed;
   }
 }
 
@@ -47,7 +56,6 @@ body {
   font-family: "Comic Relief", system-ui;
   background-color: var(--achtergrondkleur);
   color: var(--tekstkleur);
-  color-scheme: light dark;
   cursor:
     url("../../kleineafbeeldingen/toverstaf.png") 4 4,
     auto;
@@ -284,28 +292,26 @@ p {
   color: var(--paragraafkleur);
 }
 
-/* Dark mode wanneer je op de kandelaar klikt */
+
+/* Dark mode voor de hele website */
 body.dark-mode {
+  color-scheme: dark;
+
   --achtergrondkleur: #59445c;
   --tekstkleur: #f3beed;
   --navigatietekstkleur: white;
   --navigatieachtergrond: url("../../kleineafbeeldingen/kantdark.jpg");
+
   --cookie-achtergrond: url("../../kleineafbeeldingen/cookieachtergronddark.svg");
-  --paragraafkleur: black;
+  --cookie-tekstkleur: #2c1a0b;
+  --cookie-knopachtergrond: cadetblue;
+  --cookie-knoptekst: #2c1a0b;
+  --cookie-knoprand: purple;
+
+  --paragraafkleur: #f3beed;
 }
 
-/* Kleuren van de navigatie */
-body.dark-mode nav a {
-  color: var(--navigatietekstkleur);
-}
-
-/* Achtergrond van de navigatie */
-body.dark-mode nav {
-  background-image: var(--navigatieachtergrond);
-}
-
-/* Achtergrond van de cookie-popup */
-body.dark-mode .privacy-popup {
-  background-image: var(--cookie-achtergrond);
-  color: var(--cookie-tekstkleur);
+/* Kroonluchter */
+body.dark-mode #kroonluchter {
+  filter: none;
 }

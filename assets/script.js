@@ -7,8 +7,20 @@ const kroonluchter = document.querySelector("#kroonluchter");
 const logo = document.querySelector("#logo");
 const achtergrond = document.querySelector("#achtergrond");
 
+const systeemDarkMode = window.matchMedia(
+  "(prefers-color-scheme: dark)"
+);
+
+
+/* ========================================
+   COOKIE-POPUP
+======================================== */
+
 // Cookie-popup automatisch tonen
-if (popupScreen && !sessionStorage.getItem("cookiePopupGezien")) {
+if (
+  popupScreen &&
+  !sessionStorage.getItem("cookiePopupGezien")
+) {
   window.addEventListener("load", () => {
     popupScreen.classList.add("active");
   });
@@ -29,39 +41,103 @@ if (cookiesOpnieuw && popupScreen) {
   });
 }
 
-// Kroonluchter aanpassen
-function pasKroonluchterAan() {
-  if (!kroonluchter) return;
 
-  kroonluchter.src = document.body.classList.contains("dark-mode")
-    ? "kleineafbeeldingen/chandelierdark.png"
-    : "kleineafbeeldingen/chandelier.png";
-}
+/* ========================================
+   AFBEELDINGEN AANPASSEN
+======================================== */
 
-// Logo en achtergrond aanpassen
-function pasAfbeeldingenAan() {
-  const isDark = document.body.classList.contains("dark-mode");
+function pasAfbeeldingenAan(isDark) {
+  const afbeeldingen = [
+    kroonluchter,
+    logo,
+    achtergrond
+  ];
 
-  [logo, achtergrond].forEach((afbeelding) => {
+  afbeeldingen.forEach((afbeelding) => {
     if (!afbeelding) return;
 
-    afbeelding.src = isDark
-      ? afbeelding.dataset.dark
-      : afbeelding.dataset.light;
+    const nieuweBron = isDark
+      ? afbeelding.getAttribute("data-dark")
+      : afbeelding.getAttribute("data-light");
+
+    if (nieuweBron) {
+      afbeelding.src = nieuweBron;
+    }
   });
 }
 
-// Light/dark mode omschakelen
+
+/* ========================================
+   LIGHT/DARK MODE INSTELLEN
+======================================== */
+
+function stelModusIn(isDark) {
+  // De juiste CSS-klassen instellen
+  document.body.classList.toggle("dark-mode", isDark);
+  document.body.classList.toggle(
+    "light-mode-forced",
+    !isDark
+  );
+
+  // Alle afbeeldingen aanpassen
+  pasAfbeeldingenAan(isDark);
+}
+
+
+/* ========================================
+   MODUS BIJ HET LADEN
+======================================== */
+
+// Een handmatige keuze heeft voorrang.
+// Zonder handmatige keuze volgen we de systeeminstelling.
+
+function laadOpgeslagenModus() {
+  const opgeslagenModus =
+    localStorage.getItem("websiteModus");
+
+  if (opgeslagenModus === "dark") {
+    stelModusIn(true);
+  } else if (opgeslagenModus === "light") {
+    stelModusIn(false);
+  } else {
+    stelModusIn(systeemDarkMode.matches);
+  }
+}
+
+laadOpgeslagenModus();
+
+
+/* ========================================
+   MODUS WISSELEN MET DE KROONLUCHTER
+======================================== */
+
 if (lightDarkKnop) {
   lightDarkKnop.addEventListener("click", () => {
-    document.body.classList.toggle("dark-mode");
+    const wordtDark =
+      !document.body.classList.contains("dark-mode");
 
-    pasKroonluchterAan();
-    pasAfbeeldingenAan();
+    // De gekozen modus bewaren
+    localStorage.setItem(
+      "websiteModus",
+      wordtDark ? "dark" : "light"
+    );
+
+    // De modus en afbeeldingen aanpassen
+    stelModusIn(wordtDark);
   });
 }
 
-// Afbeeldingen instellen bij het laden
-pasKroonluchterAan();
-pasAfbeeldingenAan();
+
+/* ========================================
+   SYSTEEMINSTELLING VOLGEN
+======================================== */
+
+// Als de systeeminstelling verandert, volgen we die
+// alleen wanneer er geen handmatige keuze is opgeslagen.
+
+systeemDarkMode.addEventListener("change", (event) => {
+  if (localStorage.getItem("websiteModus") === null) {
+    stelModusIn(event.matches);
+  }
+});
 /* deze youtube video legt uit hoe je light dark mode doet met een afbeelding die meeverandert met javascript https://www.youtube.com/watch?v=_gKEUYarehE */
