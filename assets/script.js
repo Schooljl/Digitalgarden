@@ -148,3 +148,4 @@ systeemDarkMode.addEventListener("change", (event) => {
   }
 });
 /* deze youtube video legt uit hoe je light dark mode doet met een afbeelding die meeverandert met javascript https://www.youtube.com/watch?v=_gKEUYarehE */
+
