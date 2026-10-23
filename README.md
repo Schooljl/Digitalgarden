@@ -163,7 +163,7 @@ Songtekst:
 
 Digital Garden:
 - Minder verschillende lettertypes
-- Ze waren heel erg impressed met je mooie kledingontwerpen :)
+- Ze waren heel erg impressed met je mooie kledingontwerpen :
 - Over het algemeen ziet je site er echt super uitdagend
 - Het is leuk hoe je in het begin bij je home scherm 'naar je kamer' ontwerpen
 
@@ -171,13 +171,14 @@ Na de les heb ik nog een paar uur in de media lounge aan mijn website gewerkt.
 Ik heb de illustratie van mijn cookie pop up in light en dark mode gemaakt in illustrator, de afbeelding op de home page groter gemaakt en gekeken naar welke informatie in mijn cookie pop up moet.
 
 ### Maandag 12 okt:
+vakantie
 
 ### Woensdag 14 okt:
-
+vakantie
 ### Vrijdag 16 okt:
-
+vakantie
 ### Maandag 19 okt:
-
+Maandag heb ik na school nog een paar uur gewerkt aan mijn website. Ik heb in illustrator afbeeldingen gemaakt die ik heb gebruikt voor de light en dark mode van de cookie's
 
 
 ### Woensdag 21 okt:
@@ -185,3 +186,11 @@ Ik heb de illustratie van mijn cookie pop up in light en dark mode gemaakt in il
 We zijn de les begonnen met klasikaal naar elkaars werk kijken van de songteksten.
 Daarna zijn we begonnen met de Bi-Weekly.
 Dit ging over betrouwbare informatie op het internet.
+
+Ik heb in illustrator de afbeelding voor de cookie knop gemaakt. Dit lijkt net op een prijskaartje van een kledingstuk,
+
+### Donderdag 22 okt:
+Ik heb de hele dag thuis gewerkt. ik heb de light dark mode knop toegevoegd op de home page. Meer animatie's toegevoegd.
+
+### Vrijdag 23 okt:
+Vandaag is het laatste feedback moment
