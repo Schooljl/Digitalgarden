@@ -36,7 +36,8 @@
 }
 
 h1 {
-  font-family: "Romantic";
+ color: var(--h1-kleur);
+  font-family: "Romantic", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 2.5em;

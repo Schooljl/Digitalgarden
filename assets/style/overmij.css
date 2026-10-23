@@ -1,6 +1,4 @@
-/* ========================================
-   LETTERTYPEN
-======================================== */
+/* Ik heb de lettertype als @font-face gezet zoals moet. de font romantic komt van dafont.com*/
 
 @font-face {
   font-family: "Comic Relief";
@@ -17,9 +15,7 @@
 }
 
 
-/* ========================================
-   CUSTOM PROPERTIES: LIGHT MODE
-======================================== */
+/* Dit zijn de kleuren die worden gebruikt voor de light mode. Hiervoor heb ik custom property gebruikt.*/
 
 :root {
   color-scheme: light;
@@ -27,14 +23,12 @@
   --achtergrondkleur: #f3beed;
   --tekstkleur: canvastext;
   --navigatiekleur: #2c1a0b;
-  --titelkleur: canvastext;
+  --h1-kleur: canvastext;
   --paragraafkleur: canvastext;
 }
 
 
-/* ========================================
-   CUSTOM PROPERTIES: DARK MODE
-======================================== */
+/* Deze kleuren worden gebruikt bij dark mode. Ook met custom property */
 
 body.dark-mode {
   color-scheme: dark;
@@ -42,67 +36,52 @@ body.dark-mode {
   --achtergrondkleur: #59445c;
   --tekstkleur: #f3beed;
   --navigatiekleur: white;
-  --titelkleur: #f3beed;
+  --h1-kleur: #f3beed;
   --paragraafkleur: white;
 }
 
 
-/* ========================================
-   BOX SIZING
-======================================== */
 
 * {
   box-sizing: border-box;
 }
-
-
-/* ========================================
-   ALGEMENE OPMAAK
-======================================== */
 
 body {
   margin: 0;
   font-family: "Comic Relief", sans-serif;
   background: var(--achtergrondkleur);
   color: var(--tekstkleur);
-  cursor:
-    url("../../kleineafbeeldingen/toverstaf.png") 4 4,
-    auto;
+  cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, auto;
 }
 
 
-/* ========================================
-   TITELS
-======================================== */
 
 h1 {
   font-family: "Romantic", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 2.5em;
-  color: var(--titelkleur);
+  color: var(--h1-kleur);
   animation: verschijnen 1s ease-out;
 }
 
 
-/* ========================================
-   HEADER EN LOGO
-======================================== */
+
 
 header {
   text-align: center;
 }
 
-header img {
+header #logo {
+  display: block;
   width: 60%;
   max-width: 20em;
   height: auto;
+  margin: 0 auto;
 }
 
 
-/* ========================================
-   NAVIGATIE
-======================================== */
+/* code voor de naviagtie. Ik heb transform toegevoegd zodat er iets meer animatie in de website zit*/
 
 nav {
   display: flex;
@@ -128,54 +107,48 @@ nav a:hover {
   transform: scale(1.2);
 }
 
-/* Donkere navigatieachtergrond */
 body.dark-mode nav {
   background-image: url("../../kleineafbeeldingen/kantdark.jpg");
 }
 
 
-/* ========================================
-   HOOFDINHOUD
-======================================== */
 
 main section {
   display: grid;
+  grid-template-columns: 1fr;
   gap: 1em;
   padding: 1em 5%;
+  align-items: start;
 }
 
-main section > picture img {
+
+main section > #selfie {
+  display: block;
   width: 100%;
   height: auto;
+  justify-self: stretch;
 }
 
 
-/* ========================================
-   FIGURE EN AFBEELDINGEN
-======================================== */
 
 figure {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   width: 100%;
   margin: 0;
+  position: relative;
 }
 
-figure picture,
-figure img,
-figure p {
+figure > img {
+  display: block;
   grid-area: 1 / 1;
-}
-
-figure picture {
-  width: 100%;
-}
-
-figure img {
   width: 100%;
   height: auto;
+  align-self: start;
 }
 
-figure p {
+figure > p {
+  grid-area: 1 / 1;
   align-self: center;
   justify-self: center;
   width: 70%;
@@ -188,9 +161,7 @@ figure p {
 }
 
 
-/* ========================================
-   ANIMATIE
-======================================== */
+
 
 @keyframes verschijnen {
   from {
@@ -205,22 +176,16 @@ figure p {
 }
 
 
-/* ========================================
-   TOVERSTAFCURSOR
-======================================== */
+/* Ik zag bij Feyza dat zij een afbeelding als cursor had, zij heeft me uitgelegd hoe ik dit ook kon doen. */
 
 a,
 button,
 img {
-  cursor:
-    url("../../kleineafbeeldingen/toverstaf.png") 4 4,
-    pointer;
+  cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, pointer;
 }
 
 
-/* ========================================
-   RESPONSIVE
-======================================== */
+
 
 @media (min-width: 35em) {
   nav {
@@ -231,6 +196,10 @@ img {
 
 @media (min-width: 50em) {
   main section {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+
+  main section > #selfie {
+    justify-self: stretch;
   }
 }

@@ -1,6 +1,4 @@
-/* ========================================
-   LETTERTYPEN
-======================================== */
+
 
 @font-face {
   font-family: "Comic Relief";
@@ -16,42 +14,32 @@
   font-style: normal;
 }
 
-
-/* ========================================
-   CUSTOM PROPERTIES: LIGHT MODE
-======================================== */
-
 :root {
   color-scheme: light;
 
   --achtergrondkleur: #f3beed;
   --tekstkleur: canvastext;
-  --navigatiekleur: #2c1a0b;
+  --navigatie-tekstkleur: #2c1a0b;
   --overlaykleur: rgba(0, 0, 0, 0.6);
   --overlay-tekstkleur: white;
   --h1-kleur: canvastext;
 }
 
 
-/* ========================================
-   CUSTOM PROPERTIES: DARK MODE
-======================================== */
 
 body.dark-mode {
   color-scheme: dark;
 
   --achtergrondkleur: #59445c;
   --tekstkleur: white;
-  --navigatiekleur: white;
+  --navigatie-tekstkleur: white;
   --overlaykleur: rgba(0, 0, 0, 0.8);
   --overlay-tekstkleur: white;
   --h1-kleur: #f3beed;
 }
 
 
-/* ========================================
-   ALGEMENE OPMAAK
-======================================== */
+
 
 * {
   box-sizing: border-box;
@@ -66,10 +54,6 @@ body {
 }
 
 
-/* ========================================
-   TITELS
-======================================== */
-
 h1 {
   font-family: "Romantic", serif;
   font-weight: 400;
@@ -80,9 +64,6 @@ h1 {
 }
 
 
-/* ========================================
-   HEADER EN LOGO
-======================================== */
 
 header {
   text-align: center;
@@ -95,9 +76,7 @@ header img {
 }
 
 
-/* ========================================
-   NAVIGATIE
-======================================== */
+
 
 nav {
   display: flex;
@@ -111,7 +90,7 @@ nav {
 }
 
 nav a {
-  color: var(--navigatiekleur);
+  color: var(--navigatie-tekstkleur);
   text-decoration: underline;
   font-family: "p22-folk-art-cross", sans-serif;
   font-size: 1.2em;
@@ -123,15 +102,13 @@ nav a:hover {
   transform: scale(1.2);
 }
 
-/* Donkere navigatieachtergrond */
+
 body.dark-mode nav {
   background-image: url("../../kleineafbeeldingen/kantdark.jpg");
 }
 
 
-/* ========================================
-   HOOFDINHOUD
-======================================== */
+
 
 main {
   display: grid;
@@ -146,10 +123,6 @@ main img {
   display: block;
 }
 
-
-/* ========================================
-   RESPONSIVE
-======================================== */
 
 @media (min-width: 35em) {
   nav {
@@ -169,9 +142,7 @@ main img {
 }
 
 
-/* ========================================
-   TOVERSTAFCURSOR
-======================================== */
+
 
 a,
 button,
@@ -180,9 +151,7 @@ img {
 }
 
 
-/* ========================================
-   AFBEELDINGEN MET OVERLAY
-======================================== */
+
 
 .afbeelding-overlay {
   position: relative;
@@ -229,9 +198,7 @@ img {
 }
 
 
-/* ========================================
-   ANIMATIE
-======================================== */
+
 
 @keyframes verschijnen {
   from {

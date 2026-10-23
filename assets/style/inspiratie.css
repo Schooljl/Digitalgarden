@@ -1,40 +1,3 @@
-/* ========================================
-   KLEUREN
-======================================== */
-
-/* Light mode: standaard */
-:root {
-  color-scheme: light;
-
-  --achtergrond: #f3beed;
-  --tekst: #2c1a0b;
-  --navigatie-tekst: #2c1a0b;
-  --tekstvak: #fff4fc;
-  --rand: #8b527e;
-  --schaduw: lightblue;
-  --h1-kleur: #8b527e;
-  --figcaption-kleur: #2c1a0b;
-}
-
-/* Dark mode: ingesteld door JavaScript */
-body.dark-mode {
-  color-scheme: dark;
-
-  --achtergrond: #59445c;
-  --tekst: white;
-  --navigatie-tekst: white;
-  --tekstvak: #443047;
-  --rand: #c99ac3;
-  --schaduw: #342b36;
-  --h1-kleur: #f3beed;
-  --figcaption-kleur: #f3beed;
-}
-
-
-/* ========================================
-   LETTERTYPEN
-======================================== */
-
 @font-face {
   font-family: "Comic Relief";
   src: url("../type/ComicRelief-Regular.woff2") format("woff2");
@@ -50,23 +13,48 @@ body.dark-mode {
 }
 
 
-/* ========================================
-   ALGEMENE OPMAAK
-======================================== */
+/* Light mode: standaard */
+:root {
+  color-scheme: light;
+
+  --achtergrondkleur: #f3beed;
+  --tekstkleur: #2c1a0b;
+  --navigatie-tekstkleur: #2c1a0b;
+  --tekstvak: #fff4fc;
+  --rand: #8b527e;
+  --schaduw: lightblue;
+  --h1-kleur: #8b527e;
+  --figcaption-kleur: #2c1a0b;
+}
+
+/* Dark mode: ingesteld door JavaScript */
+body.dark-mode {
+  color-scheme: dark;
+
+  --achtergrondkleur: #59445c;
+  --tekstkleur: white;
+  --navigatie-tekst: white;
+  --tekstvak: #443047;
+  --rand: #c99ac3;
+  --schaduw: #342b36;
+  --h1-kleur: #f3beed;
+  --figcaption-kleur: #f3beed;
+}
+
+
+
 
 body {
   display: grid;
   margin: 0;
-  background-color: var(--achtergrond);
-  color: var(--tekst);
+  background-color: var(--achtergrondkleur);
+  color: var(--tekstkleur);
   font-family: "Comic Relief", system-ui, sans-serif;
   cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, auto;
 }
 
 
-/* ========================================
-   HEADER EN LOGO
-======================================== */
+
 
 header {
   text-align: center;
@@ -88,9 +76,7 @@ h1 {
 }
 
 
-/* ========================================
-   NAVIGATIE
-======================================== */
+
 
 nav {
   display: flex;
@@ -106,7 +92,7 @@ nav {
 
 nav a {
   display: inline-block;
-  color: var(--navigatie-tekst);
+  color: var(--navigatie-tekstkleur);
   font-family: "p22-folk-art-cross", sans-serif;
   font-size: 1.2em;
   text-decoration: underline;
@@ -123,11 +109,9 @@ body.dark-mode nav {
 }
 
 
-/* ========================================
-   INHOUD
-======================================== */
 
-/* Mobiele basis: tekst en afbeelding onder elkaar */
+
+
 .inspiratie-inhoud {
   display: grid;
   grid-template-columns: 1fr;
@@ -138,9 +122,7 @@ body.dark-mode nav {
 }
 
 
-/* ========================================
-   TEKSTVAK
-======================================== */
+
 
 .inspiratie-tekst {
   padding: 1.5rem;
@@ -163,9 +145,6 @@ body.dark-mode nav {
 }
 
 
-/* ========================================
-   PINTEREST-AFBEELDING
-======================================== */
 
 .pinterest-preview {
   align-self: center;
@@ -190,9 +169,7 @@ body.dark-mode nav {
 }
 
 
-/* ========================================
-   BIJSCHRIFT
-======================================== */
+
 
 figcaption {
   margin-top: 0.8rem;
@@ -201,9 +178,6 @@ figcaption {
 }
 
 
-/* ========================================
-   ANIMATIES
-======================================== */
 
 @keyframes verschijnen {
   from {
@@ -218,10 +192,6 @@ figcaption {
 }
 
 
-/* ========================================
-   TOVERSTAFCURSOR
-======================================== */
-
 a,
 button,
 img {
@@ -229,9 +199,6 @@ img {
 }
 
 
-/* ========================================
-   GROTERE SCHERMEN
-======================================== */
 
 @media (min-width: 45rem) {
   nav {
