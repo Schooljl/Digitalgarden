@@ -8,137 +8,150 @@ const logo = document.querySelector("#logo");
 const achtergrond = document.querySelector("#achtergrond");
 const selfie = document.querySelector("#selfie");
 
+// ========================================
+// AFBEELDINGEN VOORAF LADEN
+// ========================================
+
+const donkereAfbeeldingen = [
+"./kleineafbeeldingen/chandelierdark.png",
+"./kleineafbeeldingen/logodark.jpg",
+"./kleineafbeeldingen/backgroundpagedark.jpg",
+"./kleineafbeeldingen/selfiedark.jpg",
+"./kleineafbeeldingen/kantdark.jpg"
+];
+
+donkereAfbeeldingen.forEach((src) => {
+const afbeelding = new Image();
+afbeelding.src = src;
+});
+
+// ========================================
+// LICHT- EN DONKERMODUS
+// ========================================
+
 const systeemDarkMode = window.matchMedia(
-  "(prefers-color-scheme: dark)"
+"(prefers-color-scheme: dark)"
 );
 
 const modusSleutel = "websiteModus";
 
-
-/* ========================================
-   COOKIE-POPUP
-======================================== */
-
-if (
-  popupScreen &&
-  !sessionStorage.getItem("cookiePopupGezien")
-) {
-  window.addEventListener("load", () => {
-    popupScreen.classList.add("active");
-  });
-}
-
-if (closeBtn && popupScreen) {
-  closeBtn.addEventListener("click", () => {
-    popupScreen.classList.remove("active");
-    sessionStorage.setItem("cookiePopupGezien", "true");
-  });
-}
-
-if (cookiesOpnieuw && popupScreen) {
-  cookiesOpnieuw.addEventListener("click", () => {
-    popupScreen.classList.add("active");
-  });
-}
-
-
-/* ========================================
-   AFBEELDINGEN AANPASSEN
-======================================== */
-
 function pasAfbeeldingenAan(isDark) {
-  const afbeeldingen = [
-    {
-      element: kroonluchter,
-      licht: "kleineafbeeldingen/chandelier.png",
-      donker: "kleineafbeeldingen/chandelierdark.png"
-    },
-    {
-      element: logo,
-      licht: "./kleineafbeeldingen/logo200.jpg",
-      donker: "./kleineafbeeldingen/logodark.jpg"
-    },
-    {
-      element: achtergrond,
-      licht: "./kleineafbeeldingen/backgroundpage10.jpg",
-      donker: "./kleineafbeeldingen/backgroundpagedark.jpg"
-    },
-    {
-  element: selfie,
-  licht: "./kleineafbeeldingen/selfie.jpg",
-  donker: "./kleineafbeeldingen/selfiedark.jpg"
+const afbeeldingen = [
+{
+element: kroonluchter,
+licht: "./kleineafbeeldingen/chandelier.png",
+donker: "./kleineafbeeldingen/chandelierdark.png"
+},
+{
+element: logo,
+licht: "./kleineafbeeldingen/logo200.jpg",
+donker: "./kleineafbeeldingen/logodark.jpg"
+},
+{
+element: achtergrond,
+licht: "./kleineafbeeldingen/backgroundpage10.jpg",
+donker: "./kleineafbeeldingen/backgroundpagedark.jpg"
+},
+{
+element: selfie,
+licht: "./kleineafbeeldingen/selfie.jpg",
+donker: "./kleineafbeeldingen/selfiedark.jpg"
 }
-  ];
+];
 
-  afbeeldingen.forEach(({ element, licht, donker }) => {
-    if (!element) return;
+afbeeldingen.forEach(({ element, licht, donker }) => {
+if (!element) return;
 
-    element.src = isDark ? donker : licht;
-  });
+const nieuweBron = isDark ? donker : licht;
+
+// Verander de afbeelding alleen als dat nodig is.
+if (!element.src.endsWith(nieuweBron.replace("./", ""))) {
+  element.src = nieuweBron;
 }
 
-
-/* ========================================
-   LIGHT/DARK MODE INSTELLEN
-======================================== */
+});
+}
 
 function stelModusIn(isDark) {
-  document.body.classList.toggle("dark-mode", isDark);
-  document.body.classList.toggle("light-mode-forced", !isDark);
+document.body.classList.toggle("dark-mode", isDark);
+document.body.classList.toggle("light-mode-forced", !isDark);
 
-  document.documentElement.style.colorScheme =
-    isDark ? "dark" : "light";
+document.documentElement.style.colorScheme =
+isDark ? "dark" : "light";
 
-  pasAfbeeldingenAan(isDark);
+pasAfbeeldingenAan(isDark);
 }
 
-
-/* ========================================
-   MODUS BIJ HET LADEN
-======================================== */
+// ========================================
+// OPGESLAGEN MODUS INLADEN
+// ========================================
 
 function laadOpgeslagenModus() {
-  const opgeslagenModus = localStorage.getItem(modusSleutel);
+const opgeslagenModus = localStorage.getItem(modusSleutel);
 
-  if (opgeslagenModus === "dark") {
-    stelModusIn(true);
-  } else if (opgeslagenModus === "light") {
-    stelModusIn(false);
-  } else {
-    stelModusIn(systeemDarkMode.matches);
-  }
+if (opgeslagenModus === "dark") {
+stelModusIn(true);
+} else if (opgeslagenModus === "light") {
+stelModusIn(false);
+} else {
+// Gebruik de systeemvoorkeur als er nog geen keuze is.
+stelModusIn(systeemDarkMode.matches);
+}
 }
 
 laadOpgeslagenModus();
 
-
-/* ========================================
-   MODUS WISSELEN MET DE KROONLUCHTER
-======================================== */
+// ========================================
+// WISSELEN MET DE KNOP
+// ========================================
 
 if (lightDarkKnop) {
-  lightDarkKnop.addEventListener("click", () => {
-    const wordtDark =
-      !document.body.classList.contains("dark-mode");
+lightDarkKnop.addEventListener("click", () => {
+const wordtDark =
+!document.body.classList.contains("dark-mode");
 
-    localStorage.setItem(
-      modusSleutel,
-      wordtDark ? "dark" : "light"
-    );
+localStorage.setItem(
+  modusSleutel,
+  wordtDark ? "dark" : "light"
+);
 
-    stelModusIn(wordtDark);
-  });
+stelModusIn(wordtDark);
+
+});
 }
 
-
-/* ========================================
-   SYSTEEMINSTELLING VOLGEN
-======================================== */
-
+// Volg de systeemvoorkeur zolang de gebruiker zelf
+// nog geen licht- of donkermodus heeft gekozen.
 systeemDarkMode.addEventListener("change", (event) => {
-  if (localStorage.getItem(modusSleutel) === null) {
-    stelModusIn(event.matches);
-  }
+if (localStorage.getItem(modusSleutel) === null) {
+stelModusIn(event.matches);
+}
 });
+
+// ========================================
+// COOKIE-POPPUP
+// ========================================
+
+if (
+popupScreen &&
+!sessionStorage.getItem("cookiePopupGezien")
+) {
+window.addEventListener("load", () => {
+popupScreen.classList.add("active");
+});
+}
+
+if (closeBtn && popupScreen) {
+closeBtn.addEventListener("click", () => {
+popupScreen.classList.remove("active");
+sessionStorage.setItem("cookiePopupGezien", "true");
+});
+}
+
+if (cookiesOpnieuw && popupScreen) {
+cookiesOpnieuw.addEventListener("click", () => {
+popupScreen.classList.add("active");
+});
+}
 /* deze youtube video legt uit hoe je light dark mode doet met een afbeelding die meeverandert met javascript https://www.youtube.com/watch?v=_gKEUYarehE */
 

@@ -23,7 +23,7 @@
   --achtergrondkleur: #f3beed;
   --tekstkleur: canvastext;
   --navigatiekleur: #2c1a0b;
-  --h1-kleur: canvastext;
+  --h1-kleur: #633858;
   --paragraafkleur: canvastext;
 }
 
@@ -37,7 +37,7 @@ body.dark-mode {
   --tekstkleur: #f3beed;
   --navigatiekleur: white;
   --h1-kleur: #f3beed;
-  --paragraafkleur: white;
+  --paragraafkleur: black;
 }
 
 
@@ -101,6 +101,7 @@ nav a {
   font-size: 1.2em;
   display: inline-block;
   transition: transform 0.3s ease;
+   
 }
 
 nav a:hover {
@@ -156,8 +157,12 @@ figure > p {
   overflow-wrap: break-word;
   position: relative;
   left: 1.5em;
-  top: 1em;
+  top: 2em;
   color: var(--paragraafkleur);
+  font-family: "farnham-display", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.7;
 }
 
 
@@ -174,6 +179,8 @@ figure > p {
     transform: translateY(0);
   }
 }
+
+
 
 
 /* Ik zag bij Feyza dat zij een afbeelding als cursor had, zij heeft me uitgelegd hoe ik dit ook kon doen. */
