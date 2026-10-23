@@ -8,9 +8,6 @@ const logo = document.querySelector("#logo");
 const achtergrond = document.querySelector("#achtergrond");
 const selfie = document.querySelector("#selfie");
 
-// ========================================
-// AFBEELDINGEN VOORAF LADEN
-// ========================================
 
 const donkereAfbeeldingen = [
 "./kleineafbeeldingen/chandelierdark.png",
@@ -25,9 +22,6 @@ const afbeelding = new Image();
 afbeelding.src = src;
 });
 
-// ========================================
-// LICHT- EN DONKERMODUS
-// ========================================
 
 const systeemDarkMode = window.matchMedia(
 "(prefers-color-scheme: dark)"
@@ -82,9 +76,6 @@ isDark ? "dark" : "light";
 pasAfbeeldingenAan(isDark);
 }
 
-// ========================================
-// OPGESLAGEN MODUS INLADEN
-// ========================================
 
 function laadOpgeslagenModus() {
 const opgeslagenModus = localStorage.getItem(modusSleutel);
@@ -94,16 +85,14 @@ stelModusIn(true);
 } else if (opgeslagenModus === "light") {
 stelModusIn(false);
 } else {
-// Gebruik de systeemvoorkeur als er nog geen keuze is.
+
 stelModusIn(systeemDarkMode.matches);
 }
 }
 
 laadOpgeslagenModus();
 
-// ========================================
-// WISSELEN MET DE KNOP
-// ========================================
+
 
 if (lightDarkKnop) {
 lightDarkKnop.addEventListener("click", () => {
@@ -128,9 +117,6 @@ stelModusIn(event.matches);
 }
 });
 
-// ========================================
-// COOKIE-POPPUP
-// ========================================
 
 if (
 popupScreen &&

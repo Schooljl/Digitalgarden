@@ -1,6 +1,13 @@
+@font-face {
+  font-family: "Seraphs";
+  src: url("SeraphsVF.woff2") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 body {
-  font-family: sans-serif;
+  font-family: "Seraph";
   line-height: 0.8;
   display: grid;
   place-items: center;
