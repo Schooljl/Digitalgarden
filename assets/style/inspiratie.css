@@ -201,7 +201,7 @@ img {
 }
 
 a, button, select, .pinterest-preview img, summary {
-    cursor: url('../../Kleineafbeeldingen/toverstafhover.png'), default;
+    cursor: url('../../kleineafbeeldingen/toverstafhover.png'), default;
 }
 
 @media (min-width: 45rem) {
