@@ -13,7 +13,6 @@
 }
 
 
-/* Light mode: standaard */
 :root {
   color-scheme: light;
 
@@ -27,7 +26,7 @@
   --figcaption-kleur: #2c1a0b;
 }
 
-/* Dark mode: ingesteld door JavaScript */
+
 body.dark-mode {
   color-scheme: dark;
 
@@ -103,7 +102,7 @@ nav a:hover {
   transform: scale(1.2);
 }
 
-/* Donkere navigatieachtergrond */
+
 body.dark-mode nav {
   background-image: url("../../kleineafbeeldingen/kantdark.jpg");
 }
@@ -133,8 +132,8 @@ body.dark-mode nav {
 
 .inspiratie-tekst h2 {
   margin-top: 0;
-  font-family: "sweet-fancy-script", sans-serif;
   text-align: center;
+  font-family: "farnham-display", sans-serif;
 }
 
 .inspiratie-tekst p {

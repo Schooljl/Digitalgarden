@@ -27,7 +27,7 @@ h1 {
   visibility: hidden;
 }
 
-/* GROTE WOORDEN: WAZIG MET SUBTIELE BLAUWE GLOW */
+
 .eerstezin span:nth-of-type(2),
 .tweedezin span:nth-of-type(2),
 .derdezin span:nth-of-type(2),
@@ -39,7 +39,7 @@ h1 {
   opacity: 0.3;
   filter: blur(6px);
 
-  /* Zachte, ijzige gloed wanneer het woord wazig is */
+  
   text-shadow:
     0 0 5px #7896AD,
     0 0 12px #426783,
@@ -54,12 +54,10 @@ h1 {
     filter 1.2s ease-in-out,
     color 1.2s ease-in-out,
     text-shadow 1.2s ease-in-out;
-
-  /* Wacht 1 seconde voordat het woord weer wazig wordt */
   transition-delay: 1s;
 }
 
-/* BIJ HOVER: SCHERP MET FELBLAUWE VRIESGLOW */
+
 .eerstezin span:nth-of-type(2):hover,
 .tweedezin span:nth-of-type(2):hover,
 .derdezin span:nth-of-type(2):hover,
@@ -68,7 +66,7 @@ h1 {
   filter: blur(0);
   color: #DDF7FF;
 
-  /* Helderblauwe gloed alsof het woord bevriest */
+  
   text-shadow:
     0 0 4px #FFFFFF,
     0 0 8px #80E5FF,
@@ -79,7 +77,7 @@ h1 {
   transition-delay: 0s;
 }
 
-/* KLEINE TEKST BOVENOP */
+
 .eerstezin span:nth-of-type(1),
 .tweedezin span:nth-of-type(1),
 .derdezin span:nth-of-type(1),
@@ -94,7 +92,7 @@ h1 {
   pointer-events: none;
 }
 
-/* POSITIE NAME */
+
 .eerstezin span:nth-of-type(1) {
   grid-column: 1 / 3;
   grid-row: 1;
@@ -106,7 +104,7 @@ h1 {
   margin-bottom: -3px;
 }
 
-/* POSITIE HISTORY */
+
 .tweedezin span:nth-of-type(1) {
   grid-column: 2 / 3;
   grid-row: 2;
@@ -119,7 +117,7 @@ h1 {
   grid-row: 3;
 }
 
-/* POSITIE BOOKS */
+
 .derdezin span:nth-of-type(1) {
   grid-column: 1 / 3;
   grid-row: 3;
@@ -132,7 +130,7 @@ h1 {
   grid-row: 4;
 }
 
-/* POSITIE FAMILY */
+
 .vierdezin span:nth-of-type(1) {
   grid-column: 2 / 3;
   grid-row: 4;
