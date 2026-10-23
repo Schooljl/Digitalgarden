@@ -140,4 +140,9 @@ popupScreen.classList.add("active");
 });
 }
 /* deze youtube video legt uit hoe je light dark mode doet met een afbeelding die meeverandert met javascript https://www.youtube.com/watch?v=_gKEUYarehE */
-
+/*MDN Web Docs. Document: querySelector(). https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+MDN Web Docs. Window: localStorage property. https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+MDN Web Docs. Window: sessionStorage property. https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage
+MDN Web Docs. Window: matchMedia() method. https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia
+MDN Web Docs. EventTarget: addEventListener() method. https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+MDN Web Docs. Element: classList property. https://developer.mozilla.org/en-US/docs/Web/API/Element/classList*/

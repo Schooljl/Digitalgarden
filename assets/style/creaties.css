@@ -1,5 +1,3 @@
-
-
 @font-face {
   font-family: "Comic Relief";
   src: url("../type/ComicRelief-Regular.woff2") format("woff2");
@@ -23,9 +21,8 @@
   --overlaykleur: rgba(0, 0, 0, 0.6);
   --overlay-tekstkleur: white;
   --h1-kleur: #633858;
+  --focuskleur: #633858;
 }
-
-
 
 body.dark-mode {
   color-scheme: dark;
@@ -36,10 +33,8 @@ body.dark-mode {
   --overlaykleur: rgba(0, 0, 0, 0.8);
   --overlay-tekstkleur: white;
   --h1-kleur: #f3beed;
+  --focuskleur: #f3beed;
 }
-
-
-
 
 * {
   box-sizing: border-box;
@@ -53,7 +48,6 @@ body {
   cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, auto;
 }
 
-
 h1 {
   font-family: "Romantic", serif;
   font-weight: 400;
@@ -62,8 +56,6 @@ h1 {
   color: var(--h1-kleur);
   animation: verschijnen 1s ease-out;
 }
-
-
 
 header {
   text-align: center;
@@ -74,9 +66,6 @@ header img {
   max-width: 20em;
   height: auto;
 }
-
-
-
 
 nav {
   display: flex;
@@ -102,13 +91,9 @@ nav a:hover {
   transform: scale(1.2);
 }
 
-
 body.dark-mode nav {
   background-image: url("../../kleineafbeeldingen/kantdark.jpg");
 }
-
-
-
 
 main {
   display: grid;
@@ -122,7 +107,6 @@ main img {
   height: auto;
   display: block;
 }
-
 
 @media (min-width: 35em) {
   nav {
@@ -141,16 +125,11 @@ main img {
   }
 }
 
-
-
-
 a,
 button,
 img {
   cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, pointer;
 }
-
-
 
 
 .afbeelding-overlay {
@@ -181,7 +160,8 @@ img {
   transition: opacity 0.3s ease;
 }
 
-.afbeelding-overlay:hover .overlay-tekst {
+.afbeelding-overlay:hover .overlay-tekst,
+.afbeelding-overlay:focus-within .overlay-tekst {
   opacity: 1;
 }
 
@@ -198,6 +178,29 @@ img {
 }
 
 
+a:focus-visible,
+button:focus-visible,
+.afbeelding-overlay:focus-visible,
+.afbeelding-overlay a:focus-visible,
+.afbeelding-overlay button:focus-visible {
+  outline: 3px solid var(--focuskleur);
+  outline-offset: 5px;
+  border-radius: 3px;
+}
+
+
+
+nav a:focus-visible {
+  transform: scale(1.1);
+}
+
+
+
+a,
+button {
+  position: relative;
+}
+
 
 
 @keyframes verschijnen {
@@ -209,5 +212,17 @@ img {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
