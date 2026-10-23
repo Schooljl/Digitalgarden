@@ -206,7 +206,7 @@ img {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   }
 
-  main section > #selfie {
-    justify-self: stretch;
-  }
+
+
+  
 }
