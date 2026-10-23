@@ -208,7 +208,7 @@ https://www.w3schools.com/cssref/css3_pr_backdrop-filter.php */
 #cookies-opnieuw {
   position: fixed;
   bottom: 3em;
-  left: -7em;
+  left: -7.5em;
   z-index: 8;
   margin: 0;
   padding: 0;
@@ -219,7 +219,7 @@ https://www.w3schools.com/cssref/css3_pr_backdrop-filter.php */
 
 #cookies-opnieuw img {
   display: block;
-  width: 20em;
+  width: 23em;
   height: auto;
   margin: 0;
   transition: transform 0.3s ease;
