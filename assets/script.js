@@ -11,7 +11,6 @@ const selfie = document.querySelector("#selfie");
 
 const donkereAfbeeldingen = [
 "./kleineafbeeldingen/chandelierdark.png",
-"./kleineafbeeldingen/logodark.jpg",
 "./kleineafbeeldingen/backgroundpagedark.jpg",
 "./kleineafbeeldingen/selfiedark.jpg",
 "./kleineafbeeldingen/kantdark.jpg"
@@ -36,11 +35,7 @@ element: kroonluchter,
 licht: "./kleineafbeeldingen/chandelier.png",
 donker: "./kleineafbeeldingen/chandelierdark.png"
 },
-{
-element: logo,
-licht: "./kleineafbeeldingen/logo200.jpg",
-donker: "./kleineafbeeldingen/logodark.jpg"
-},
+
 {
 element: achtergrond,
 licht: "./kleineafbeeldingen/backgroundpage10.jpg",
