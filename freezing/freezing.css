@@ -27,7 +27,7 @@ h1 {
   visibility: hidden;
 }
 
-/* Grote woorden met een ijzige blauwe glow */
+/* GROTE WOORDEN: STANDAARD WAZIG */
 .eerstezin span:nth-of-type(2),
 .tweedezin span:nth-of-type(2),
 .derdezin span:nth-of-type(2),
@@ -35,13 +35,44 @@ h1 {
   color: #7896AD;
   text-transform: uppercase;
   font-size: 4em;
+
   text-shadow:
     0 0 5px #7896AD,
     0 0 12px #426783,
     0 0 24px #27465E;
+
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+
+  opacity: 0.3;
+  filter: blur(6px);
+
+  transition:
+    opacity 1.2s ease-in-out,
+    filter 1.2s ease-in-out,
+    text-shadow 1.2s ease-in-out;
+
+  transition-delay: 1s;
 }
 
-/* Kleine tekst die over de grote woorden ligt */
+/* BIJ HOVER: VLOEIEND HELDER */
+.eerstezin span:nth-of-type(2):hover,
+.tweedezin span:nth-of-type(2):hover,
+.derdezin span:nth-of-type(2):hover,
+.vierdezin span:nth-of-type(2):hover {
+  opacity: 1;
+  filter: blur(0);
+
+  text-shadow:
+    0 0 5px #7896AD,
+    0 0 12px #426783,
+    0 0 24px #27465E;
+
+  transition-delay: 0s;
+}
+
+/* KLEINE TEKST BOVENOP */
 .eerstezin span:nth-of-type(1),
 .tweedezin span:nth-of-type(1),
 .derdezin span:nth-of-type(1),
@@ -50,11 +81,13 @@ h1 {
   font-size: 1rem;
   font-weight: 600;
   text-shadow: 0 1px 4px #0A1420;
+
   position: relative;
   z-index: 10;
+  pointer-events: none;
 }
 
-/* Positie van NAME */
+/* POSITIE NAME */
 .eerstezin span:nth-of-type(1) {
   grid-column: 1 / 3;
   grid-row: 1;
@@ -66,7 +99,7 @@ h1 {
   margin-bottom: -3px;
 }
 
-/* Positie van HISTORY */
+/* POSITIE HISTORY */
 .tweedezin span:nth-of-type(1) {
   grid-column: 2 / 3;
   grid-row: 2;
@@ -79,7 +112,7 @@ h1 {
   grid-row: 3;
 }
 
-/* Positie van BOOKS */
+/* POSITIE BOOKS */
 .derdezin span:nth-of-type(1) {
   grid-column: 1 / 3;
   grid-row: 3;
@@ -92,7 +125,7 @@ h1 {
   grid-row: 4;
 }
 
-/* Positie van FAMILY */
+/* POSITIE FAMILY */
 .vierdezin span:nth-of-type(1) {
   grid-column: 2 / 3;
   grid-row: 4;
