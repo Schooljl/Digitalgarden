@@ -27,7 +27,7 @@ h1 {
   visibility: hidden;
 }
 
-/* GROTE WOORDEN: STANDAARD WAZIG */
+/* GROTE WOORDEN: WAZIG MET SUBTIELE BLAUWE GLOW */
 .eerstezin span:nth-of-type(2),
 .tweedezin span:nth-of-type(2),
 .derdezin span:nth-of-type(2),
@@ -36,6 +36,10 @@ h1 {
   text-transform: uppercase;
   font-size: 4em;
 
+  opacity: 0.3;
+  filter: blur(6px);
+
+  /* Zachte, ijzige gloed wanneer het woord wazig is */
   text-shadow:
     0 0 5px #7896AD,
     0 0 12px #426783,
@@ -45,29 +49,32 @@ h1 {
   z-index: 2;
   cursor: pointer;
 
-  opacity: 0.3;
-  filter: blur(6px);
-
   transition:
     opacity 1.2s ease-in-out,
     filter 1.2s ease-in-out,
+    color 1.2s ease-in-out,
     text-shadow 1.2s ease-in-out;
 
+  /* Wacht 1 seconde voordat het woord weer wazig wordt */
   transition-delay: 1s;
 }
 
-/* BIJ HOVER: VLOEIEND HELDER */
+/* BIJ HOVER: SCHERP MET FELBLAUWE VRIESGLOW */
 .eerstezin span:nth-of-type(2):hover,
 .tweedezin span:nth-of-type(2):hover,
 .derdezin span:nth-of-type(2):hover,
 .vierdezin span:nth-of-type(2):hover {
   opacity: 1;
   filter: blur(0);
+  color: #DDF7FF;
 
+  /* Helderblauwe gloed alsof het woord bevriest */
   text-shadow:
-    0 0 5px #7896AD,
-    0 0 12px #426783,
-    0 0 24px #27465E;
+    0 0 4px #FFFFFF,
+    0 0 8px #80E5FF,
+    0 0 16px #00BFFF,
+    0 0 32px #008CFF,
+    0 0 50px #005BFF;
 
   transition-delay: 0s;
 }
