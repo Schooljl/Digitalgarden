@@ -248,6 +248,10 @@ img {
     pointer;
 }
 
+a, button, select, .klikbaar, summary {
+    cursor: url('../../Kleineafbeeldingen/toverstafhover.png'), default;
+}
+
 button {
   transition:
     box-shadow 0.3s ease,
@@ -315,4 +319,38 @@ body.dark-mode .privacy-popup button {
 
 body.dark-mode #kroonluchter {
   filter: none;
+}
+
+#light-darkknop {
+/* Kopppel de animatie genaamd 'beweeg' aan de knop */
+  animation-name: beweeg;
+  
+  /* Zorg dat de animatie precies 2 seconden duurt */
+  animation-duration: 2s;
+  
+  /* Zorg dat de animatie maar 1 keer afspeelt bij het laden */
+  animation-iteration-count: 1;
+   
+  transition: cubic-bezier(0,-1.02,1,1.97);
+}
+
+
+@keyframes beweeg {
+  0% {
+    transform: rotate(0deg);
+    
+  }
+
+  25% {
+    transform: rotate(5deg);
+  }
+
+ 
+  75% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
 }

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 519.21 730.46">
+  <!-- Generator: Adobe Illustrator 30.8.2, SVG Export Plug-In . SVG Version: 2.1.4 Build 7)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#Naamloos_verloop_705);
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .st1 {
+        fill: #8c6239;
+      }
+    </style>
+    <linearGradient id="Naamloos_verloop_705" data-name="Naamloos verloop 705" x1="2.04" y1="168.26" x2="338.88" y2="168.26" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#85b7c9"/>
+      <stop offset=".02" stop-color="#7fbbd1"/>
+      <stop offset=".05" stop-color="#72c8ea"/>
+      <stop offset=".05" stop-color="#70cbee"/>
+      <stop offset=".08" stop-color="#60d9e6"/>
+      <stop offset=".1" stop-color="#5bdfe3"/>
+      <stop offset=".11" stop-color="#63e0e2"/>
+      <stop offset=".13" stop-color="#7ce2e1"/>
+      <stop offset=".15" stop-color="#a4e7e0"/>
+      <stop offset=".18" stop-color="#daedde"/>
+      <stop offset=".19" stop-color="#f1f0de"/>
+      <stop offset=".21" stop-color="#f0eada"/>
+      <stop offset=".23" stop-color="#eed9d0"/>
+      <stop offset=".25" stop-color="#eccac7"/>
+      <stop offset=".26" stop-color="#e3bdce"/>
+      <stop offset=".31" stop-color="#d2a4dd"/>
+      <stop offset=".33" stop-color="#cc9ce3"/>
+      <stop offset=".36" stop-color="#c69ee3"/>
+      <stop offset=".4" stop-color="#b7a4e4"/>
+      <stop offset=".45" stop-color="#9daee6"/>
+      <stop offset=".49" stop-color="#79bde9"/>
+      <stop offset=".54" stop-color="#4ccfed"/>
+      <stop offset=".55" stop-color="#42d4ee"/>
+      <stop offset=".56" stop-color="#5bdaea"/>
+      <stop offset=".57" stop-color="#7ae2e6"/>
+      <stop offset=".58" stop-color="#91e8e3"/>
+      <stop offset=".59" stop-color="#a2ece0"/>
+      <stop offset=".61" stop-color="#acefdf"/>
+      <stop offset=".62" stop-color="#b0f0df"/>
+      <stop offset=".63" stop-color="#c5f0c3"/>
+      <stop offset=".64" stop-color="#d9f0a8"/>
+      <stop offset=".65" stop-color="#e5f097"/>
+      <stop offset=".65" stop-color="#eaf092"/>
+      <stop offset=".68" stop-color="#eadd96"/>
+      <stop offset=".75" stop-color="#edada3"/>
+      <stop offset=".8" stop-color="#f081b0"/>
+      <stop offset=".81" stop-color="#e97cb8"/>
+      <stop offset=".83" stop-color="#d670d1"/>
+      <stop offset=".85" stop-color="#c364ea"/>
+      <stop offset=".86" stop-color="#ba67e9"/>
+      <stop offset=".87" stop-color="#a171e7"/>
+      <stop offset=".89" stop-color="#7a80e5"/>
+      <stop offset=".9" stop-color="#6b87e4"/>
+      <stop offset=".91" stop-color="#6191dc"/>
+      <stop offset=".92" stop-color="#4ea6cf"/>
+      <stop offset=".94" stop-color="#43b2c6"/>
+      <stop offset=".95" stop-color="#40b7c4"/>
+      <stop offset=".96" stop-color="#3ebabe"/>
+      <stop offset=".98" stop-color="#3bc2ad"/>
+      <stop offset="1" stop-color="#36d094"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <polygon class="st1" points="111.65 50.92 517.5 693.98 459.62 727.05 111.65 50.92"/>
+    <path d="M117.31,60.82l399.49,632.98-56.97,32.55L117.31,60.82h0ZM105.99,41.01l353.43,686.73,58.78-33.59L105.99,41.01h0Z"/>
+  </g>
+  <path class="st0" d="M142.52,322.56l-31.4-85.33c-1.23-3.34-4.03-5.85-7.48-6.72l-88.2-22.05c-14.25-3.56-18.18-21.94-6.64-31.03l71.45-56.23c2.8-2.2,4.32-5.64,4.08-9.19l-6.28-90.7c-1.02-14.65,15.25-24.07,27.46-15.91l75.56,50.57c2.96,1.98,6.7,2.37,10,1.04l84.32-34.01c13.62-5.49,27.61,7.06,23.61,21.2l-24.75,87.49c-.97,3.42-.18,7.1,2.1,9.83l58.4,69.69c9.43,11.26,1.81,28.44-12.86,29.01l-90.85,3.5c-3.55.14-6.81,2.02-8.7,5.04l-48.23,77.07c-7.79,12.45-26.49,10.51-31.56-3.27Z"/>
+</svg>
