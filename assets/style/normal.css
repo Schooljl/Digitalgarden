@@ -12,10 +12,29 @@
   --cookie-knopachtergrond: #ffbffe;
   --cookie-knoptekst: #2c1a0b;
   --cookie-knoprand: #d81e79;
+  --achtergrondkleurbeneden: #bacb9a;
 
   --paragraafkleur: inherit;
 }
 
+body.dark-mode {
+  color-scheme: dark;
+
+  --achtergrondkleur: #59445c;
+  --tekstkleur: #f3beed;
+  --navigatietekstkleur: white;
+  --navigatieachtergrond: url("../../kleineafbeeldingen/kantdark.jpg");
+
+  --cookie-achtergrond: url("../../kleineafbeeldingen/cookieachtergronddark.svg");
+  --cookie-tekstkleur: #2c1a0b;
+  --cookie-knopachtergrond: cadetblue;
+  --cookie-knoptekst: #2c1a0b;
+  --cookie-knoprand: purple;
+  --achtergrondkleurbeneden: #9b6e96;
+
+  --paragraafkleur: #f3beed;
+
+}
 
 
 @font-face {
@@ -34,6 +53,7 @@ h1 {
 
 body {
   font-family: "Comic Relief", system-ui;
+  background-image: linear-gradient(var(--achtergrondkleur) 50%,var(--achtergrondkleurbeneden) 50%);
   background-color: var(--achtergrondkleur);
   color: var(--tekstkleur);
   cursor:
@@ -62,7 +82,7 @@ body {
   display: block;
   width: 14em;
   height: auto;
-  filter: drop-shadow(0 0 0.2em #F3E5AB);
+  filter: drop-shadow(0 -1em 0.8em rgb(255, 255, 198));
   transition: 0.3s ease, filter 0.3s ease;
 }
 
@@ -228,7 +248,7 @@ https://www.w3schools.com/cssref/css3_pr_backdrop-filter.php */
 
 #cookies-opnieuw:hover img {
   transform: scale(1.1);
-  filter: drop-shadow(0 0 0.3em gold);
+  filter: drop-shadow(0 0 2em white);
   box-shadow: none;
   transform: translateX(3em);
 }
@@ -243,14 +263,13 @@ https://www.w3schools.com/cssref/css3_pr_backdrop-filter.php */
 a,
 button,
 img {
-  cursor:
-    url("../../kleineafbeeldingen/toverstaf.png") 4 4,
-    pointer;
+  cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, pointer;
 }
 
-a, button, select, .klikbaar, summary {
-    cursor: url('../../Kleineafbeeldingen/toverstafhover.png'), default;
+a, button, select, .pinterest-preview img, summary {
+    cursor: url('../../kleineafbeeldingen/toverstafhover.png'), default;
 }
+
 
 button {
   transition:
@@ -276,24 +295,6 @@ p {
   color: var(--paragraafkleur);
 }
 
-
-
-body.dark-mode {
-  color-scheme: dark;
-
-  --achtergrondkleur: #59445c;
-  --tekstkleur: #f3beed;
-  --navigatietekstkleur: white;
-  --navigatieachtergrond: url("../../kleineafbeeldingen/kantdark.jpg");
-
-  --cookie-achtergrond: url("../../kleineafbeeldingen/cookieachtergronddark.svg");
-  --cookie-tekstkleur: #2c1a0b;
-  --cookie-knopachtergrond: cadetblue;
-  --cookie-knoptekst: #2c1a0b;
-  --cookie-knoprand: purple;
-
-  --paragraafkleur: #f3beed;
-}
 
 
 body.dark-mode nav {
@@ -334,6 +335,13 @@ body.dark-mode #kroonluchter {
   transition: cubic-bezier(0,-1.02,1,1.97);
 }
 
+/*#achtergrond {
+  @media (width < 30em) {
+  bottom: 0;
+  top: auto;
+  position: fixed;
+}
+} */
 
 @keyframes beweeg {
   0% {

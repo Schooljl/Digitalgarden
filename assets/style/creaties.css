@@ -131,13 +131,17 @@ img {
   cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, pointer;
 }
 
-a, button, select, summary {
-    cursor: url('../../Kleineafbeeldingen/toverstafhover.png'), default;
+a, button, select, .pinterest-preview img, summary {
+    cursor: url('../../kleineafbeeldingen/toverstafhover.png'), default;
 }
+
 
 .afbeelding-overlay {
   position: relative;
   overflow: hidden;
+  @media (width < 30em) {
+  font-size: 0.8em;
+  }
 }
 
 .afbeelding-overlay img {
