@@ -20,7 +20,7 @@
 body.dark-mode {
   color-scheme: dark;
 
-  --achtergrondkleur: #59445c;
+  --achtergrondkleur: #60425d;
   --tekstkleur: #f3beed;
   --navigatietekstkleur: white;
   --navigatieachtergrond: url("../../kleineafbeeldingen/kantdark.jpg");
@@ -30,7 +30,7 @@ body.dark-mode {
   --cookie-knopachtergrond: cadetblue;
   --cookie-knoptekst: #2c1a0b;
   --cookie-knoprand: purple;
-  --achtergrondkleurbeneden: #9b6e96;
+  --achtergrondkleurbeneden: #ab6e99;
 
   --paragraafkleur: #f3beed;
 

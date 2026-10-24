@@ -30,7 +30,7 @@
 body.dark-mode {
   color-scheme: dark;
 
-  --achtergrondkleur: #59445c;
+  --achtergrondkleur: ##60425d;
   --tekstkleur: white;
   --navigatie-tekst: white;
   --tekstvak: #443047;

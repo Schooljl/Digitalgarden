@@ -27,7 +27,7 @@
 body.dark-mode {
   color-scheme: dark;
 
-  --achtergrondkleur: #59445c;
+  --achtergrondkleur: #60425d;
   --tekstkleur: white;
   --navigatie-tekstkleur: white;
   --overlaykleur: rgba(0, 0, 0, 0.8);
