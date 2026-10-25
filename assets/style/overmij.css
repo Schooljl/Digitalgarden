@@ -1,5 +1,3 @@
-/* Ik heb de lettertype als @font-face gezet zoals moet. de font romantic komt van dafont.com*/
-
 @font-face {
   font-family: "Comic Relief";
   src: url("../type/ComicRelief-Regular.woff2") format("woff2");
@@ -13,6 +11,29 @@
   font-weight: 400;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Beadwork";
+  src: url("../type/Beadwork.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bead Necklace";
+  src: url("../type/Bead\ Necklace.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Clasicalderibbon";
+  src: url("../type/Clasicalderibbon.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 
 
 /* Dit zijn de kleuren die worden gebruikt voor de light mode. Hiervoor heb ik custom property gebruikt.*/
@@ -97,7 +118,7 @@ nav {
 nav a {
   color: var(--navigatiekleur);
   text-decoration: underline;
-  font-family: "p22-folk-art-cross", sans-serif;
+  font-family: "Clasicalderibbon", sans-serif;
   font-size: 1.2em;
   display: inline-block;
   transition: transform 0.3s ease;
@@ -130,72 +151,49 @@ main > #selfie {
   justify-self: stretch;
 }
 
+/* Verhaalpagina */
 
-
-figure {
+figure.verhaal {
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
+  grid-template-columns: 1fr;
   width: 100%;
   margin: 0;
   position: relative;
 }
 
-figure > img {
-  display: block;
+.verhaal-achtergrond {
   grid-area: 1 / 1;
+  display: block;
   width: 100%;
   height: auto;
-  align-self: start;
 }
 
-figure > p {
+figure.verhaal > p {
   grid-area: 1 / 1;
-  align-self: center;
-  justify-self: center;
-  width: 70%;
+  z-index: 1;
+  width: 100%;
   margin: 0;
-  overflow-wrap: break-word;
-  position: relative;
-  left: 1.5em;
-  top: 2em;
+  padding: 16% 9% 12% 19%;
   color: var(--paragraafkleur);
   font-family: "farnham-display", serif;
   font-weight: 400;
   font-style: normal;
-  line-height: 1.7;
+  font-size: clamp(0.75rem, 1vw, 1rem);
+  line-height: 1.5;
+  overflow-wrap: break-word;
 }
 
+/* Decoratieve beginletter */
 
-
-
-@keyframes verschijnen {
-  from {
-    opacity: 0;
-    transform: translateY(15px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.beginletter {
+  float: left;
+  width: 25%;
+  height: auto;
+  margin-top: -2em;
+  margin-right: 0.5em;
 }
 
-
-
-
-/* Ik zag bij Feyza dat zij een afbeelding als cursor had, zij heeft me uitgelegd hoe ik dit ook kon doen. */
-
-a,
-button,
-img {
-  cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, pointer;
-}
-
-a, button, select, .pinterest-preview img, summary {
-    cursor: url('../../kleineafbeeldingen/toverstafhover.png'), default;
-}
-
-
+/* Navigatie op grotere schermen */
 
 @media (min-width: 35em) {
   nav {
@@ -204,12 +202,10 @@ a, button, select, .pinterest-preview img, summary {
   }
 }
 
+/* Selfie links en verhaal rechts op een breed scherm */
+
 @media (min-width: 50em) {
-  main section {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  main {
+    grid-template-columns: 1fr 1fr;
   }
-
-
-
-  
 }
