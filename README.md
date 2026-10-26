@@ -68,10 +68,12 @@ Vandaag hebben we aan de hand van schetsen een begin gemaakt aan html.
 <img width="4032" height="3024" alt="Image" src="https://github.com/user-attachments/assets/1ea5099a-8ca8-4cd7-8241-9bc6f6cc5dee" />
 <img width="3024" height="4032" alt="Image" src="https://github.com/user-attachments/assets/59365a3a-e1b8-4fcb-9c69-acb716b56f2f" />
 <img width="3024" height="4032" alt="Image" src="https://github.com/user-attachments/assets/40fe6f44-ef31-449f-a593-a3057847e672" />
-
+<img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/1f82864f-7ab2-423d-b644-eeb8a951c962" />
 ### Maandag 14 sept
 Vandaag was de bi-weekly geek 1.
 <img width="2838" height="2002" alt="Image" src="https://github.com/user-attachments/assets/31b5cc58-a667-4420-8f99-a501bf9fac0e" />
+We hebben onderzoeksvragen bedacht in groepen van 4. Daarna hebben we ons blad met vragen doorgegeven en onderzoekmethodes gekoppeld aan de vragen van een ander groepje.
+
 Check out met Ella:
 Wanneer is een website lelijk?
 Ik vind een website lelijk als content niet op schaal is. Als het te groot of te klein is.
@@ -83,7 +85,8 @@ Ik kan de bouw van mijn digital garden misschien wel uitleggen in 'Webby vocabul
 
 ### Week tot 18 sept
 Ik heb veel gewerkt in illustrator en photoshop aangezien we alleen eigen content mogen gebruiken. Daarna heb ik deze ook aangepast om extra afbeeldingen te krijgen voor dark mode. Ik heb ook een hover toegevoegd bij de nav en ik heb een klikbare afbeelding naar mijn pinterest board gezet op mijn website.
-
+<img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/07ffb199-4fbd-40e7-8f2a-4f89b7931034" />
+<img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/930e28b0-9706-4e5e-b2fe-88eb36197871" />
 
 ### Check-out vrijdag 18 sept
 Vragen en termen
