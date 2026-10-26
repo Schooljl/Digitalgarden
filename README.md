@@ -21,7 +21,8 @@ Ik heb 2 workshops gevolgd deze dag. Een over schetsen van Charley. We hebben ge
 Bij Diederik heb ik een workshop gevolgd over typografie. De workshop begon met de geschiedenis van typografie en daarna hebben we aan de hand van twee foto's van dolly Parton, lettertypes gezocht die bij haar passen. Dit deden we door woorden op te schrijven die passen bij de foto's en daarna woorden op te schrijven die passen bij die woorden.
 <img width="1843" height="1378" alt="Image" src="https://github.com/user-attachments/assets/c130b8ae-d5de-450d-9964-39e9aea87908" />
 <img width="2750" height="1365" alt="Image" src="https://github.com/user-attachments/assets/53e7f652-64d0-4762-8428-c9691577e671" />
-
+<img width="2062" height="2434" alt="Image" src="https://github.com/user-attachments/assets/f32190a0-f7de-4bef-9706-ebfe0faf8d53" />
+We moesten een website opzoeken en deze natekenen. Dit is Zalando
 ### Sprint 1 maandag 7 september
 We hebben in groepjes artikelen gelezen en daarna klassikaal besproken.
 Ik heb 'A Brief History & Ethos of the Digital Garden' gelezen en daarna een korte samenvatting gemaakt zonder weer in het artikel te kijken tijdens het maken van de samenvatting.
@@ -82,15 +83,15 @@ De volgende stappen om mijn website responsive te maken zijn de afbeeldingen op 
 
 Ik kan de bouw van mijn digital garden misschien wel uitleggen in 'Webby vocabulaire.'
 
-
+Ik heb thuis ook afbeeldingen ontworpen in illustrator: <img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/a4e31698-eb4c-4eee-8729-8c7a37898142" />
 ### Week tot 18 sept
 Ik heb veel gewerkt in illustrator en photoshop aangezien we alleen eigen content mogen gebruiken. Daarna heb ik deze ook aangepast om extra afbeeldingen te krijgen voor dark mode. Ik heb ook een hover toegevoegd bij de nav en ik heb een klikbare afbeelding naar mijn pinterest board gezet op mijn website.
 <img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/07ffb199-4fbd-40e7-8f2a-4f89b7931034" />
 <img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/930e28b0-9706-4e5e-b2fe-88eb36197871" />
 
 ### Check-out vrijdag 18 sept
+Ik heb met mn groep bepaald waar een goede tekening aan moet voldoen. Hieronder: <img width="2224" height="1536" alt="Image" src="https://github.com/user-attachments/assets/80f578db-0946-4d1d-99be-376902498931" />
 Vragen en termen
-
 -Waarom geven de docenten deze opdracht?
 De docenten geven deze opdracht zodat we als ontwerpers weten wat er mogelijk is qua code. Het is ook handig als we met andere ontwerpers willen samenwerken.
 -Welke technieken gebruik ik?
