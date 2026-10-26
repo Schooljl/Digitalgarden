@@ -245,3 +245,9 @@ Ik heb ook een aparte afbeelding van de toverstaf cursor gemaakt voor als hover.
 
 ### Zondag 25 okt:
 Ik heb mijn Learning Log aangevuld en getest of alles lukt met tab en screenreader.
+
+### Maandag 26 okt:
+Vandaag is de expo. Ik schrijf dit nu maandagmiddag. De expo ging goed, we hebben van iedereen de website bekeken en stickers geplakt op de werkbladen van de personen die we erg goed vonden.
+<img width="3127" height="2270" alt="Image" src="https://github.com/user-attachments/assets/a153d803-3acb-441f-84dd-1444c34273a9" />
+<img width="2327" height="3311" alt="Image" src="https://github.com/user-attachments/assets/488a71bc-e596-437c-9667-e00906aab8b9" />
+<img width="2654" height="3671" alt="Image" src="https://github.com/user-attachments/assets/da5e6332-d1ca-43bb-b99f-65c26104d39d" />
