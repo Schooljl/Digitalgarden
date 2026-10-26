@@ -113,11 +113,13 @@ Vandaag hebben we gekeken naar bestaande cookie pop ups van website's. Bijvoorbe
 Na het bekijken van de websites hebben we een formulier ingevuld. en we hebben uitleg gekregen over de html structuur.
 <img width="842" height="595" alt="Image" src="https://github.com/user-attachments/assets/b9e6e1b5-3350-421f-9451-bf68b5d18834" />
 ### Woensdag 23 sept
-Ziek thuis gewerkt.
+Ziek thuis dus achterstand opgelopen
 ### Vrijdag 25 sept
-ziek thuis gewerkt
+ziek thuis dus achterstand opgelopen
 
 ### Maandag 28 sept:
+Vandaag was Bi-weekly geek 2
+<img width="2863" height="2147" alt="Image" src="https://github.com/user-attachments/assets/a14eb88a-623b-485a-a3f3-690cd13e2744" />
 -Wat bedoelt Vasilis met de uitspraak: Semantiek doet mij niet zo veel, ik ben liever bezig met de UX van HTML?
 Hiermee bedoelt Vasilis dat hij minder waarde hecht aan de betekenis/structuur van HTML-elementen en vooral kijkt naar hoe HTML zich gedraagt en hoe prettig het voor de gebruiker werkt.
 
