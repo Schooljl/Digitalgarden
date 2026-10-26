@@ -193,6 +193,14 @@ document.addEventListener("keydown", (event) => {
       eerste.focus();
     }
   }
+
+  function openCookiePopup() {
+  popupScreen.classList.add("active");
+
+  requestAnimationFrame(() => {
+    privacyPopup.focus();
+  });
+}
 });
 /* deze youtube video legt uit hoe je light dark mode doet met een afbeelding die meeverandert met javascript https://www.youtube.com/watch?v=_gKEUYarehE */
 /*MDN Web Docs. Document: querySelector(). https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
