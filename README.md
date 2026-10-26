@@ -12,9 +12,7 @@ Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github o
 2. Ik heb gekozen voor de domeinnaam Createmyidea.nl en ik heb dat gekoppeld door op Transit.nl mijn GitHub account te koppelen door het in te vullen bij 'waarde', daarna heb ik mijn domeinnaam ingevuld op GitHub.
 
 3. Moet ik nog uitzoeken want ik heb nog geen aanpassingen aan mijn pagina gemaakt.
-### [...]
-
-[...]
+<img width="2185" height="2555" alt="Image" src="https://github.com/user-attachments/assets/02bacd1e-c84f-4973-9ce0-cad440d88270" />
 
 ### 3 sept - [Workshop] 
 Ik heb 2 workshops gevolgd deze dag. Een over schetsen van Charley. We hebben geoefend met het maken van rechte lijnen en vierkanten.
@@ -89,8 +87,13 @@ Ik heb veel gewerkt in illustrator en photoshop aangezien we alleen eigen conten
 <img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/07ffb199-4fbd-40e7-8f2a-4f89b7931034" />
 <img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/930e28b0-9706-4e5e-b2fe-88eb36197871" />
 
-### Check-out vrijdag 18 sept
+### Vrijdag 18 sept
+Vandaag hebben we voortgangsgesprekken gevoerd en hebben we de retrospect gedaan.
 Ik heb met mn groep bepaald waar een goede tekening aan moet voldoen. Hieronder: <img width="2224" height="1536" alt="Image" src="https://github.com/user-attachments/assets/80f578db-0946-4d1d-99be-376902498931" />
+<!-- Uploading "tempImageEqPMRy.gif"... -->
+<!-- Uploading "tempImagepRyGoq.gif"... -->
+<!-- Uploading "tempImageORIQEJ.gif"... -->
+## Checkout:
 Vragen en termen
 -Waarom geven de docenten deze opdracht?
 De docenten geven deze opdracht zodat we als ontwerpers weten wat er mogelijk is qua code. Het is ook handig als we met andere ontwerpers willen samenwerken.
@@ -108,7 +111,7 @@ Niemand weet wat er allemaal kan met CSS, er kan zoveel, steeds meer, en nog nie
 Vandaag hebben we gekeken naar bestaande cookie pop ups van website's. Bijvoorbeeld van de volkskrant. 
 ![alt text](image.png)
 Na het bekijken van de websites hebben we een formulier ingevuld. en we hebben uitleg gekregen over de html structuur.
-
+<img width="842" height="595" alt="Image" src="https://github.com/user-attachments/assets/b9e6e1b5-3350-421f-9451-bf68b5d18834" />
 ### Woensdag 23 sept
 Ziek thuis gewerkt.
 ### Vrijdag 25 sept
