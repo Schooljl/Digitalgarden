@@ -151,6 +151,13 @@ We hebben schetsen gemaakt voor onze songteksten.
 Zijn begonnen aan eerste versie html
 een lied gekozen.
 
+Ik heb gekozen voor Freezing omdat het temp van het lied me aansprak en ik vond dat deze het best bij mijn gebiste paste.
+<img width="3024" height="4032" alt="Image" src="https://github.com/user-attachments/assets/90f7984c-e610-4e82-8ef9-cf4ad7ce2153" />
+<img width="3024" height="4032" alt="Image" src="https://github.com/user-attachments/assets/de458130-3743-4f73-8938-71d784726939" />
+<img width="3024" height="4032" alt="Image" src="https://github.com/user-attachments/assets/d3f3bba7-48eb-499f-a56f-cd8e515bd285" />
+<img width="4032" height="3024" alt="Image" src="https://github.com/user-attachments/assets/32bc9c5a-b345-4bef-b037-1cf1aee4b2cc" />
+<img width="4032" height="3024" alt="Image" src="https://github.com/user-attachments/assets/a00ecffa-3607-4890-bc4d-a7cfe6daa765" />
+
 
 
 ### Woensdag 7 okt:
@@ -172,7 +179,11 @@ Dat kan je zelf bepalen. Het hangt er ook vanaf wat het doel van je ontwerp is. 
 ### Vrijdag 9 okt:
  Vandaag hebben we onze website's klasikaal gepresenteerd. Het plan was om dit in duo's te doen, maar er waren maar 7 mensen aanwegzig, dus we hebben het klasikaal gedaan en feedback gekregen.
  Daarna heeft een student mij goed geholpen met het positioneren van mijn lyrics.
+<img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/bbbd6ed1-d82d-48dd-b2a5-0cd1bdb8a826" />
 
+<img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/0294fa9b-f98f-47b8-95d7-e759f1db3e15" />
+
+<img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/a2ab495c-dd6f-4216-a382-48c6c2458eb9" />
 
 Mijn feedback:
 
@@ -200,17 +211,20 @@ vakantie
 ### Vrijdag 16 okt:
 vakantie
 ### Maandag 19 okt:
+We hebben gezamenlijk een paar artikelen gelezen over special tension en hoe je tekst kan positioneren.
 Maandag heb ik na school nog een paar uur gewerkt aan mijn website. Ik heb in illustrator afbeeldingen gemaakt die ik heb gebruikt voor de light en dark mode van de cookie's
 
+<img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/a2acd080-5263-488e-beae-73fcd48f7899" />
+<img width="1364" height="1067" alt="Image" src="https://github.com/user-attachments/assets/ec052d2e-9a0f-4908-b608-e6d0438cc60e" />
 
 ### Woensdag 21 okt:
-
 We zijn de les begonnen met klasikaal naar elkaars werk kijken van de songteksten.
 Daarna zijn we begonnen met de Bi-Weekly.
 Dit ging over betrouwbare informatie op het internet.
-
+<img width="2880" height="1992" alt="Image" src="https://github.com/user-attachments/assets/24ece9cc-488c-4b66-aa5f-471854446a3b" />
+We hebben zelf vragen bedacht die antwoord kunnen geven op de hoofdvraag met onderzoekmethodes.
 Ik heb in illustrator de afbeelding voor de cookie knop gemaakt. Dit lijkt net op een prijskaartje van een kledingstuk,
-
+<img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/a7d0960f-d42a-440d-919d-313474df0410" />
 ### Donderdag 22 okt:
 Ik heb de hele dag thuis gewerkt. ik heb de light dark mode knop toegevoegd op de home page. Meer animatie's toegevoegd.
 
