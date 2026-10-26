@@ -19,7 +19,7 @@ Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github o
 ### 3 sept - [Workshop] 
 Ik heb 2 workshops gevolgd deze dag. Een over schetsen van Charley. We hebben geoefend met het maken van rechte lijnen en vierkanten.
 Bij Diederik heb ik een workshop gevolgd over typografie. De workshop begon met de geschiedenis van typografie en daarna hebben we aan de hand van twee foto's van dolly Parton, lettertypes gezocht die bij haar passen. Dit deden we door woorden op te schrijven die passen bij de foto's en daarna woorden op te schrijven die passen bij die woorden.
-<img width="1378" height="1843" alt="Image" src="https://github.com/user-attachments/assets/4f998599-f91d-49f7-addd-f5929e4282c1" style="transform: rotate(90deg);"> />
+<img width="1378" height="1843" alt="Image" src="https://github.com/user-attachments/assets/4f998599-f91d-49f7-addd-f5929e4282c1" />
 
 [...]
 
