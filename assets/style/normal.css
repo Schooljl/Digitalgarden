@@ -1,10 +1,26 @@
+@font-face {
+  font-family: "The Garden of Lights";
+  src: url("../type/The%20Garden%20of%20Lights.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Comic Relief";
+  src: url("../type/ComicRelief-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Kleuren voor light mode */
 
 :root {
   color-scheme: light;
 
   --achtergrondkleur: #f3beed;
   --tekstkleur: #2c1a0b;
-  --navigatietekstkleur: #2c1a0b;
+  --navigatietekstkleur: #633858;
   --navigatieachtergrond: url("../../kleineafbeeldingen/kant3.jpg");
 
   --cookie-achtergrond: url("../../kleineafbeeldingen/cookieachtergrond.svg");
@@ -12,10 +28,13 @@
   --cookie-knopachtergrond: #ffbffe;
   --cookie-knoptekst: #2c1a0b;
   --cookie-knoprand: #d81e79;
-  --achtergrondkleurbeneden: #bacb9a;
 
+  --achtergrondkleurbeneden: #bacb9a;
   --paragraafkleur: inherit;
 }
+
+
+/* Kleuren voor dark mode */
 
 body.dark-mode {
   color-scheme: dark;
@@ -30,107 +49,97 @@ body.dark-mode {
   --cookie-knopachtergrond: cadetblue;
   --cookie-knoptekst: #2c1a0b;
   --cookie-knoprand: purple;
+
   --achtergrondkleurbeneden: #ab6e99;
-
   --paragraafkleur: #f3beed;
-
 }
 
 
-@font-face {
-  font-family: "Comic Relief";
-  src: url("../type/ComicRelief-Regular.woff2");
-  font-weight: 400;
-  font-style: normal;
+* {
+  box-sizing: border-box;
 }
 
 
-h1 {
-  font-family: "Comic Relief", system-ui;
-  font-style: normal;
-  font-weight: 400;
-}
+/* Algemene pagina */
 
 body {
-  font-family: "Comic Relief", system-ui;
-  background-image: linear-gradient(var(--achtergrondkleur) 50%,var(--achtergrondkleurbeneden) 50%);
-  background-color: var(--achtergrondkleur);
-  color: var(--tekstkleur);
-  cursor:
-    url("../../kleineafbeeldingen/toverstaf.png") 4 4,
-    auto;
-
   margin: 0;
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr;
+
+  font-family: "Comic Relief", system-ui;
+  background-image: linear-gradient(
+    var(--achtergrondkleur) 50%,
+    var(--achtergrondkleurbeneden) 50%
+  );
+  background-color: var(--achtergrondkleur);
+  color: var(--tekstkleur);
+
+  cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, auto;
 }
+
+
+h1 {
+  font-family: "The Garden of Lights", serif;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 1.5em;
+}
+
+
+p {
+  color: var(--paragraafkleur);
+}
+
+
+/* Kroonluchter: light/dark mode */
 
 #light-darkknop {
   position: fixed;
-  top: -15em;
-  right: 5em;
+  right: 5%;
   z-index: 9;
+
   padding: 0;
+  top: -2em;
   border: none;
   background: transparent;
   box-shadow: none;
   transform: none;
+
+  animation-name: beweeg;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+
+  cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, pointer;
 }
+
 
 #kroonluchter {
   display: block;
-  width: 14em;
+  width: clamp(6em, 18vw, 14em);
   height: auto;
+
   filter: drop-shadow(0 -1em 0.8em rgb(255, 255, 198));
   transition: 0.3s ease, filter 0.3s ease;
 }
 
-/* De kroonluchter zakt een beetje bij hover */
+
+/* De kroonluchter zakt bij hover */
+
 #light-darkknop:hover #kroonluchter {
   transform: translateY(2em);
 }
 
+
 /* Geen witte gloed in dark mode */
+
 body.dark-mode #kroonluchter {
   filter: none;
 }
-body > picture {
-  display: grid;
-  min-height: 0;
-}
 
-body > picture img {
-  display: block;
-  width: 100%;
-  min-width: 0;
-  object-fit: cover;
-  object-position: center top;
-}
 
-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.3em;
-  padding: 1em;
-  background-image: var(--navigatieachtergrond);
-  background-repeat: repeat-x;
-  background-size: auto 3em;
-}
-
-nav a {
-  color: var(--navigatietekstkleur);
-  text-decoration: underline;
-  font-family: "p22-folk-art-cross", sans-serif;
-  font-size: 1.2em;
-  display: inline-block;
-  transition: transform 0.3s ease;
-}
-
-nav a:hover {
-  transform: scale(1.2);
-}
+/* Logo */
 
 header {
   text-align: center;
@@ -142,15 +151,75 @@ header img {
   height: auto;
 }
 
-/* https://dlo.mijnhva.nl/d2l/le/lessons/759389/lessons/3004970
-responsive */
+
+/* Navigatie */
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.3em;
+  padding: 1em;
+
+  background-image: var(--navigatieachtergrond);
+  background-repeat: repeat-x;
+  background-size: auto 3em;
+}
+
+
+nav a {
+  color: var(--navigatietekstkleur);
+  text-decoration: underline;
+  font-family: "The Garden of Lights", sans-serif;
+  font-size: 1.2em;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+
+nav a:hover {
+  transform: scale(1.2);
+}
+
+
+body.dark-mode nav {
+  background-image: var(--navigatieachtergrond);
+}
+
+
+body.dark-mode nav a {
+  color: var(--navigatietekstkleur);
+}
+
+
+/* Achtergrondafbeelding */
+
+body > picture {
+  display: grid;
+  min-height: 0;
+}
+
+
+body > picture img {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  height: auto;
+  object-fit: cover;
+  object-position: center top;
+}
+
+
+/* Responsive navigatie */
 
 @media (min-width: 35em) {
   nav {
     flex-direction: row;
     justify-content: center;
   }
+
 }
+
 
 @media (min-width: 50em) {
   main section {
@@ -158,21 +227,57 @@ responsive */
   }
 }
 
-/* Cookie pop-up */
-/* https://dlo.mijnhva.nl/d2l/le/lessons/759389/folders/3091863 */
+
+
+
+/* Cookie-pop-up */
+
+.popup-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 9;
+
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+
+  font-family: "The Garden of Lights", serif;
+}
+
+
+.popup-screen.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* Donkere laag achter de pop-up */
+
+.donkerelaag-cookie {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.3em);
+}
+
+
+/* Pop-up zelf */
 
 .privacy-popup {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 10;
-  text-align: center;
+  z-index: 1;
 
-  width: 60%;
-  max-width: 35em;
-  min-height: 25em;
-  padding: 3em;
+  width: min(90%, 30em);
+  max-height: 90vh;
+  overflow-y: auto;
+
+  padding: clamp(1.2em, 4vw, 3em);
+  text-align: center;
 
   background-image: var(--cookie-achtergrond);
   background-size: 100% 100%;
@@ -182,83 +287,82 @@ responsive */
   filter: drop-shadow(1em 1em lightblue);
 
   color: var(--cookie-tekstkleur);
-  box-sizing: border-box;
+  font-family: "The Garden of Lights", serif;
 }
 
+
+/* Titel in de pop-up */
+
+.privacy-popup h1 {
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  overflow-wrap: break-word;
+}
+
+
+/* Tekst in de pop-up */
+
+.privacy-popup p {
+  font-size: clamp(0.85rem, 2.5vw, 1rem);
+  line-height: 1.5;
+  overflow-wrap: break-word;
+}
+
+
+/* Knop in de pop-up */
+
 .privacy-popup button {
+  max-width: 100%;
   padding: 0.5em 1em;
+
   background-color: var(--cookie-knopachtergrond);
   color: var(--cookie-knoptekst);
   border: 0.15em solid var(--cookie-knoprand);
-  font: inherit;
-  font-size: large;
+
+  font-family: "The Garden of Lights", serif;
+  font-size: clamp(0.9rem, 2.5vw, 1.1rem);
 }
 
-/* Zorgt voor een donkere laag achter de cookie pop-up zolang deze zichtbaar is.
-Gevonden via:
-https://www.youtube.com/watch?v=MbSlUw3Dtk0
-https://www.w3schools.com/cssref/css3_pr_backdrop-filter.php */
 
-.popup-screen {
-  position: fixed;
-  inset: 0;
-  z-index: 9;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.popup-screen.active {
-  visibility: visible;
-  opacity: 1;
-}
-
-.donkerelaag-cookie {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  background-color: rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(0.3em);
-}
-
-.privacy-popup {
-  z-index: 1;
-}
+/* Pop-up opnieuw openen */
 
 #cookies-opnieuw {
   position: fixed;
   bottom: 3em;
   left: -7.5em;
   z-index: 8;
+
   margin: 0;
   padding: 0;
   border: none;
   background: none;
-  cursor: pointer;
+
+  cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, pointer;
 }
+
 
 #cookies-opnieuw img {
   display: block;
-  width: 23em;
+  width: min(23em, 70vw);
   height: auto;
   margin: 0;
+
   transition: transform 0.3s ease;
   filter: drop-shadow(0.3em 0.3em rgba(0, 0, 0, 0.2));
 }
 
+
 #cookies-opnieuw:hover img {
-  transform: scale(1.1);
   filter: drop-shadow(0 0 2em white);
-  box-shadow: none;
   transform: translateX(3em);
 }
 
+
 #cookies-opnieuw:hover {
   box-shadow: none;
-
 }
 
 
+/* Cursor */
 
 a,
 button,
@@ -266,10 +370,17 @@ img {
   cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, pointer;
 }
 
-a, button, select, .pinterest-preview img, summary {
-    cursor: url('../../kleineafbeeldingen/toverstafhover.png'), default;
+
+a,
+button,
+select,
+.pinterest-preview img,
+summary {
+  cursor: url("../../kleineafbeeldingen/toverstafhover.png"), default;
 }
 
+
+/* Knoppen en hover-effecten */
 
 button {
   transition:
@@ -278,82 +389,42 @@ button {
     background-color 0.3s ease;
 }
 
+
 button:hover {
   box-shadow:
     0 0 0.5rem #ffb6e6,
     0 0 1.2rem #ff69c9,
     0 0 2rem #e754c8;
+
   transform: scale(1.05);
 }
+
 
 button:active {
   transform: scale(0.97);
 }
 
 
-p {
-  color: var(--paragraafkleur);
+/* Toetsenbordfocus */
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--tekstkleur);
+  outline-offset: 5px;
 }
 
 
-
-body.dark-mode nav {
-  background-image: var(--navigatieachtergrond);
-}
-
-body.dark-mode nav a {
-  color: var(--navigatietekstkleur);
-}
-
-
-body.dark-mode .privacy-popup {
-  background-image: var(--cookie-achtergrond);
-  color: var(--cookie-tekstkleur);
-}
-
-body.dark-mode .privacy-popup button {
-  background-color: var(--cookie-knopachtergrond);
-  color: var(--cookie-knoptekst);
-  border-color: var(--cookie-knoprand);
-}
-
-
-body.dark-mode #kroonluchter {
-  filter: none;
-}
-
-#light-darkknop {
-/* Kopppel de animatie genaamd 'beweeg' aan de knop */
-  animation-name: beweeg;
-  
-  /* Zorg dat de animatie precies 2 seconden duurt */
-  animation-duration: 2s;
-  
-  /* Zorg dat de animatie maar 1 keer afspeelt bij het laden */
-  animation-iteration-count: 1;
-   
-  transition: cubic-bezier(0,-1.02,1,1.97);
-}
-
-/*#achtergrond {
-  @media (width < 30em) {
-  bottom: 0;
-  top: auto;
-  position: fixed;
-}
-} */
+/* Animatie kroonluchter */
 
 @keyframes beweeg {
   0% {
     transform: rotate(0deg);
-    
   }
 
   25% {
     transform: rotate(5deg);
   }
 
- 
   75% {
     transform: rotate(-5deg);
   }
@@ -362,3 +433,5 @@ body.dark-mode #kroonluchter {
     transform: rotate(0deg);
   }
 }
+
+

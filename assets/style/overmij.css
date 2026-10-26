@@ -13,26 +13,18 @@
 }
 
 @font-face {
-  font-family: "Beadwork";
-  src: url("../type/Beadwork.ttf") format("truetype");
+  font-family: "Roffelia";
+  src: url("../type/Roffelia.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Bead Necklace";
-  src: url("../type/Bead\ Necklace.ttf") format("truetype");
+  font-family: "The Garden of lights";
+  src: url("../type/The\ Garden\ of\ Lights.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
-
-@font-face {
-  font-family: "Clasicalderibbon";
-  src: url("../type/Clasicalderibbon.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-
 
 
 
@@ -43,7 +35,7 @@
 
   --achtergrondkleur: #f3beed;
   --tekstkleur: canvastext;
-  --navigatiekleur: #2c1a0b;
+  --navigatiekleur: #633858;
   --h1-kleur: #633858;
   --paragraafkleur: canvastext;
 }
@@ -69,7 +61,7 @@ body.dark-mode {
 
 body {
   margin: 0;
-  font-family: "Comic Relief", sans-serif;
+  font-family: "The Garden of Lights", sans-serif;
   background: var(--achtergrondkleur);
   color: var(--tekstkleur);
   cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, auto;
@@ -118,7 +110,7 @@ nav {
 nav a {
   color: var(--navigatiekleur);
   text-decoration: underline;
-  font-family: "Clasicalderibbon", sans-serif;
+  font-family: "The Garden of lights", sans-serif;
   font-size: 1.2em;
   display: inline-block;
   transition: transform 0.3s ease;
@@ -173,9 +165,9 @@ figure.verhaal > p {
   z-index: 1;
   width: 100%;
   margin: 0;
-  padding: 16% 9% 12% 19%;
+  padding: 10% 9% 12% 19%;
   color: var(--paragraafkleur);
-  font-family: "farnham-display", serif;
+  font-family: "The Garden of Lights", serif;
   font-weight: 400;
   font-style: normal;
   font-size: clamp(0.75rem, 1vw, 1rem);

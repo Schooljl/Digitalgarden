@@ -12,12 +12,19 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "The Garden of lights";
+  src: url("../type/The\ Garden\ of\ Lights.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 :root {
   color-scheme: light;
 
   --achtergrondkleur: #f3beed;
   --tekstkleur: canvastext;
-  --navigatie-tekstkleur: #2c1a0b;
+  --navigatie-tekstkleur: #633858;
   --overlaykleur: rgba(0, 0, 0, 0.6);
   --overlay-tekstkleur: white;
   --h1-kleur: #633858;
@@ -81,7 +88,7 @@ nav {
 nav a {
   color: var(--navigatie-tekstkleur);
   text-decoration: underline;
-  font-family: "p22-folk-art-cross", sans-serif;
+  font-family: "The Garden of Lights", sans-serif;
   font-size: 1.2em;
   display: inline-block;
   transition: transform 0.3s ease;
@@ -175,6 +182,7 @@ a, button, select, .pinterest-preview img, summary {
 .overlay-tekst p {
   margin: 0;
   max-width: 70%;
+  font-family: "The Garden of Lights", sans-serif;
 }
 
 .afbeelding-overlay span {
@@ -182,6 +190,7 @@ a, button, select, .pinterest-preview img, summary {
   display: block;
   font-weight: bold;
   margin-bottom: 0.7em;
+  font-family: "The Garden of Lights", serif;
 }
 
 

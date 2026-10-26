@@ -12,13 +12,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "The Garden of lights";
+  src: url("../type/The\ Garden\ of\ Lights.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 :root {
   color-scheme: light;
 
   --achtergrondkleur: #f3beed;
   --tekstkleur: #2c1a0b;
-  --navigatie-tekstkleur: #2c1a0b;
+  --navigatie-tekstkleur: #633858;
   --tekstvak: #fff4fc;
   --rand: #8b527e;
   --schaduw: lightblue;
@@ -92,7 +99,7 @@ nav {
 nav a {
   display: inline-block;
   color: var(--navigatie-tekstkleur);
-  font-family: "p22-folk-art-cross", sans-serif;
+  font-family: "The Garden of lights", sans-serif;
   font-size: 1.2em;
   text-decoration: underline;
   transition: transform 0.3s ease;
@@ -133,11 +140,11 @@ body.dark-mode nav {
 .inspiratie-tekst h2 {
   margin-top: 0;
   text-align: center;
-  font-family: "farnham-display", sans-serif;
+  font-family: "The Garden of Lights", sans-serif;
 }
 
 .inspiratie-tekst p {
-  font-family: "farnham-display", serif;
+  font-family: "The Garden of lights", serif;
   font-weight: 400;
   font-style: normal;
   line-height: 1.7;
