@@ -53,10 +53,25 @@ Een digital garden is een persoonlijke plek waar je alles zo persoonlijk en gek 
 Wij hadden online les.
 
 We hebben kort in duo's gepresenteerd
+Ik heb van Esmee en Eva gehoord waar ze het over willen hebben.
 Daarna hebben we inspo gezocht voor lettertypes. Ik heb posterss verzameld die er wel interessant uitzagen en ik heb geschetst.
+
+We begonnen met sfeerwoorden bedenken. Ik had: "Ik voel me creatief, fantasierijk, magisch."
+Daarna hebben we afbeeldingen verzameld die passen bij deze sfeerwoorden. We hebben dus visueel beeld gezocht. Daarna hebben we nog een abstracte visuele vertaling gemaakt. Daarvoor hebben we gekeken naar fonts op posters. ALs laatste hebben we nog opgeschreven waarom deze posters passen bij de sfeer.
+Link naar miro: https://miro.com/app/board/uXjVHq1zApo=/?share_link_id=829585340391
 <img width="467" height="678" alt="Image" src="https://github.com/user-attachments/assets/5eda9872-6713-434a-977a-4ad19009737c" />
+## Check out: Mijn garden gaat over mijn creaties, en ik wil het een prinsessenachtige of sprookjesachtige sfeer geven.
+
+### Vrijdag 11 sept
+Vandaag hebben we aan de hand van schetsen een begin gemaakt aan html.
+<img width="3024" height="4032" alt="Image" src="https://github.com/user-attachments/assets/18eeef5b-5957-4747-987b-73eddfe22dae" />
+<img width="4032" height="3024" alt="Image" src="https://github.com/user-attachments/assets/1ea5099a-8ca8-4cd7-8241-9bc6f6cc5dee" />
+<img width="3024" height="4032" alt="Image" src="https://github.com/user-attachments/assets/59365a3a-e1b8-4fcb-9c69-acb716b56f2f" />
+<img width="3024" height="4032" alt="Image" src="https://github.com/user-attachments/assets/40fe6f44-ef31-449f-a593-a3057847e672" />
 
 ### Maandag 14 sept
+Vandaag was de bi-weekly geek 1.
+<img width="2838" height="2002" alt="Image" src="https://github.com/user-attachments/assets/31b5cc58-a667-4420-8f99-a501bf9fac0e" />
 Check out met Ella:
 Wanneer is een website lelijk?
 Ik vind een website lelijk als content niet op schaal is. Als het te groot of te klein is.
