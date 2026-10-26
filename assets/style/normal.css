@@ -69,11 +69,9 @@ body {
   grid-template-rows: auto 1fr;
 
   font-family: "Comic Relief", system-ui;
-  background-image: linear-gradient(
-    var(--achtergrondkleur) 50%,
-    var(--achtergrondkleurbeneden) 50%
-  );
-  background-color: var(--achtergrondkleur);
+ 
+  
+  background-color: var(--achtergrondkleurbeneden);
   color: var(--tekstkleur);
 
   cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, auto;
@@ -143,6 +141,7 @@ body.dark-mode #kroonluchter {
 
 header {
   text-align: center;
+  background-color: var(--achtergrondkleur);
 }
 
 header img {
@@ -154,20 +153,53 @@ header img {
 
 /* Navigatie */
 
-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.3em;
-  padding: 1em;
 
+
+
+/* Dark mode */
+body.dark-mode .mobiel-menu {
+  background-image: url("../../kleineafbeeldingen/kantdark.jpg");
+}
+
+
+/* Navigatie */
+
+/* Mobiel menu */
+.mobiel-menu {
+  display: block;
+  padding: 1em;
   background-image: var(--navigatieachtergrond);
   background-repeat: repeat-x;
   background-size: auto 3em;
 }
 
+.mobiel-menu summary {
+  color: var(--navigatietekstkleur);
+  font-family: "The Garden of Lights", sans-serif;
+  font-size: 1.4em;
+  cursor: pointer;
+}
 
-nav a {
+
+
+/* Links in het mobiele menu */
+.mobiel-menu nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.3em;
+  padding: 1em;
+  background: none;
+}
+
+/* Desktopmenu standaard verbergen */
+.desktop-nav {
+  display: none;
+}
+
+/* Links */
+.mobiel-menu nav a,
+.desktop-nav a {
   color: var(--navigatietekstkleur);
   text-decoration: underline;
   font-family: "The Garden of Lights", sans-serif;
@@ -176,21 +208,36 @@ nav a {
   transition: transform 0.3s ease;
 }
 
-
-nav a:hover {
+.mobiel-menu nav a:hover,
+.desktop-nav a:hover {
   transform: scale(1.2);
 }
 
-
-body.dark-mode nav {
+/* Donkere modus */
+body.dark-mode .mobiel-menu,
+body.dark-mode .desktop-nav {
   background-image: var(--navigatieachtergrond);
 }
 
+/* Brede schermen */
+@media (min-width: 45rem) {
+  .mobiel-menu {
+    display: none;
+  }
 
-body.dark-mode nav a {
-  color: var(--navigatietekstkleur);
+  .desktop-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.3em;
+    padding: 1em;
+    background-image: var(--navigatieachtergrond);
+    background-repeat: repeat-x;
+    background-size: auto 3em;
+  }
 }
-
 
 /* Achtergrondafbeelding */
 
@@ -432,6 +479,22 @@ button:focus-visible {
   100% {
     transform: rotate(0deg);
   }
+}
+
+/* Navigatie voor brede schermen */
+@media (min-width: 45rem) {
+  .mobiel-menu {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  
 }
 
 

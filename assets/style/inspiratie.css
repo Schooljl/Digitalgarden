@@ -14,11 +14,10 @@
 
 @font-face {
   font-family: "The Garden of lights";
-  src: url("../type/The\ Garden\ of\ Lights.ttf") format("truetype");
+  src: url("../type/The Garden of Lights.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
-
 
 :root {
   color-scheme: light;
@@ -33,7 +32,6 @@
   --figcaption-kleur: #2c1a0b;
 }
 
-
 body.dark-mode {
   color-scheme: dark;
 
@@ -47,9 +45,6 @@ body.dark-mode {
   --figcaption-kleur: #f3beed;
 }
 
-
-
-
 body {
   display: grid;
   margin: 0;
@@ -58,9 +53,6 @@ body {
   font-family: "Comic Relief", system-ui, sans-serif;
   cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, auto;
 }
-
-
-
 
 header {
   text-align: center;
@@ -76,27 +68,39 @@ h1 {
   color: var(--h1-kleur);
   font-family: "Romantic", serif;
   font-weight: 400;
-  font-style: normal;
   font-size: 2.5em;
   animation: verschijnen 1s ease-out;
 }
 
-
-
-
-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.3em;
+/* Mobiele navigatie */
+.mobiel-menu {
   padding: 1em;
-
+  color: var(--navigatie-tekstkleur);
   background-image: url("../../kleineafbeeldingen/kant3.jpg");
   background-repeat: repeat-x;
   background-size: auto 3em;
 }
 
-nav a {
+.mobiel-menu summary {
+  cursor: url("../../kleineafbeeldingen/toverstafhover.png"), pointer;
+  text-align: center;
+  padding: 0.5em;
+  font-family: "The Garden of lights", sans-serif;
+  font-size: 1.2em;
+  text-decoration: underline;
+  list-style-position: inside;
+}
+
+.mobiel-menu nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.3em;
+  padding: 1em;
+}
+
+.mobiel-menu a,
+.desktop-nav a {
   display: inline-block;
   color: var(--navigatie-tekstkleur);
   font-family: "The Garden of lights", sans-serif;
@@ -105,19 +109,22 @@ nav a {
   transition: transform 0.3s ease;
 }
 
-nav a:hover {
+.mobiel-menu a:hover,
+.desktop-nav a:hover {
   transform: scale(1.2);
 }
 
-
-body.dark-mode nav {
+body.dark-mode .mobiel-menu,
+body.dark-mode .desktop-nav {
   background-image: url("../../kleineafbeeldingen/kantdark.jpg");
 }
 
+/* Desktopnavigatie is op mobiel verborgen */
+.desktop-nav {
+  display: none;
+}
 
-
-
-
+/* Inhoud van de inspiratiepagina */
 .inspiratie-inhoud {
   display: grid;
   grid-template-columns: 1fr;
@@ -127,30 +134,24 @@ body.dark-mode nav {
   margin: 2rem auto;
 }
 
-
-
-
 .inspiratie-tekst {
   padding: 1.5rem;
   background-color: var(--tekstvak);
-  color: var(--tekst);
+  color: var(--tekstkleur);
   border: 0.15rem solid var(--rand);
 }
 
 .inspiratie-tekst h2 {
   margin-top: 0;
   text-align: center;
-  font-family: "The Garden of Lights", sans-serif;
+  font-family: "The Garden of lights", sans-serif;
 }
 
 .inspiratie-tekst p {
   font-family: "The Garden of lights", serif;
   font-weight: 400;
-  font-style: normal;
   line-height: 1.7;
 }
-
-
 
 .pinterest-preview {
   align-self: center;
@@ -174,19 +175,13 @@ body.dark-mode nav {
   transform: scale(1.03);
 }
 
-
-
-
 figcaption {
   margin-top: 0.8rem;
   font-size: 0.9rem;
   color: var(--figcaption-kleur);
-  font-family: "farnham-display", serif;
+  font-family: serif;
   font-weight: 400;
-  font-style: normal;
 }
-
-
 
 @keyframes verschijnen {
   from {
@@ -200,21 +195,36 @@ figcaption {
   }
 }
 
-
 a,
 button,
 img {
   cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, pointer;
 }
 
-a, button, select, .pinterest-preview img, summary {
-    cursor: url('../../kleineafbeeldingen/toverstafhover.png'), default;
+a,
+button,
+select,
+.pinterest-preview img,
+summary {
+  cursor: url("../../kleineafbeeldingen/toverstafhover.png"), pointer;
 }
 
+/* Navigatie en pagina-inhoud op grotere schermen */
 @media (min-width: 45rem) {
-  nav {
+  .mobiel-menu {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    gap: 1.3em;
+    padding: 1em;
+    background-image: url("../../kleineafbeeldingen/kant3.jpg");
+    background-repeat: repeat-x;
+    background-size: auto 3em;
   }
 
   .inspiratie-inhoud {

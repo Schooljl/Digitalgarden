@@ -96,35 +96,84 @@ header #logo {
 
 /* code voor de naviagtie. Ik heb transform toegevoegd zodat er iets meer animatie in de website zit*/
 
-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.3em;
+/* Navigatie */
+
+/* Hamburger-menu op kleine schermen */
+.mobiel-menu {
+  display: block;
   padding: 1em;
   background-image: url("../../kleineafbeeldingen/kant3.jpg");
   background-repeat: repeat-x;
   background-size: auto 3em;
 }
 
-nav a {
+.mobiel-menu summary {
+  color: var(--navigatiekleur);
+  font-family: "The Garden of lights", sans-serif;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+
+.mobiel-menu nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.3em;
+  padding: 1em;
+  background: none;
+}
+
+/* Desktopmenu standaard verborgen */
+.desktop-nav {
+  display: none;
+}
+
+/* Navigatielinks */
+.mobiel-menu nav a,
+.desktop-nav a {
   color: var(--navigatiekleur);
   text-decoration: underline;
   font-family: "The Garden of lights", sans-serif;
   font-size: 1.2em;
   display: inline-block;
   transition: transform 0.3s ease;
-   
 }
 
-nav a:hover {
+.mobiel-menu nav a:hover,
+.desktop-nav a:hover {
   transform: scale(1.2);
 }
 
-body.dark-mode nav {
+/* Donkere modus */
+body.dark-mode .mobiel-menu,
+body.dark-mode .desktop-nav {
   background-image: url("../../kleineafbeeldingen/kantdark.jpg");
 }
 
+/* Desktopmenu op brede schermen */
+@media (min-width: 45rem) {
+  .mobiel-menu {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.3em;
+    padding: 1em;
+    background-image: url("../../kleineafbeeldingen/kant3.jpg");
+    background-repeat: repeat-x;
+    background-size: auto 3em;
+  }
+
+  body.dark-mode .desktop-nav {
+    background-image: url("../../kleineafbeeldingen/kantdark.jpg");
+  }
+}
 
 
 main {
@@ -199,5 +248,17 @@ figure.verhaal > p {
 @media (min-width: 50em) {
   main {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 35em) {
+  figure.verhaal {
+    min-height: 35rem;
+  }
+
+  .verhaal-achtergrond {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
   }
 }
