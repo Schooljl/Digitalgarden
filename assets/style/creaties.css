@@ -245,21 +245,7 @@ a, button, select, .pinterest-preview img, summary {
 }
 
 
-a:focus-visible,
-button:focus-visible,
-.afbeelding-overlay:focus-visible,
-.afbeelding-overlay a:focus-visible,
-.afbeelding-overlay button:focus-visible {
-  outline: 3px solid var(--focuskleur);
-  outline-offset: 5px;
-  border-radius: 3px;
-}
 
-
-
-nav a:focus-visible {
-  transform: scale(1.1);
-}
 
 
 
@@ -283,13 +269,3 @@ button {
 }
 
 
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}

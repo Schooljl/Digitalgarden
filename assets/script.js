@@ -113,27 +113,87 @@ stelModusIn(event.matches);
 });
 
 
-if (
-popupScreen &&
-!sessionStorage.getItem("cookiePopupGezien")
-) {
-window.addEventListener("load", () => {
-popupScreen.classList.add("active");
-});
+let vorigeFocus = null;
+
+function openPopup() {
+  if (!popupScreen || popupScreen.classList.contains("active")) return;
+
+  vorigeFocus = document.activeElement;
+  popupScreen.classList.add("active");
+
+  // Maak de inhoud buiten de popup tijdelijk ontoegankelijk.
+  document.body.inert = false;
+
+  [...document.body.children].forEach((element) => {
+    if (element !== popupScreen) {
+      element.inert = true;
+    }
+  });
+
+  closeBtn?.focus();
 }
 
-if (closeBtn && popupScreen) {
-closeBtn.addEventListener("click", () => {
-popupScreen.classList.remove("active");
-sessionStorage.setItem("cookiePopupGezien", "true");
-});
+function sluitPopup() {
+  if (!popupScreen || !popupScreen.classList.contains("active")) return;
+
+  popupScreen.classList.remove("active");
+
+  [...document.body.children].forEach((element) => {
+    element.inert = false;
+  });
+
+  sessionStorage.setItem("cookiePopupGezien", "true");
+
+  // Herstel de focus naar de vorige plek.
+  if (vorigeFocus instanceof HTMLElement && vorigeFocus.isConnected) {
+    vorigeFocus.focus();
+  } else {
+    cookiesOpnieuw?.focus();
+  }
 }
 
-if (cookiesOpnieuw && popupScreen) {
-cookiesOpnieuw.addEventListener("click", () => {
-popupScreen.classList.add("active");
-});
+if (popupScreen && !sessionStorage.getItem("cookiePopupGezien")) {
+  window.addEventListener("load", openPopup);
 }
+
+closeBtn?.addEventListener("click", sluitPopup);
+
+cookiesOpnieuw?.addEventListener("click", openPopup);
+
+// Laat de gebruiker de popup met Escape sluiten.
+document.addEventListener("keydown", (event) => {
+  if (!popupScreen?.classList.contains("active")) return;
+
+  if (event.key === "Escape") {
+    sluitPopup();
+    return;
+  }
+
+  // Houd de toetsenbordfocus binnen de popup.
+  if (event.key === "Tab") {
+    const focusbareElementen = popupScreen.querySelectorAll(
+      'a[href], button:not([disabled]), input:not([disabled]), ' +
+      'select:not([disabled]), textarea:not([disabled]), ' +
+      '[tabindex]:not([tabindex="-1"])'
+    );
+
+    const eerste = focusbareElementen[0];
+    const laatste = focusbareElementen[focusbareElementen.length - 1];
+
+    if (!eerste || !laatste) {
+      event.preventDefault();
+      return;
+    }
+
+    if (event.shiftKey && document.activeElement === eerste) {
+      event.preventDefault();
+      laatste.focus();
+    } else if (!event.shiftKey && document.activeElement === laatste) {
+      event.preventDefault();
+      eerste.focus();
+    }
+  }
+});
 /* deze youtube video legt uit hoe je light dark mode doet met een afbeelding die meeverandert met javascript https://www.youtube.com/watch?v=_gKEUYarehE */
 /*MDN Web Docs. Document: querySelector(). https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
 MDN Web Docs. Window: localStorage property. https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage

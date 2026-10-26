@@ -67,6 +67,9 @@ body {
   cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, auto;
 }
 
+a, button, select, .pinterest-preview img, summary {
+    cursor: url('../../kleineafbeeldingen/toverstafhover.png'), default;
+}
 
 
 h1 {

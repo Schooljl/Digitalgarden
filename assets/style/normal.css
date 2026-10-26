@@ -452,14 +452,6 @@ button:active {
 }
 
 
-/* Toetsenbordfocus */
-
-a:focus-visible,
-button:focus-visible {
-  outline: 3px solid var(--tekstkleur);
-  outline-offset: 5px;
-}
-
 
 /* Animatie kroonluchter */
 

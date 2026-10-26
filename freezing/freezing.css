@@ -1,13 +1,13 @@
 @font-face {
   font-family: "Seraphs";
-  src: url("SeraphsVF.woff2") format("truetype");
+  src: url("SeraphsVF.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 
 body {
-  font-family: "Seraph";
+  font-family: "Seraphs";
   line-height: 0.8;
   display: grid;
   place-items: center;
@@ -84,6 +84,23 @@ h1 {
   transition-delay: 0s;
 }
 
+.eerstezin span:nth-of-type(2):focus-visible,
+.tweedezin span:nth-of-type(2):focus-visible,
+.derdezin span:nth-of-type(2):focus-visible,
+.vierdezin span:nth-of-type(2):focus-visible {
+  opacity: 1;
+  filter: blur(0);
+  color: #DDF7FF;
+  text-shadow:
+    0 0 4px #FFFFFF,
+    0 0 8px #80E5FF,
+    0 0 16px #00BFFF,
+    0 0 32px #008CFF,
+    0 0 50px #005BFF;
+  transition-delay: 0s;
+  outline: 2px solid #DDF7FF;
+  outline-offset: 4px;
+}
 
 .eerstezin span:nth-of-type(1),
 .tweedezin span:nth-of-type(1),
