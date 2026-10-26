@@ -30,7 +30,7 @@ Een digital garden is een persoonlijke plek waar je alles zo persoonlijk en gek 
 
 
 In groepjes hebben we websites bekeken en beoordeeld hoe 'webby' ze zijn. Wij hebben een formulier met criteria ingevuld. Daarna hebben we als groep de websites besproken en bepaald welke van deze websites het meest en minst webby is. Daar kwam uit:
-
+<img width="4032" height="3024" alt="Image" src="https://github.com/user-attachments/assets/4f976837-47d6-422c-bbf4-8bd612ac5b71" />
 -meest webby: Ericwbailey.website
 -minst webby: Virtualvampirehaven.neocities.org
 
@@ -90,9 +90,9 @@ Ik heb veel gewerkt in illustrator en photoshop aangezien we alleen eigen conten
 ### Vrijdag 18 sept
 Vandaag hebben we voortgangsgesprekken gevoerd en hebben we de retrospect gedaan.
 Ik heb met mn groep bepaald waar een goede tekening aan moet voldoen. Hieronder: <img width="2224" height="1536" alt="Image" src="https://github.com/user-attachments/assets/80f578db-0946-4d1d-99be-376902498931" />
-<!-- Uploading "tempImageEqPMRy.gif"... -->
-<!-- Uploading "tempImagepRyGoq.gif"... -->
-<!-- Uploading "tempImageORIQEJ.gif"... -->
+<img width="4032" height="3024" alt="Image" src="https://github.com/user-attachments/assets/26019380-f1fb-4896-8ef9-bb3f348f5c3f" />
+<img width="4032" height="3024" alt="Image" src="https://github.com/user-attachments/assets/afd66037-9492-4716-afce-e7ff84d5b064" />
+<img width="4032" height="3024" alt="Image" src="https://github.com/user-attachments/assets/3104c833-7165-4b75-8c73-a17d0c079b5d" />
 ## Checkout:
 Vragen en termen
 -Waarom geven de docenten deze opdracht?
@@ -135,14 +135,15 @@ Er zijn shortcuts:
 ↳ [←][→]	wissel tussen de lijsten
 ↳ [↓][↑]	op en neer in een lijst.
 
-We hebben deze les gekeken naar hoe het is om een beperking te hebben. d.m.v brillen bijvoorbeeld waardoor je zicht minder goed is.
+We hebben deze les gekeken naar hoe het is om een beperking te hebben. d.m.v brillen bijvoorbeeld waardoor je zicht minder goed is. of hoe het voelt om weinig controle te hebben in je handen en vingers. Ik vond dit wel interessant om te doen.
 
 
 ### Woensdag 30 sept:
-ziek thuis gewerkt.
+ziek thuis
 
 ### Vrijdag 2 okt:
 Vandaag hebben we voortgangsgesprekken.
+Ik heb veel feedback gekregen om te verwerken. Dat kwam ook doordat ik ziek was. Daarom was ik nog niet zo ver als gehoopt.
 
 
 ### maandag
