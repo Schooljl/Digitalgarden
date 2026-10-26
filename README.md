@@ -33,7 +33,7 @@ In groepjes hebben we websites bekeken en beoordeeld hoe 'webby' ze zijn. Wij he
 <img width="4032" height="3024" alt="Image" src="https://github.com/user-attachments/assets/4f976837-47d6-422c-bbf4-8bd612ac5b71" />
 -meest webby: Ericwbailey.website
 -minst webby: Virtualvampirehaven.neocities.org
-
+ <img width="4029" height="2588" alt="Image" src="https://github.com/user-attachments/assets/f0f7012c-61d5-43e0-bf0c-22bc14382a4c" />
 
 Ik ga nu verder met het huiswerk.
 Dit betekent dat ik kijk naar welk onderwerp ik wil gebruiken voor mijn website en hoe ik wil dat het er ongeveer uit gaat zien.
@@ -143,8 +143,8 @@ ziek thuis
 
 ### Vrijdag 2 okt:
 Vandaag hebben we voortgangsgesprekken.
-Ik heb veel feedback gekregen om te verwerken. Dat kwam ook doordat ik ziek was. Daarom was ik nog niet zo ver als gehoopt.
-
+Ik heb veel feedback gekregen om te verwerken. Dat kwam ook doordat ik ziek was. Daarom was ik nog niet zo ver als gehoopt. Ik moet nog veel veranderen aan de code. Ik ben wel bij dat ik deze feedback heb ontvangen.
+<img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/a846e493-0826-4efe-8815-0e0a6b1da81e" />
 
 ### maandag
 We hebben schetsen gemaakt voor onze songteksten.
