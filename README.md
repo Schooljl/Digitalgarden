@@ -20,7 +20,7 @@ Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github o
 Ik heb 2 workshops gevolgd deze dag. Een over schetsen van Charley. We hebben geoefend met het maken van rechte lijnen en vierkanten.
 Bij Diederik heb ik een workshop gevolgd over typografie. De workshop begon met de geschiedenis van typografie en daarna hebben we aan de hand van twee foto's van dolly Parton, lettertypes gezocht die bij haar passen. Dit deden we door woorden op te schrijven die passen bij de foto's en daarna woorden op te schrijven die passen bij die woorden.
 <img width="1843" height="1378" alt="Image" src="https://github.com/user-attachments/assets/c130b8ae-d5de-450d-9964-39e9aea87908" />
-
+<img width="2750" height="1365" alt="Image" src="https://github.com/user-attachments/assets/53e7f652-64d0-4762-8428-c9691577e671" />
 
 ### Sprint 1 maandag 7 september
 We hebben in groepjes artikelen gelezen en daarna klassikaal besproken.
@@ -47,16 +47,14 @@ Een digital garden is een persoonlijke plek waar je alles zo persoonlijk en gek 
 
 3. Ik wil in mijn website gebruik maken van animaties en ik vind een focus-state en hover state ook erg belangrijk. Ik ga van tevoren ook een kleurenpalet maken zodat het er aesthetic uit ziet.
 
+<img width="3464" height="3464" alt="Image" src="https://github.com/user-attachments/assets/bdd435e0-fd7c-452f-bf61-dccd2ebb9b39" />
 
 ### Sprint 1 woensdag 9 sept
 Wij hadden online les.
 
-
-
-
 We hebben kort in duo's gepresenteerd
 Daarna hebben we inspo gezocht voor lettertypes. Ik heb posterss verzameld die er wel interessant uitzagen en ik heb geschetst.
-
+<img width="467" height="678" alt="Image" src="https://github.com/user-attachments/assets/5eda9872-6713-434a-977a-4ad19009737c" />
 
 ### Maandag 14 sept
 Check out met Ella:
