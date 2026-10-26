@@ -225,8 +225,23 @@ Dit ging over betrouwbare informatie op het internet.
 We hebben zelf vragen bedacht die antwoord kunnen geven op de hoofdvraag met onderzoekmethodes.
 Ik heb in illustrator de afbeelding voor de cookie knop gemaakt. Dit lijkt net op een prijskaartje van een kledingstuk,
 <img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/a7d0960f-d42a-440d-919d-313474df0410" />
+<img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/b514d047-2284-4b66-9398-6b95035737da" />
+Dit is mijn vernieuwde cookie pop up
 ### Donderdag 22 okt:
-Ik heb de hele dag thuis gewerkt. ik heb de light dark mode knop toegevoegd op de home page. Meer animatie's toegevoegd.
+Ik heb de hele dag thuis gewerkt. ik heb de light dark mode knop toegevoegd op de home page. Meer animatie's toegevoegd, een cookie knop toegevoegd zodat de bezoeker terug kan naar de cookies informatie. Ook heb ik een laag met tekst toegevoeg bij mijn creaties als je eroverheen hovert. Dit was makkelijker dan ik had gedacht.
+<img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/9160d46f-4d3f-4b36-b4a5-5e99fa8b911b" />
 
+Ik heb ook mijn songtekst meer vormgegeven doormiddel van een glow effect en animatie. Als je over de woorden, name, books, family en history hovert dan worden de woorden duidelijk leesbaar. Ik heb gekozen voor een donkere achtergrondkleur en de 'if you had no' in wit. omdat ik dat een mooi contrast vind. Het is ook een koude kleur donkerblauw. 
 ### Vrijdag 23 okt:
-Vandaag is het laatste feedback moment
+Vandaag is het laatste feedback moment. Ik heb na de les met Christina nog een aantal dingen toegevoegd aan mijn website.
+Bijvoorbeeld dit icoontje bovenaan
+<img width="238" height="26" alt="Image" src="https://github.com/user-attachments/assets/e9a14878-a330-43bf-b18f-9ef19a5720cd" />
+We hebben ook een animatie gemaakt voor de kroonluchter. Deze beweegt heel kort van links naar rechts als een bootje als iemand de pagina opent. Dit duurde lang en we hebben heel lang moeten denken over hoe de kroonluchter mooi kan bewegen.
+Ook hebben we de glow van de kroonluchter omhoog gezet met top -em zodat het lijkt alsof het licht uit de kroonluchter komt als je op light mode bent. <img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/6fb3c965-80f9-4a79-90a8-6f4e5cf0d477" />
+Ik heb ook een aparte afbeelding van de toverstaf cursor gemaakt voor als hover. Zo is het duidelijker waar je wel of niet op kan klikken.
+<img width="519" height="730" alt="Image" src="https://github.com/user-attachments/assets/0b84c305-7733-41e9-8bb7-e3e6328d7e6e" />
+<img width="519" height="730" alt="Image" src="https://github.com/user-attachments/assets/f42b4ec3-6db6-48ca-930a-b3b3f99973c6" />
+
+
+### Zondag 25 okt:
+Ik heb mijn Learning Log aangevuld en getest of alles lukt met tab en screenreader.
