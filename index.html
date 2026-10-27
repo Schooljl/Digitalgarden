@@ -1,13 +1,19 @@
+
 <!doctype html>
 <html lang="nl">
   <head>
+   
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="[joelle]" />
     <meta name="color-scheme" content="dark light" />
 
+    
     <title>Joëlle's Craft Room</title>
+
     <link rel="stylesheet" href="assets/style/normal.css" />
+
+    <!-- Dit is het kleine icoontje dat bij mijn website in het browsertabblad staat. -->
     <link
       rel="icon"
       type="image/png"
@@ -18,6 +24,7 @@
     <!-- Importeer het webring component, voeg jouw eigen domein toe in data-page -->
   </head>
   <body>
+    <!-- Met deze knop kan ik wisselen tussen light mode en dark mode. -->
     <button
       type="button"
       id="light-darkknop"
@@ -32,7 +39,9 @@
         alt="kroonluchter"
       />
     </button>
+
     <header>
+      <!-- Ik gebruik een afbeelding als logo bovenaan mijn website. -->
       <picture>
         <img
           id="logo"
@@ -43,6 +52,7 @@
         />
       </picture>
 
+      <!-- Dit menu gebruik ik op kleinere schermen, zodat de navigatie niet te veel ruimte inneemt. -->
       <details class="mobiel-menu">
         <summary>☰ Menu</summary>
         <nav aria-label="Mobiele navigatie">
@@ -54,6 +64,7 @@
         </nav>
       </details>
 
+      <!-- Voor grotere schermen gebruik ik een navigatiemenu waarbij alle links naast elkaar staan. -->
       <nav class="desktop-nav" aria-label="Hoofdnavigatie">
         <a href="index.html">Joëlle's craft room</a>
         <a href="Overmij.html">Over mij</a>
@@ -63,6 +74,7 @@
       </nav>
     </header>
 
+    <!-- Dit is de achtergrondafbeelding van mijn pagina. -->
     <picture>
       <img
         id="achtergrond"
@@ -73,14 +85,14 @@
       />
     </picture>
 
-    <!-- https://www.keurigonline.nl/blog/cookie-melding-website 
-     informatie cookie pop up en coderen 
-     
-     -->
+    <!-- Ik heb deze website gebruikt voor informatie over een cookie-popup en hoe ik die kan maken.
+         https://www.keurigonline.nl/blog/cookie-melding-website -->
 
+    <!-- Dit is het scherm dat over de website komt als de privacy-popup wordt geopend. -->
     <div class="popup-screen">
       <div class="donkerelaag-cookie"></div>
 
+      <!-- In deze popup leg ik uit hoe mijn website met cookies mgaat. -->
       <section
         class="privacy-popup"
         role="dialog"
@@ -102,9 +114,12 @@
           voor meer informatie over informatie die wordt gebruikt
         </p>
 
+        <!-- Met deze knop kan de bezoeker de cookie pop up melding sluiten. -->
         <button type="button" class="knop-sluiten">Begrepen</button>
       </section>
     </div>
+
+    <!-- Met deze knop kan de bezoeker de cookie-popup later weer opnieuw openen. -->
     <button
       type="button"
       id="cookies-opnieuw"
@@ -116,8 +131,14 @@
         alt="de knop om cookies melding opnieuw te openen"
       />
     </button>
+
+    <!-- Hier laad ik mijn JavaScript-bestand in voor de interactieve onderdelen van mijn website. -->
     <script src="assets/script.js" defer></script>
+
+    <!-- Dit script zorgt voor de sparkle-effecten op mijn website. -->
     <script src="assets/sparkles.js"></script>
+
+    <!-- Hiermee zet ik de sparkle-effecten ook echt aan. -->
     <script>
       sparkle(true);
     </script>
