@@ -76,7 +76,7 @@ Link naar miro: https://miro.com/app/board/uXjVHq1zApo=/?share_link_id=829585340
 
 ### Vrijdag 11 sept
 <details> <summary>Lees meer</summary>
-Vandaag hebben we aan de hand van schetsen een begin gemaakt aan html. <br>
+Vandaag hebben we aan de hand van schetsen een begin gemaakt aan html. Hier had ik de schetsen nog niet als code. Ik had alleen een nav balk gemaakt in html css door een afbeelding te maken in illustrator en die steeds te herhalen. Dit is image repeat <br>
 <img width="300" alt="Image" src="https://github.com/user-attachments/assets/18eeef5b-5957-4747-987b-73eddfe22dae" />
 <img width="300"  alt="Image" src="https://github.com/user-attachments/assets/59365a3a-e1b8-4fcb-9c69-acb716b56f2f" />
 <img width="300"  alt="Image" src="https://github.com/user-attachments/assets/40fe6f44-ef31-449f-a593-a3057847e672" /> <br>
