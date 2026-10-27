@@ -39,11 +39,10 @@ Een digital garden is een plek op het web waar er veel ruimte is voor groei. Er 
 Een digital garden is een persoonlijke plek waar je alles zo persoonlijk en gek kan maken als je wil en deze is nooit klaar met groeien.
 
 In groepjes hebben we websites bekeken en beoordeeld hoe 'webby' ze zijn. Wij hebben een formulier met criteria ingevuld. Daarna hebben we als groep de websites besproken en bepaald welke van deze websites het meest en minst webby is. Daar kwam uit:
-<img width="400" alt="Image" src="https://github.com/user-attachments/assets/4f976837-47d6-422c-bbf4-8bd612ac5b71" />
--meest webby: Ericwbailey.website
--minst webby: Virtualvampirehaven.neocities.org
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/4f976837-47d6-422c-bbf4-8bd612ac5b71" /> <br>
+-meest webby: Ericwbailey.website <br> <br>
  <img width="400" alt="Image" src="https://github.com/user-attachments/assets/f0f7012c-61d5-43e0-bf0c-22bc14382a4c" />
-
+<br> -minst webby: Virtualvampirehaven.neocities.org <br> <br>
 Ik ga nu verder met het huiswerk.
 Dit betekent dat ik kijk naar welk onderwerp ik wil gebruiken voor mijn website en hoe ik wil dat het er ongeveer uit gaat zien.
 
