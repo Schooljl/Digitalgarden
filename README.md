@@ -172,7 +172,7 @@ Ik heb veel feedback gekregen om te verwerken. Dat kwam ook doordat ik ziek was.
 
 </details>
 
-### maandag
+### maandag 5 okt:
 <details> <summary>Lees meer</summary>
 We hebben schetsen gemaakt voor onze songteksten.
 Zijn begonnen aan eerste versie html
