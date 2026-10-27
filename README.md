@@ -147,7 +147,7 @@ Ik accepteerde nooit functionele cookies en nu na deze las nog steeds niet
 
 ### Woensdag 23 sept
 <details> <summary>Lees meer</summary>
-Ziek thuis dus achterstand opgelopen. Ik heb thuis gewerkt.
+Ziek thuis dus achterstand opgelopen. Ik heb thuis niet gewerkt.
 </details>
 
 ### Vrijdag 25 sept
@@ -188,22 +188,52 @@ ziek thuis
 Vandaag hebben we voortgangsgesprekken.
 Ik heb veel feedback gekregen om te verwerken. Dat kwam ook doordat ik ziek was. Daarom was ik nog niet zo ver als gehoopt. Ik moet nog veel veranderen aan de code. Ik ben wel bij dat ik deze feedback heb ontvangen.
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/a846e493-0826-4efe-8815-0e0a6b1da81e" />
-<br>   Ik wist hier nog niet welke informatie in mijn cookie pop up moest.
+<br>   Ik wist hier nog niet welke informatie in mijn cookie pop up  Ik wist dat de website geen optionele cookies gebruikte. De cookie pop up was hier nog te lang en niet mooi vormgegeven. Inhoudelijk was het ook niet goed.
 </details>
 
 ### maandag 5 okt Sprint 3:
 <details> <summary>Lees meer</summary>
-We hebben schetsen gemaakt voor onze songteksten.
-Zijn begonnen aan eerste versie html
-een lied gekozen.
-
-Ik heb gekozen voor Freezing omdat het temp van het lied me aansprak en ik vond dat deze het best bij mijn gebiste paste.
+We hebben schetsen gemaakt voor onze songteksten. <br>
+Zijn begonnen aan eerste versie html <br>
+een lied gekozen.Ik heb gekozen voor Freezing omdat het tempo van het lied me aansprak en ik vond dat deze het beste ij mijn website paste.
 <img width="3024" height="4032" alt="Image" src="https://github.com/user-attachments/assets/90f7984c-e610-4e82-8ef9-cf4ad7ce2153" />
 <img width="3024" height="4032" alt="Image" src="https://github.com/user-attachments/assets/de458130-3743-4f73-8938-71d784726939" />
 <img width="3024" height="4032" alt="Image" src="https://github.com/user-attachments/assets/d3f3bba7-48eb-499f-a56f-cd8e515bd285" />
 <img width="4032" height="3024" alt="Image" src="https://github.com/user-attachments/assets/32bc9c5a-b345-4bef-b037-1cf1aee4b2cc" />
 <img width="4032" height="3024" alt="Image" src="https://github.com/user-attachments/assets/a00ecffa-3607-4890-bc4d-a7cfe6daa765" />
 </details>
+
+---
+
+ 1. Leg uit wat er met de volgende termen bedoeld wordt: kerning, tracking, leading, flush-left, flush-right, centered, justified, indent, outdent, modular scale, movable type, focus punt, vijf soorten contrast, spatial tension. <br> <br>
+
+- **Kerning:** De ruimte tussen twee specifieke letters. Je kunt deze aanpassen zodat letters er optisch goed uitzien, bijvoorbeeld bij de combinatie A en V.<br>
+- **Tracking:** De ruimte tussen alle letters in een woord of tekst. Je kunt letters dichter bij elkaar zetten of juist meer ruimte geven. <br>
+- **Leading:** De verticale afstand tussen tekstregels. Goede regelafstand maakt een tekst prettiger leesbaar. <br>
+- **Flush-left:** Tekst die links uitgelijnd is. De linkerkant is recht en de rechterkant is ongelijk. <br>
+- **Flush-right:** Tekst die rechts uitgelijnd is. De rechterkant is recht en de linkerkant is ongelijk. <br>
+- **Centered:** Tekst die gecentreerd is. De tekst staat rondom een denkbeeldige verticale middenlijn. <br>
+- **Justified:** Tekst die zowel links als rechts uitgelijnd is. De ruimte tussen woorden wordt aangepast om beide kanten recht te maken. <br>
+- **Indent:** Een inspringing waarbij een regel of alinea naar rechts wordt verplaatst. <br>
+- **Outdent:** Het tegenovergestelde van indent. De tekst steekt naar links uit buiten de normale uitlijning. <br>
+- **Modular scale:** Een systeem waarbij verschillende tekstgroottes gebaseerd zijn op een vaste verhouding. Hierdoor ontstaat een samenhangende typografische hiërarchie. <br>
+- **Movable type:** Een druktechniek waarbij losse, herbruikbare letters en tekens worden gerangschikt om teksten af te drukken. <br>
+- **Focus point:** Het punt in een ontwerp dat als eerste de aandacht trekt. Dit kan bijvoorbeeld een opvallende afbeelding, grote titel of contrasterende kleur zijn. <br> <br>
+- **Vijf soorten contrast:** <br>
+  1. **Grootte:** grote en kleine elementen.<br>
+  2. **Kleur:** verschillende kleuren of licht-donkerwaarden. <br>
+  3. **Gewicht:** dunne en dikke letters. <br>
+  4. **Vorm:** bijvoorbeeld ronde en hoekige vormen. <br>
+  5. **Ruimte:** elementen die dicht bij elkaar staan tegenover elementen met veel ruimte eromheen. <br>
+- **Spatial tension:** Ruimtelijke spanning die ontstaat door de plaatsing en afstand tussen elementen. Door bijvoorbeeld tekst dicht bij de rand te zetten of elementen asymmetrisch te plaatsen, kan een ontwerp spannend en dynamisch worden. <br> <br>
+
+### 2. Wat is jouw ideale regellengte (measure)? Leg uit waarom. <br>
+
+Mijn ideale regellengte is ongeveer 50 tot 75 tekens per regel. Dit vind ik prettig lezen, omdat mijn ogen niet te ver hoeven te bewegen van links naar rechts. Als regels te lang zijn, is het moeilijker om de volgende regel terug te vinden. Als ze te kort zijn, moet je juist heel vaak naar een nieuwe regel springen. De ideale lengte hangt ook af van het lettertype en de lettergrootte. <br> <br>
+
+### 3. Als je in een ontwerp maar één variabele tot je beschikking had om hiërarchie aan te brengen (grootte, plaatsing, spacing, lettersoorten), welke zou je dan gebruiken en waarom? <br>
+
+Ik zou kiezen voor grootte. Door belangrijke tekst groter te maken dan minder belangrijke tekst, kan ik duidelijk aangeven waar de bezoeker als eerste naar moet kijken. Zo kan ik onderscheid maken tussen titels, tussenkoppen en gewone tekst, zonder dat ik verschillende lettertypes of kleuren nodig heb. Dit maakt het ontwerp overzichtelijk en zorgt ervoor dat de belangrijkste informatie direct opvalt. <br> <br>
 
 ### Woensdag 7 okt:
 <details> <summary>Lees meer</summary>
@@ -212,14 +242,14 @@ Vandaag zijn we verder gegaan met onze schetsen. We hebben gewerkt in html css.
 Check-out:
 
 -Waarom is het goed om een grid in je ontwerp toe te passen? 
-Noem een reden voor de ontwerper en een voor de bezoeker.
+Noem een reden voor de ontwerper en een voor de bezoeker.<br>
 Voor de ontwerper: Met grid kan je makkelijk dingen positioneren en per onderdeel aanpassen.
 Voor de bezoeker: Door een grid is de website overzichtelijk. Als een website overzichtelijk is dan is het voor een bezoeker fijn om een website te gebruiken.
 
--Noem drie manieren om chaos in je ontwerp te voorkomen.
+-Noem drie manieren om chaos in je ontwerp te voorkomen. <br>
 Let op de hierachie. Niet alles moet even erg opvallen. De dingen die bijvoorbeeld duiddelijk moeten uitspringen kan je bijvoorbeeld groter maken.
 
--Hoeveel gekkigheid moet er in je werk zitten?
+-Hoeveel gekkigheid moet er in je werk zitten? <br>
 Dat kan je zelf bepalen. Het hangt er ook vanaf wat het doel van je ontwerp is. In dit geval moet de hierarchie duidelijk zijn dus de gekkigheid moet de hierarchie niet negatief beinvloeden. Dat kan gebeuren als er heel veel gekkigheid is.
 </details>
 
