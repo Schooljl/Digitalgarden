@@ -8,6 +8,11 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github omgeving.
 
 ## Check-out (Met Christina)
+De checkout vragen voor vandaag:
+
+Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.
+Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren.
+Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma.
 
 1. Een source hosting platform (broncodehostingsplatform) is een online platform waar ontwikkelaars de broncode van hun software opslaan, beheren en samen bewerken via versiebeheersystemen. Wij hadden keuze tussen Github en Codeberg, maar ik had vernomen dat Github makkelijker is en ik had daar al een account van dus ik heb gekozen voor Github.
 
