@@ -2,8 +2,8 @@
 
 Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door studenten worden gemaakt.
 
-<details> ### 31 aug - Kickoff
- <summary>
+<details> <summary>### 31 aug - Kickoff</summary>summary
+
 Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github omgeving.
 
 ## Check-out (Met Christina)
@@ -13,8 +13,7 @@ Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github o
 2. Ik heb gekozen voor de domeinnaam Createmyidea.nl en ik heb dat gekoppeld door op Transit.nl mijn GitHub account te koppelen door het in te vullen bij 'waarde', daarna heb ik mijn domeinnaam ingevuld op GitHub.
 
 3. Moet ik nog uitzoeken want ik heb nog geen aanpassingen aan mijn pagina gemaakt.
-<img width="2185" height="2555" alt="Image" src="https://github.com/user-attachments/assets/02bacd1e-c84f-4973-9ce0-cad440d88270" />
-</summary> </details> 
+<img width="2185" height="2555" alt="Image" src="https://github.com/user-attachments/assets/02bacd1e-c84f-4973-9ce0-cad440d88270" /></details> 
 ### 3 sept - [Workshop] 
 Ik heb 2 workshops gevolgd deze dag. Een over schetsen van Charley. We hebben geoefend met het maken van rechte lijnen en vierkanten.
 Bij Diederik heb ik een workshop gevolgd over typografie. De workshop begon met de geschiedenis van typografie en daarna hebben we aan de hand van twee foto's van dolly Parton, lettertypes gezocht die bij haar passen. Dit deden we door woorden op te schrijven die passen bij de foto's en daarna woorden op te schrijven die passen bij die woorden.
