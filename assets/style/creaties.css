@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Comic Relief";
   src: url("../type/ComicRelief-Regular.woff2") format("woff2");
@@ -19,6 +20,9 @@
   font-style: normal;
 }
 
+
+/* Ik gebruik variabelen voor de kleuren, zodat ik deze makkelijk kan aanpassen. */
+
 :root {
   color-scheme: light;
 
@@ -30,6 +34,9 @@
   --h1-kleur: #633858;
   --focuskleur: #633858;
 }
+
+
+/* In dark mode verander ik de kleuren, zodat de website ook in het donker goed zichtbaar blijft. */
 
 body.dark-mode {
   color-scheme: dark;
@@ -43,17 +50,27 @@ body.dark-mode {
   --focuskleur: #f3beed;
 }
 
+
+/* Met border-box blijven padding en randen binnen de opgegeven afmetingen van elementen. */
+
 * {
   box-sizing: border-box;
 }
+
+
+/* Algemene instellingen voor de pagina. Ik haal de standaardmarge weg en gebruik mijn eigen lettertype en achtergrondkleur. */
 
 body {
   margin: 0;
   font-family: "Comic Relief", sans-serif;
   background: var(--achtergrondkleur);
   color: var(--tekstkleur);
+  /* Ik gebruik een toverstaf als cursor, omdat die bij de stijl van mijn website past. */
   cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, auto;
 }
+
+
+/* Voor de hoofdtitels gebruik ik een sierlijk lettertype. De animatie laat de titel rustig verschijnen. */
 
 h1 {
   font-family: "Romantic", serif;
@@ -64,9 +81,15 @@ h1 {
   animation: verschijnen 1s ease-out;
 }
 
+
+/* Ik centreer de inhoud van de header. */
+
 header {
   text-align: center;
 }
+
+
+/* Het logo schaalt mee met het scherm, maar wordt niet groter dan 20em. */
 
 header img {
   width: 60%;
@@ -77,7 +100,8 @@ header img {
 
 /* Navigatie */
 
-/* Hamburger-menu op kleine schermen */
+/* Het mobiele menu is standaard zichtbaar op kleine schermen. Ik gebruik een kantafbeelding als achtergrond. */
+
 .mobiel-menu {
   display: block;
   padding: 1em;
@@ -86,6 +110,9 @@ header img {
   background-size: auto 3em;
 }
 
+
+/* De summary is het onderdeel waarop je kunt klikken om het mobiele menu te openen of te sluiten. */
+
 .mobiel-menu summary {
   color: var(--navigatie-tekstkleur);
   font-family: "The Garden of lights", sans-serif;
@@ -93,6 +120,8 @@ header img {
   cursor: pointer;
 }
 
+
+/* Ik zet de links onder elkaar en geef ze genoeg ruimte, zodat ze makkelijk te gebruiken zijn op een mobiel scherm. */
 
 .mobiel-menu nav {
   display: flex;
@@ -103,11 +132,16 @@ header img {
   background: none;
 }
 
+
+/* Het desktopmenu is op kleine schermen verborgen. */
+
 .desktop-nav {
   display: none;
 }
 
-/* Navigatielinks */
+
+/* Ik geef de navigatielinks een sierlijk lettertype en een hover-effect. */
+
 .mobiel-menu nav a,
 .desktop-nav a {
   color: var(--navigatie-tekstkleur);
@@ -118,18 +152,25 @@ header img {
   transition: transform 0.3s ease;
 }
 
+
+/* Als ik met de muis over een link ga, wordt deze iets groter. */
+
 .mobiel-menu nav a:hover,
 .desktop-nav a:hover {
   transform: scale(1.2);
 }
 
-/* Donkere modus */
+
+/* In dark mode krijgt de navigatie een donkere achtergrondafbeelding. */
+
 body.dark-mode .mobiel-menu,
 body.dark-mode .desktop-nav {
   background-image: url("../../kleineafbeeldingen/kantdark.jpg");
 }
 
-/* Desktopmenu op brede schermen */
+
+/* Vanaf 45rem gebruik ik het desktopmenu in plaats van het mobiele menu. */
+
 @media (min-width: 45rem) {
   .mobiel-menu {
     display: none;
@@ -148,10 +189,14 @@ body.dark-mode .desktop-nav {
     background-size: auto 3em;
   }
 
+  /* Ik wissel ook hier de achtergrondafbeelding wanneer dark mode actief is. */
   body.dark-mode .desktop-nav {
     background-image: url("../../kleineafbeeldingen/kantdark.jpg");
   }
 }
+
+
+/* Ik gebruik CSS Grid om de inhoud van main in kolommen te verdelen. Op kleine schermen staat alles onder elkaar. */
 
 main {
   display: grid;
@@ -160,11 +205,17 @@ main {
   padding: 1em 5%;
 }
 
+
+/* De afbeeldingen vullen de breedte van hun container en behouden hun verhouding. */
+
 main img {
   width: 100%;
   height: auto;
   display: block;
 }
+
+
+/* Vanaf 35em krijgt de pagina twee kolommen en wordt de navigatie horizontaal uitgelijnd. */
 
 @media (min-width: 35em) {
   nav {
@@ -177,11 +228,17 @@ main img {
   }
 }
 
+
+/* Op grotere schermen gebruik ik drie kolommen, zodat er meer inhoud naast elkaar past. */
+
 @media (min-width: 50em) {
   main {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
+
+/* Ik gebruik mijn eigen cursorafbeelding voor afbeeldingen, links en knoppen. */
 
 a,
 button,
@@ -189,10 +246,16 @@ img {
   cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, pointer;
 }
 
+
+/* Voor interactieve elementen gebruik ik een tweede cursorafbeelding. */
+
 a, button, select, .pinterest-preview img, summary {
     cursor: url('../../kleineafbeeldingen/toverstafhover.png'), default;
 }
 
+
+/* De afbeelding-overlay bevat de afbeelding en de tekst die eroverheen verschijnt. 
+   Op kleine schermen maak ik de tekst iets kleiner. */
 
 .afbeelding-overlay {
   position: relative;
@@ -202,11 +265,18 @@ a, button, select, .pinterest-preview img, summary {
   }
 }
 
+
+/* De afbeelding vult de volledige breedte van de overlay. */
+
 .afbeelding-overlay img {
   width: 100%;
   height: auto;
   display: block;
 }
+
+
+/* De overlaytekst ligt over de afbeelding. Ik centreer de tekst en maak de achtergrond donkerder, zodat de tekst leesbaar is. 
+   De overlay is eerst transparant. */
 
 .overlay-tekst {
   position: absolute;
@@ -225,16 +295,26 @@ a, button, select, .pinterest-preview img, summary {
   transition: opacity 0.3s ease;
 }
 
+
+/* Als ik over de afbeelding hover of een element erin focus krijgt, verschijnt de overlay. 
+   Zo kan de tekst ook zichtbaar worden bij toetsenbordbediening. */
+
 .afbeelding-overlay:hover .overlay-tekst,
 .afbeelding-overlay:focus-within .overlay-tekst {
   opacity: 1;
 }
+
+
+/* Ik beperk de breedte van de tekst, zodat deze niet te dicht bij de randen staat. */
 
 .overlay-tekst p {
   margin: 0;
   max-width: 70%;
   font-family: "The Garden of Lights", sans-serif;
 }
+
+
+/* De tekst in de span valt extra op door het grotere en vetgedrukte lettertype. */
 
 .afbeelding-overlay span {
   font-size: 1.5em;
@@ -245,9 +325,7 @@ a, button, select, .pinterest-preview img, summary {
 }
 
 
-
-
-
+/* Ik geef links en knoppen een positionering, zodat ik ze indien nodig gericht kan stylen. */
 
 a,
 button {
@@ -255,6 +333,7 @@ button {
 }
 
 
+/* De animatie laat de titel langzaam verschijnen en een klein stukje omhoog bewegen. */
 
 @keyframes verschijnen {
   from {
@@ -267,5 +346,6 @@ button {
     transform: translateY(0);
   }
 }
+
 
 
