@@ -360,3 +360,26 @@ Vandaag is de expo. Ik schrijf dit nu maandagmiddag. De expo ging goed, we hebbe
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/488a71bc-e596-437c-9667-e00906aab8b9" />
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/da5e6332-d1ca-43bb-b99f-65c26104d39d" />
 </details>
+
+### Bronnen van code:
+<details><summary>Lees meer</summary>
+   De meeste content van het visuele aspect van mijn website heb ik zelf gemaakt in illustrator. <br>
+  Bron voor toverstaf sparkle: https://gist.github.com/priyanshiisosmart/4151d0b3cf035189d9c81beaa93b0f0a. <br>
+   Bronnen javascript: <br>
+
+- [W3Schools – HTML DOM Elements](https://www.w3schools.com/js/js_htmldom_elements.asp) — Elementen selecteren met JavaScript.
+- [W3Schools – JavaScript HTML DOM EventListener](https://www.w3schools.com/js/js_htmldom_eventlistener.asp) — Events afhandelen, zoals klikken op knoppen.
+- [W3Schools – HTML DOM Image src Property](https://www.w3schools.com/jsref/prop_img_src.asp) — Afbeeldingen aanpassen met JavaScript.
+- [W3Schools – Document querySelectorAll()](https://www.w3schools.com/jsref/met_document_queryselectorall.asp) — Meerdere elementen selecteren.
+- [MDN – Window.matchMedia()](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia) — De systeemvoorkeur voor light mode en dark mode controleren.
+- [MDN – Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) — Informatie opslaan met localStorage en sessionStorage.
+- [MDN – Element.classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) — CSS-klassen toevoegen en verwijderen met JavaScript.
+- [MDN – HTMLElement.focus()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/focus) — De toetsenbordfocus op een element plaatsen.
+- [MDN – Document.activeElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/activeElement) — Controleren welk element de focus heeft.
+- [MDN – HTML inert global attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/inert) — Elementen tijdelijk niet interactief maken.
+- [MDN – KeyboardEvent.key](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key) — Toetsen zoals Escape, Tab en Shift herkennen.
+- [MDN – Document.querySelectorAll()](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) — Elementen selecteren met CSS-selectors.
+
+   Bronnen html:
+   Bronnen css:
+</details>
