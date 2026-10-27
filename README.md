@@ -18,7 +18,7 @@ Ik heb gekozen voor de domeinnaam Createmyidea.nl en ik heb dat gekoppeld door o
 3. Beschrijf hoe je aanpassingen aan jouw pagina kunt maken en hoe je er voor zorgt dat die op het web gepubliceerd worden:
 Moet ik nog uitzoeken want ik heb nog geen aanpassingen aan mijn pagina gemaakt.
 
-<img width="2185" height="2555" alt="Image" src="https://github.com/user-attachments/assets/02bacd1e-c84f-4973-9ce0-cad440d88270" /></details>
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/02bacd1e-c84f-4973-9ce0-cad440d88270" /></details>
 
 ### 3 sept - [Workshop] 
 <details> <summary>Lees meer</summary>
@@ -39,10 +39,10 @@ Een digital garden is een plek op het web waar er veel ruimte is voor groei. Er 
 Een digital garden is een persoonlijke plek waar je alles zo persoonlijk en gek kan maken als je wil en deze is nooit klaar met groeien.
 
 In groepjes hebben we websites bekeken en beoordeeld hoe 'webby' ze zijn. Wij hebben een formulier met criteria ingevuld. Daarna hebben we als groep de websites besproken en bepaald welke van deze websites het meest en minst webby is. Daar kwam uit:
-<img width="750" alt="Image" src="https://github.com/user-attachments/assets/4f976837-47d6-422c-bbf4-8bd612ac5b71" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/4f976837-47d6-422c-bbf4-8bd612ac5b71" />
 -meest webby: Ericwbailey.website
 -minst webby: Virtualvampirehaven.neocities.org
- <img width="750" alt="Image" src="https://github.com/user-attachments/assets/f0f7012c-61d5-43e0-bf0c-22bc14382a4c" />
+ <img width="400" alt="Image" src="https://github.com/user-attachments/assets/f0f7012c-61d5-43e0-bf0c-22bc14382a4c" />
 
 Ik ga nu verder met het huiswerk.
 Dit betekent dat ik kijk naar welk onderwerp ik wil gebruiken voor mijn website en hoe ik wil dat het er ongeveer uit gaat zien.
@@ -67,7 +67,7 @@ Daarna hebben we inspo gezocht voor lettertypes. Ik heb posterss verzameld die e
 We begonnen met sfeerwoorden bedenken. Ik had: "Ik voel me creatief, fantasierijk, magisch."
 Daarna hebben we afbeeldingen verzameld die passen bij deze sfeerwoorden. We hebben dus visueel beeld gezocht. Daarna hebben we nog een abstracte visuele vertaling gemaakt. Daarvoor hebben we gekeken naar fonts op posters. ALs laatste hebben we nog opgeschreven waarom deze posters passen bij de sfeer.
 Link naar miro: https://miro.com/app/board/uXjVHq1zApo=/?share_link_id=829585340391 <br>
-<img width="750" alt="Image" src="https://github.com/user-attachments/assets/5eda9872-6713-434a-977a-4ad19009737c" /> <img width="750" alt="Image" src="https://github.com/user-attachments/assets/bdd435e0-fd7c-452f-bf61-dccd2ebb9b39" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/5eda9872-6713-434a-977a-4ad19009737c" /> <img width="400" alt="Image" src="https://github.com/user-attachments/assets/bdd435e0-fd7c-452f-bf61-dccd2ebb9b39" />
 </details>
 
 ## Check out: Mijn garden gaat over mijn creaties, en ik wil het een prinsessenachtige of sprookjesachtige sfeer geven.
@@ -76,11 +76,11 @@ Link naar miro: https://miro.com/app/board/uXjVHq1zApo=/?share_link_id=829585340
 ### Vrijdag 11 sept
 <details> <summary>Lees meer</summary>
 Vandaag hebben we aan de hand van schetsen een begin gemaakt aan html.
-<img width="750" alt="Image" src="https://github.com/user-attachments/assets/18eeef5b-5957-4747-987b-73eddfe22dae" />
-<img width="750"  alt="Image" src="https://github.com/user-attachments/assets/1ea5099a-8ca8-4cd7-8241-9bc6f6cc5dee" />
-<img width="750"  alt="Image" src="https://github.com/user-attachments/assets/59365a3a-e1b8-4fcb-9c69-acb716b56f2f" />
-<img width="750"  alt="Image" src="https://github.com/user-attachments/assets/40fe6f44-ef31-449f-a593-a3057847e672" />
-<img width="750"  alt="Image" src="https://github.com/user-attachments/assets/1f82864f-7ab2-423d-b644-eeb8a951c962" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/18eeef5b-5957-4747-987b-73eddfe22dae" />
+<img width="400"  alt="Image" src="https://github.com/user-attachments/assets/1ea5099a-8ca8-4cd7-8241-9bc6f6cc5dee" />
+<img width="400"  alt="Image" src="https://github.com/user-attachments/assets/59365a3a-e1b8-4fcb-9c69-acb716b56f2f" />
+<img width="400"  alt="Image" src="https://github.com/user-attachments/assets/40fe6f44-ef31-449f-a593-a3057847e672" />
+<img width="400"  alt="Image" src="https://github.com/user-attachments/assets/1f82864f-7ab2-423d-b644-eeb8a951c962" />
 </details>
  
 ### Maandag 14 sept
