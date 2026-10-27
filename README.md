@@ -56,7 +56,7 @@ Een website is webby als het fluïde, interactief, toegankelijk, volwassen, expr
 <br>  
 
 4. Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma: <br> Ik wil in mijn website gebruik maken van animaties en ik vind een focus-state en hover state ook erg belangrijk.
-<br>
+</details>
 
 ### Sprint 1 woensdag 9 sept 
 <details> <summary>Lees meer</summary>
