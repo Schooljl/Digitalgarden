@@ -86,12 +86,12 @@ Vandaag hebben we aan de hand van schetsen een begin gemaakt aan html. Hier had 
  
 ### Maandag 14 sept
 <details> <summary>Lees meer</summary>
-Als huiswerk heb ik veel gewerkt in illustrator en photoshop aangezien we alleen eigen content mogen gebruiken. Daarna heb ik deze ook aangepast om extra afbeeldingen te krijgen voor dark mode.
+Als huiswerk heb ik veel gewerkt in illustrator en photoshop aangezien we alleen eigen content mogen gebruiken. Daarna heb ik deze ook aangepast om extra afbeeldingen te krijgen voor dark mode. <br>
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/07ffb199-4fbd-40e7-8f2a-4f89b7931034" />
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/930e28b0-9706-4e5e-b2fe-88eb36197871" />
 <br> <br>
 Vandaag was de bi-weekly geek 1.
-<img width="400" alt="Image" src="https://github.com/user-attachments/assets/31b5cc58-a667-4420-8f99-a501bf9fac0e" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/31b5cc58-a667-4420-8f99-a501bf9fac0e" /> <br>
 We hebben onderzoeksvragen bedacht in groepen van 4. Daarna hebben we ons blad met vragen doorgegeven en onderzoekmethodes gekoppeld aan de vragen van een ander groepje.
 
 Check out met Ella:
