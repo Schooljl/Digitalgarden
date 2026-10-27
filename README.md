@@ -54,23 +54,22 @@ Een digital garden is een persoonlijke plek waar je alles zo persoonlijk en gek 
 <br>
 2. Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren: <br>
  Een website is webby als het fluïde, interactief, toegankelijk, volwassen, expressief en leuk/verassend is. Ik weet nu niet uit mijn hoofd welke websites me inspireren. <br>
-3. Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma: <br> 3. Ik wil in mijn website gebruik maken van animaties en ik vind een focus-state en hover state ook erg belangrijk.
+3. Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma: <br> Ik wil in mijn website gebruik maken van animaties en ik vind een focus-state en hover state ook erg belangrijk.
 <br>
-
-<img width="750" alt="Image" src="https://github.com/user-attachments/assets/bdd435e0-fd7c-452f-bf61-dccd2ebb9b39" />
-</details>
 
 ### Sprint 1 woensdag 9 sept
 <details> <summary>Lees meer</summary>
-Wij hadden online les.
+Wij hadden online les vanwege stakingen.
 We hebben kort in duo's gepresenteerd
 Ik heb van Esmee en Eva gehoord waar ze het over willen hebben.
 Daarna hebben we inspo gezocht voor lettertypes. Ik heb posterss verzameld die er wel interessant uitzagen en ik heb geschetst.
 
 We begonnen met sfeerwoorden bedenken. Ik had: "Ik voel me creatief, fantasierijk, magisch."
 Daarna hebben we afbeeldingen verzameld die passen bij deze sfeerwoorden. We hebben dus visueel beeld gezocht. Daarna hebben we nog een abstracte visuele vertaling gemaakt. Daarvoor hebben we gekeken naar fonts op posters. ALs laatste hebben we nog opgeschreven waarom deze posters passen bij de sfeer.
-Link naar miro: https://miro.com/app/board/uXjVHq1zApo=/?share_link_id=829585340391
-<img width="467" height="678" alt="Image" src="https://github.com/user-attachments/assets/5eda9872-6713-434a-977a-4ad19009737c" />
+Link naar miro: https://miro.com/app/board/uXjVHq1zApo=/?share_link_id=829585340391 <br>
+<img width="750" alt="Image" src="https://github.com/user-attachments/assets/5eda9872-6713-434a-977a-4ad19009737c" /> <img width="750" alt="Image" src="https://github.com/user-attachments/assets/bdd435e0-fd7c-452f-bf61-dccd2ebb9b39" />
+</details>
+
 ## Check out: Mijn garden gaat over mijn creaties, en ik wil het een prinsessenachtige of sprookjesachtige sfeer geven.
 </details>
 
