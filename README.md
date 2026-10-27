@@ -9,15 +9,15 @@ Ik heb een fork van de model repository gemaakt en gepubliceerd via mijn eigen G
 
 ## Check-out (Met Christina)
 De checkout vragen voor vandaag:
-1. Leg uit wat een source hosting platform is en voor welke jij gekozen hebt.
-2. Vertel welke domeinnaam jij gekozen hebt en hoe je die hebt gekoppeld aan jouw pagina.
-3. Beschrijf hoe je aanpassingen aan jouw pagina kunt maken en hoe je er voor zorgt dat die op het web gepubliceerd worden.
+1. Leg uit wat een source hosting platform is en voor welke jij gekozen hebt:
+Een source hosting platform (broncodehostingsplatform) is een online platform waar ontwikkelaars de broncode van hun software opslaan, beheren en samen bewerken via versiebeheersystemen. Wij hadden keuze tussen Github en Codeberg, maar ik had vernomen dat Github makkelijker is en ik had daar al een account van dus ik heb gekozen voor Github.
 
-1. Een source hosting platform (broncodehostingsplatform) is een online platform waar ontwikkelaars de broncode van hun software opslaan, beheren en samen bewerken via versiebeheersystemen. Wij hadden keuze tussen Github en Codeberg, maar ik had vernomen dat Github makkelijker is en ik had daar al een account van dus ik heb gekozen voor Github.
+2. Vertel welke domeinnaam jij gekozen hebt en hoe je die hebt gekoppeld aan jouw pagina:
+   Ik heb gekozen voor de domeinnaam Createmyidea.nl en ik heb dat gekoppeld door op Transit.nl mijn GitHub account te koppelen door het in te vullen bij 'waarde', daarna heb ik mijn domeinnaam ingevuld op GitHub.
+   
+3 Beschrijf hoe je aanpassingen aan jouw pagina kunt maken en hoe je er voor zorgt dat die op het web gepubliceerd worden:
+Moet ik nog uitzoeken want ik heb nog geen aanpassingen aan mijn pagina gemaakt.
 
-2. Ik heb gekozen voor de domeinnaam Createmyidea.nl en ik heb dat gekoppeld door op Transit.nl mijn GitHub account te koppelen door het in te vullen bij 'waarde', daarna heb ik mijn domeinnaam ingevuld op GitHub.
-
-3. Moet ik nog uitzoeken want ik heb nog geen aanpassingen aan mijn pagina gemaakt.
 <img width="2185" height="2555" alt="Image" src="https://github.com/user-attachments/assets/02bacd1e-c84f-4973-9ce0-cad440d88270" /></details>
 
 ### 3 sept - [Workshop] 
