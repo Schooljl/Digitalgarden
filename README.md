@@ -187,7 +187,7 @@ ziek thuis
 <details> <summary>Lees meer</summary>
 Vandaag hebben we voortgangsgesprekken.
 Ik heb veel feedback gekregen om te verwerken. Dat kwam ook doordat ik ziek was. Daarom was ik nog niet zo ver als gehoopt. Ik moet nog veel veranderen aan de code. Ik ben wel bij dat ik deze feedback heb ontvangen.
-<img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/a846e493-0826-4efe-8815-0e0a6b1da81e" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/a846e493-0826-4efe-8815-0e0a6b1da81e" />
 <br>   Ik wist hier nog niet welke informatie in mijn cookie pop up moest.
 </details>
 
