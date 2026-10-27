@@ -407,7 +407,7 @@ body > picture img {
 #cookies-opnieuw:hover {
   box-shadow: none;
 }
- 
+
 
 /* Cursor */
 
@@ -451,7 +451,9 @@ button:active {
   transform: scale(0.97);
 }
 
-
+.privacy-popup:focus {
+  outline: none;
+}
 
 /* Animatie kroonluchter */
 
