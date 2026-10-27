@@ -345,7 +345,9 @@ We hebben ook een animatie gemaakt voor de kroonluchter. Deze beweegt heel kort 
 Ook hebben we de glow van de kroonluchter omhoog gezet met top -em zodat het lijkt alsof het licht uit de kroonluchter komt als je op light mode bent. <br> <img width="400" alt="Image" src="https://github.com/user-attachments/assets/6fb3c965-80f9-4a79-90a8-6f4e5cf0d477" /> <br>
 Ik heb ook een aparte afbeelding van de toverstaf cursor gemaakt voor als hover. Zo is het duidelijker waar je wel of niet op kan klikken. <br>
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/0b84c305-7733-41e9-8bb7-e3e6328d7e6e" />
-<img width="400" alt="Image" src="https://github.com/user-attachments/assets/f42b4ec3-6db6-48ca-930a-b3b3f99973c6" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/f42b4ec3-6db6-48ca-930a-b3b3f99973c6" /> <br>
+   Ik heb mijn code gevalideerd: <br>
+   <img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/984f8232-141b-427b-a1aa-a23bfce669d9" />
 </details>
 
 ### Zondag 25 okt:
@@ -361,7 +363,7 @@ Vandaag is de expo. Ik schrijf dit nu maandagmiddag. De expo ging goed, we hebbe
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/da5e6332-d1ca-43bb-b99f-65c26104d39d" />
 </details>
 
-### Bronnen van code:
+## Bronnen van code:
 <details><summary>Lees meer</summary>
    De meeste content van het visuele aspect van mijn website heb ik zelf gemaakt in illustrator. <br>
   Bron voor toverstaf sparkle: https://gist.github.com/priyanshiisosmart/4151d0b3cf035189d9c81beaa93b0f0a. <br>
@@ -380,6 +382,18 @@ Vandaag is de expo. Ik schrijf dit nu maandagmiddag. De expo ging goed, we hebbe
 - [MDN – KeyboardEvent.key](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key) — Toetsen zoals Escape, Tab en Shift herkennen.
 - [MDN – Document.querySelectorAll()](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) — Elementen selecteren met CSS-selectors.
 
-   Bronnen html:
-   Bronnen css:
+## Bronnen CSS: <br>
+
+
+## Bronnen HTML <br>
+
+- [W3Schools – HTML Tutorial](https://www.w3schools.com/html/) — De basis van HTML en de structuur van mijn webpagina's.
+- [W3Schools – HTML The Picture Element](https://www.w3schools.com/html/html_images_picture.asp) — Het `picture`-element gebruiken voor afbeeldingen.
+- [W3Schools – HTML Buttons](https://www.w3schools.com/html/html_buttons.asp) — Knoppen toevoegen aan mijn website.
+- [W3Schools – HTML Classes](https://www.w3schools.com/html/html_classes.asp) — Classes gebruiken om elementen te groeperen en te stylen.
+- [W3Schools – HTML Id](https://www.w3schools.com/html/html_id.asp) — Een uniek ID aan een HTML-element geven.
+- [W3Schools – HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp) — Semantische elementen gebruiken, zoals `header`, `nav`, `main` en `footer`.
+- [W3Schools – HTML Responsive](https://www.w3schools.com/html/html_responsive.asp) — Leren over responsive webpagina's.
+- [W3Schools – HTML Accessibility](https://www.w3schools.com/html/html_accessibility.asp) — Rekening houden met toegankelijkheid, alternatieve teksten en semantische HTML.
+- [W3Schools – Accessibility Tutorial](https://www.w3schools.com/accessibility/) — Meer leren over headings, landmarks, links, knoppen en toetsenbordnavigatie.
 </details>
