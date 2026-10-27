@@ -102,16 +102,16 @@ De volgende stappen om mijn website responsive te maken zijn de afbeeldingen op 
 
 Ik kan de bouw van mijn digital garden misschien wel uitleggen in 'Webby vocabulaire.'
 
-Ik heb thuis ook afbeeldingen ontworpen in illustrator: <img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/a4e31698-eb4c-4eee-8729-8c7a37898142" />
+Ik heb thuis ook afbeeldingen ontworpen in illustrator: <img width="400" alt="Image" src="https://github.com/user-attachments/assets/a4e31698-eb4c-4eee-8729-8c7a37898142" />
 </details>
 
 ### Vrijdag 18 sept
 <details> <summary>Lees meer</summary>
 Vandaag hebben we voortgangsgesprekken gevoerd en hebben we de retrospect gedaan.
-Ik heb met mn groep bepaald waar een goede tekening aan moet voldoen. Hieronder: <img width="2224" height="1536" alt="Image" src="https://github.com/user-attachments/assets/80f578db-0946-4d1d-99be-376902498931" />
-<img width="4032" height="3024" alt="Image" src="https://github.com/user-attachments/assets/26019380-f1fb-4896-8ef9-bb3f348f5c3f" />
-<img width="4032" height="3024" alt="Image" src="https://github.com/user-attachments/assets/afd66037-9492-4716-afce-e7ff84d5b064" />
-<img width="4032" height="3024" alt="Image" src="https://github.com/user-attachments/assets/3104c833-7165-4b75-8c73-a17d0c079b5d" />
+Ik heb met mn groep bepaald waar een goede tekening aan moet voldoen. Hieronder: <br> <img width="400" alt="Image" src="https://github.com/user-attachments/assets/80f578db-0946-4d1d-99be-376902498931" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/26019380-f1fb-4896-8ef9-bb3f348f5c3f" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/afd66037-9492-4716-afce-e7ff84d5b064" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/3104c833-7165-4b75-8c73-a17d0c079b5d" /> <br>
 ## Checkout:
 Vragen en termen
 -Waarom geven de docenten deze opdracht?
