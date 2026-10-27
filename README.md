@@ -397,3 +397,5 @@ Vandaag is de expo. Ik schrijf dit nu maandagmiddag. De expo ging goed, we hebbe
 - [W3Schools – HTML Accessibility](https://www.w3schools.com/html/html_accessibility.asp) — Rekening houden met toegankelijkheid, alternatieve teksten en semantische HTML.
 - [W3Schools – Accessibility Tutorial](https://www.w3schools.com/accessibility/) — Meer leren over headings, landmarks, links, knoppen en toetsenbordnavigatie.
 </details>
+
+Hoe heb ik het blok ervaren? Ik vond het uiteindelijk wel leuk om mijn eigen website te coderen. Ik heb veel gewerkt in illustrator waar ik ook van heb genoten en mijn website past goed bij mij. Ondanks de achterstand die ik heb opgelopen door ziekte ziet mijn website er mooi uit. Ik ben tevreden over dit blok.
