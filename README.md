@@ -195,7 +195,7 @@ Ik heb veel feedback gekregen om te verwerken. Dat kwam ook doordat ik ziek was.
 <details> <summary>Lees meer</summary>
 We hebben schetsen gemaakt voor onze songteksten. <br>
 Zijn begonnen aan eerste versie html <br>
-een lied gekozen.Ik heb gekozen voor Freezing omdat het tempo van het lied me aansprak en ik vond dat deze het beste ij mijn website paste.
+een lied gekozen.Ik heb gekozen voor Freezing omdat het tempo van het lied me aansprak en ik vond dat deze het beste ij mijn website paste. <br>
 <img width="400"  alt="Image" src="https://github.com/user-attachments/assets/90f7984c-e610-4e82-8ef9-cf4ad7ce2153" />
 <img width="400"  alt="Image" src="https://github.com/user-attachments/assets/de458130-3743-4f73-8938-71d784726939" />
 <img width="400"  alt="Image" src="https://github.com/user-attachments/assets/d3f3bba7-48eb-499f-a56f-cd8e515bd285" />
@@ -203,7 +203,7 @@ een lied gekozen.Ik heb gekozen voor Freezing omdat het tempo van het lied me aa
 <img width="400"  alt="Image" src="https://github.com/user-attachments/assets/a00ecffa-3607-4890-bc4d-a7cfe6daa765" />
 ---
 
- 1. Leg uit wat er met de volgende termen bedoeld wordt: kerning, tracking, leading, flush-left, flush-right, centered, justified, indent, outdent, modular scale, movable type, focus punt, vijf soorten contrast, spatial tension. <br> <br>
+ ## 1. Leg uit wat er met de volgende termen bedoeld wordt: kerning, tracking, leading, flush-left, flush-right, centered, justified, indent, outdent, modular scale, movable type, focus punt, vijf soorten contrast, spatial tension. <br> <br>
 
 - **Kerning:** De ruimte tussen twee specifieke letters. Je kunt deze aanpassen zodat letters er optisch goed uitzien, bijvoorbeeld bij de combinatie A en V.<br>
 - **Tracking:** De ruimte tussen alle letters in een woord of tekst. Je kunt letters dichter bij elkaar zetten of juist meer ruimte geven. <br>
@@ -225,11 +225,11 @@ een lied gekozen.Ik heb gekozen voor Freezing omdat het tempo van het lied me aa
   5. **Ruimte:** elementen die dicht bij elkaar staan tegenover elementen met veel ruimte eromheen. <br>
 - **Spatial tension:** Ruimtelijke spanning die ontstaat door de plaatsing en afstand tussen elementen. Door bijvoorbeeld tekst dicht bij de rand te zetten of elementen asymmetrisch te plaatsen, kan een ontwerp spannend en dynamisch worden. <br> <br>
 
-### 2. Wat is jouw ideale regellengte (measure)? Leg uit waarom. <br>
+## 2. Wat is jouw ideale regellengte (measure)? Leg uit waarom. <br>
 
 Mijn ideale regellengte is ongeveer 50 tot 75 tekens per regel. Dit vind ik prettig lezen, omdat mijn ogen niet te ver hoeven te bewegen van links naar rechts. Als regels te lang zijn, is het moeilijker om de volgende regel terug te vinden. Als ze te kort zijn, moet je juist heel vaak naar een nieuwe regel springen. De ideale lengte hangt ook af van het lettertype en de lettergrootte. <br> <br>
 
-### 3. Als je in een ontwerp maar één variabele tot je beschikking had om hiërarchie aan te brengen (grootte, plaatsing, spacing, lettersoorten), welke zou je dan gebruiken en waarom? <br>
+## 3. Als je in een ontwerp maar één variabele tot je beschikking had om hiërarchie aan te brengen (grootte, plaatsing, spacing, lettersoorten), welke zou je dan gebruiken en waarom? <br>
 
 Ik zou kiezen voor grootte. Door belangrijke tekst groter te maken dan minder belangrijke tekst, kan ik duidelijk aangeven waar de bezoeker als eerste naar moet kijken. Zo kan ik onderscheid maken tussen titels, tussenkoppen en gewone tekst, zonder dat ik verschillende lettertypes of kleuren nodig heb. Dit maakt het ontwerp overzichtelijk en zorgt ervoor dat de belangrijkste informatie direct opvalt. <br> <br>
 </details>
