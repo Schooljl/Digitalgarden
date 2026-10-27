@@ -23,9 +23,9 @@ Moet ik nog uitzoeken want ik heb nog geen aanpassingen aan mijn pagina gemaakt.
 ### 3 sept - [Workshop] 
 <details> <summary>Lees meer</summary>
 Ik heb 2 workshops gevolgd deze dag. Een over schetsen van Charley. We hebben geoefend met het maken van rechte lijnen en vierkanten.
-   <img width="400" alt="Image" src="https://github.com/user-attachments/assets/f32190a0-f7de-4bef-9706-ebfe0faf8d53" />
-   ^We moesten een website opzoeken en natekenen. Dit is zalando.
-   <img width="400" alt="Image" src="https://github.com/user-attachments/assets/c130b8ae-d5de-450d-9964-39e9aea87908" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/f32190a0-f7de-4bef-9706-ebfe0faf8d53" />  
+^We moesten een website opzoeken en natekenen. Dit is zalando.
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/c130b8ae-d5de-450d-9964-39e9aea87908" />
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/53e7f652-64d0-4762-8428-c9691577e671" />
 Bij Diederik heb ik een workshop gevolgd over typografie. De workshop begon met de geschiedenis van typografie en daarna hebben we aan de hand van twee foto's van dolly Parton, lettertypes gezocht die bij haar passen. Dit deden we door woorden op te schrijven die passen bij de foto's en daarna woorden op te schrijven die passen bij die woorden.
 </details>
