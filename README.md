@@ -2,7 +2,7 @@
 
 Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door studenten worden gemaakt.
 
-<details> <summary>### 31 aug - Kickoff</summary>summary
+<details> <summary> ### 31 aug - Kickoff</summary>summary
 
 Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github omgeving.
 
