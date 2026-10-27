@@ -1,50 +1,60 @@
+
 <!doctype html>
 <html lang="nl">
   <head>
     <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <link rel="stylesheet" href="assets/style/creaties.css" >
+
+    <!-- Dit is het icoontje dat bij mijn website in het browsertabblad staat. -->
     <link rel="icon" type="image/png" href="./Kleineafbeeldingen/logoicon.png" alt="" sizes="96x55">
+
     <title>Creaties - Joëlle's Craft Room</title>
   </head>
 
   <body>
     <header>
+     
       <img
         id="logo"
         src="./kleineafbeeldingen/logo200.png"
         alt="Joëlle's Craft Room logo"
       >
 
+      <!-- Dit menu gebruik ik op kleinere schermen, zodat de navigatie klein en heel blijft. -->
       <details class="mobiel-menu">
-    <summary>☰ Menu</summary>
-    <nav aria-label="Mobiele navigatie">
-      <a href="index.html">Joëlle's craft room</a>
-      <a href="Overmij.html">Over mij</a>
-      <a href="creaties.html" aria-current="page">Mijn creaties</a>
-      <a href="inspiratie.html">Inspiratie</a>
-      <a href="./freezing/freezing.html">Freezing</a>
-    </nav>
-  </details>
+        <summary>☰ Menu</summary>
+        <nav aria-label="Mobiele navigatie">
+          <a href="index.html">Joëlle's craft room</a>
+          <a href="Overmij.html">Over mij</a>
+          <a href="creaties.html" aria-current="page">Mijn creaties</a>
+          <a href="inspiratie.html">Inspiratie</a>
+          <a href="./freezing/freezing.html">Freezing</a>
+        </nav>
+      </details>
 
-  <nav class="desktop-nav" aria-label="Hoofdnavigatie">
-    <a href="index.html">Joëlle's craft room</a>
-    <a href="Overmij.html">Over mij</a>
-    <a href="creaties.html" aria-current="page">Mijn creaties</a>
-    <a href="inspiratie.html">Inspiratie</a>
-    <a href="./freezing/freezing.html">Freezing</a>
-  </nav>
+      <!-- Op grotere schermen gebruik ik een navigatiemenu met de links naast elkaar. -->
+      <nav class="desktop-nav" aria-label="Hoofdnavigatie">
+        <a href="index.html">Joëlle's craft room</a>
+        <a href="Overmij.html">Over mij</a>
+        <a href="creaties.html" aria-current="page">Mijn creaties</a>
+        <a href="inspiratie.html">Inspiratie</a>
+        <a href="./freezing/freezing.html">Freezing</a>
+      </nav>
 
+      
       <h1>Creaties</h1>
     </header>
 
     <main>
+      
       <div class="afbeelding-overlay" tabindex="0">
         <img
           src="./kleineafbeeldingen/creation1.jpg"
           alt="Groene jurk van brokaatstof"
         >
         <div class="overlay-tekst">
+          
           <span>Maart 2021</span>
           <p>
             Dit was de allereerste grote jurk die ik heb gemaakt. De jurk is
@@ -57,6 +67,7 @@
         </div>
       </div>
 
+      
       <div class="afbeelding-overlay" tabindex="0">
         <img
           src="./kleineafbeeldingen/creation2.jpg"
@@ -75,6 +86,7 @@
         </div>
       </div>
 
+      
       <div class="afbeelding-overlay" tabindex="0">
         <img
           src="./kleineafbeeldingen/creation3.jpg"
@@ -92,6 +104,7 @@
         </div>
       </div>
 
+      
       <div class="afbeelding-overlay" tabindex="0">
         <img
           src="./kleineafbeeldingen/creation4.jpg"
@@ -110,6 +123,7 @@
         </div>
       </div>
 
+     
       <div class="afbeelding-overlay" tabindex="0">
         <img
           src="./kleineafbeeldingen/creation5.jpg"
@@ -127,6 +141,7 @@
         </div>
       </div>
 
+      
       <div class="afbeelding-overlay" tabindex="0">
         <img
           src="./kleineafbeeldingen/creation6.jpg"
@@ -144,6 +159,7 @@
         </div>
       </div>
 
+      
       <div class="afbeelding-overlay" tabindex="0">
         <img
           src="./kleineafbeeldingen/creation7.jpg"
@@ -161,6 +177,7 @@
         </div>
       </div>
 
+     
       <div class="afbeelding-overlay" tabindex="0">
         <img
           src="./kleineafbeeldingen/creation8.jpg"
@@ -197,6 +214,7 @@
         </div>
       </div>
 
+      
       <div class="afbeelding-overlay" tabindex="0">
         <img
           src="./kleineafbeeldingen/creation10.jpg"
@@ -214,6 +232,7 @@
         </div>
       </div>
 
+      
       <div class="afbeelding-overlay" tabindex="0">
         <img
           src="./kleineafbeeldingen/creation11.jpg"
@@ -232,6 +251,7 @@
         </div>
       </div>
 
+      
       <div class="afbeelding-overlay" tabindex="0">
         <img
           src="./kleineafbeeldingen/creation12.jpg"
@@ -249,6 +269,7 @@
         </div>
       </div>
 
+      
       <div class="afbeelding-overlay" tabindex="0">
         <img
           src="./kleineafbeeldingen/creation13.jpg"
@@ -266,6 +287,7 @@
           </p>
         </div>
       </div>
+
 
       <div class="afbeelding-overlay" tabindex="0">
         <img
@@ -288,7 +310,7 @@
         <img
           src="./kleineafbeeldingen/creation15.jpg"
           alt="Lichtgele jurk voor het winterfeest"
-      >
+        >
         <div class="overlay-tekst">
           <span>December 2025</span>
           <p>
@@ -302,9 +324,13 @@
       </div>
     </main>
 
+    <!-- Hier laad ik mijn JavaScript in voor de interactieve onderdelen van de website. -->
     <script src="assets/script.js" defer></script>
+
+    <!-- Dit script zorgt voor de sparkle-effecten. -->
     <script src="assets/sparkles.js"></script>
     <script>
+      /* Hiermee zet ik de sparkle-effecten ook echt aan. */
       sparkle(true);
     </script>
   </body>
