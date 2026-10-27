@@ -39,10 +39,10 @@ Een digital garden is een plek op het web waar er veel ruimte is voor groei. Er 
 Een digital garden is een persoonlijke plek waar je alles zo persoonlijk en gek kan maken als je wil en deze is nooit klaar met groeien.
 
 In groepjes hebben we websites bekeken en beoordeeld hoe 'webby' ze zijn. Wij hebben een formulier met criteria ingevuld. Daarna hebben we als groep de websites besproken en bepaald welke van deze websites het meest en minst webby is. Daar kwam uit:
-<img width="4032" height="3024" alt="Image" src="https://github.com/user-attachments/assets/4f976837-47d6-422c-bbf4-8bd612ac5b71" />
+<img width="750" alt="Image" src="https://github.com/user-attachments/assets/4f976837-47d6-422c-bbf4-8bd612ac5b71" />
 -meest webby: Ericwbailey.website
 -minst webby: Virtualvampirehaven.neocities.org
- <img width="4029" height="2588" alt="Image" src="https://github.com/user-attachments/assets/f0f7012c-61d5-43e0-bf0c-22bc14382a4c" />
+ <img width="750" alt="Image" src="https://github.com/user-attachments/assets/f0f7012c-61d5-43e0-bf0c-22bc14382a4c" />
 
 Ik ga nu verder met het huiswerk.
 Dit betekent dat ik kijk naar welk onderwerp ik wil gebruiken voor mijn website en hoe ik wil dat het er ongeveer uit gaat zien.
@@ -76,11 +76,11 @@ Link naar miro: https://miro.com/app/board/uXjVHq1zApo=/?share_link_id=829585340
 ### Vrijdag 11 sept
 <details> <summary>Lees meer</summary>
 Vandaag hebben we aan de hand van schetsen een begin gemaakt aan html.
-<img width="3024" height="4032" alt="Image" src="https://github.com/user-attachments/assets/18eeef5b-5957-4747-987b-73eddfe22dae" />
-<img width="4032" height="3024" alt="Image" src="https://github.com/user-attachments/assets/1ea5099a-8ca8-4cd7-8241-9bc6f6cc5dee" />
-<img width="3024" height="4032" alt="Image" src="https://github.com/user-attachments/assets/59365a3a-e1b8-4fcb-9c69-acb716b56f2f" />
-<img width="3024" height="4032" alt="Image" src="https://github.com/user-attachments/assets/40fe6f44-ef31-449f-a593-a3057847e672" />
-<img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/1f82864f-7ab2-423d-b644-eeb8a951c962" />
+<img width="750" alt="Image" src="https://github.com/user-attachments/assets/18eeef5b-5957-4747-987b-73eddfe22dae" />
+<img width="750"  alt="Image" src="https://github.com/user-attachments/assets/1ea5099a-8ca8-4cd7-8241-9bc6f6cc5dee" />
+<img width="750"  alt="Image" src="https://github.com/user-attachments/assets/59365a3a-e1b8-4fcb-9c69-acb716b56f2f" />
+<img width="750"  alt="Image" src="https://github.com/user-attachments/assets/40fe6f44-ef31-449f-a593-a3057847e672" />
+<img width="750"  alt="Image" src="https://github.com/user-attachments/assets/1f82864f-7ab2-423d-b644-eeb8a951c962" />
 </details>
  
 ### Maandag 14 sept
