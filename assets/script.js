@@ -7,6 +7,7 @@ const kroonluchter = document.querySelector("#kroonluchter");
 const logo = document.querySelector("#logo");
 const achtergrond = document.querySelector("#achtergrond");
 const selfie = document.querySelector("#selfie");
+const privacyPopup = document.querySelector(".privacy-popup");
 
 
 const donkereAfbeeldingen = [
@@ -121,16 +122,14 @@ function openPopup() {
   vorigeFocus = document.activeElement;
   popupScreen.classList.add("active");
 
-  // Maak de inhoud buiten de popup tijdelijk ontoegankelijk.
-  document.body.inert = false;
-
   [...document.body.children].forEach((element) => {
     if (element !== popupScreen) {
       element.inert = true;
     }
   });
 
-  closeBtn?.focus();
+  // Focus op de popup zelf, niet op 'Begrepen'.
+  privacyPopup?.focus();
 }
 
 function sluitPopup() {
@@ -193,14 +192,6 @@ document.addEventListener("keydown", (event) => {
       eerste.focus();
     }
   }
-
-  function openCookiePopup() {
-  popupScreen.classList.add("active");
-
-  requestAnimationFrame(() => {
-    privacyPopup.focus();
-  });
-}
 });
 /* deze youtube video legt uit hoe je light dark mode doet met een afbeelding die meeverandert met javascript https://www.youtube.com/watch?v=_gKEUYarehE */
 /*MDN Web Docs. Document: querySelector(). https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
