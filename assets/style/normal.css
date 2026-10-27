@@ -323,7 +323,7 @@ body > picture img {
   max-height: 90vh;
   overflow-y: auto;
 
-  padding: clamp(1.2em, 4vw, 3em);
+  padding: clamp(2.5em, 8vw, 4em) clamp(2em, 8vw, 3.5em);
   text-align: center;
 
   background-image: var(--cookie-achtergrond);
@@ -490,5 +490,8 @@ button:active {
 
   
 }
+
+
+
 
 
