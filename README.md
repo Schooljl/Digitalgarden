@@ -300,7 +300,7 @@ vakantie
 ### Maandag 19 okt:
 <details> <summary>Lees meer</summary>
 We hebben gezamenlijk een paar artikelen gelezen over special tension en hoe je tekst kan positioneren.
-Maandag heb ik na school nog een paar uur gewerkt aan mijn website. Ik heb in illustrator afbeeldingen gemaakt die ik heb gebruikt voor de light en dark mode van de cookie's
+Maandag heb ik na school nog een paar uur gewerkt aan mijn website. Ik heb in illustrator afbeeldingen gemaakt die ik heb gebruikt voor de light en dark mode van de cookie's <br>
 
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/a2acd080-5263-488e-beae-73fcd48f7899" />
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/ec052d2e-9a0f-4908-b608-e6d0438cc60e" />
@@ -310,18 +310,18 @@ Maandag heb ik na school nog een paar uur gewerkt aan mijn website. Ik heb in il
 <details> <summary>Lees meer</summary>
 We zijn de les begonnen met klasikaal naar elkaars werk kijken van de songteksten.
 Daarna zijn we begonnen met de Bi-Weekly.
-Dit ging over betrouwbare informatie op het internet.
-<img width="400" alt="Image" src="https://github.com/user-attachments/assets/24ece9cc-488c-4b66-aa5f-471854446a3b" />
+Dit ging over betrouwbare informatie op het internet. <br>
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/24ece9cc-488c-4b66-aa5f-471854446a3b" /> <br>
 We hebben zelf vragen bedacht die antwoord kunnen geven op de hoofdvraag met onderzoekmethodes.
-Ik heb in illustrator de afbeelding voor de cookie knop gemaakt. Dit lijkt net op een prijskaartje van een kledingstuk,
+Ik heb in illustrator de afbeelding voor de cookie knop gemaakt. Dit lijkt net op een prijskaartje van een kledingstuk,<br>
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/a7d0960f-d42a-440d-919d-313474df0410" />
-<img width="400" alt="Image" src="https://github.com/user-attachments/assets/b514d047-2284-4b66-9398-6b95035737da" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/b514d047-2284-4b66-9398-6b95035737da" /> <br>
 Dit is mijn vernieuwde cookie pop up
 </details>
  
 ### Donderdag 22 okt:
 <details> <summary>Lees meer</summary>
-Ik heb de hele dag thuis gewerkt. ik heb de light dark mode knop toegevoegd op de home page. Meer animatie's toegevoegd, een cookie knop toegevoegd zodat de bezoeker terug kan naar de cookies informatie. Ook heb ik een laag met tekst toegevoeg bij mijn creaties als je eroverheen hovert. Dit was makkelijker dan ik had gedacht.
+Ik heb de hele dag thuis gewerkt. ik heb de light dark mode knop toegevoegd op de home page. Meer animatie's toegevoegd, een cookie knop toegevoegd zodat de bezoeker terug kan naar de cookies informatie. Ook heb ik een laag met tekst toegevoeg bij mijn creaties als je eroverheen hovert. Dit was makkelijker dan ik had gedacht. <br>
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/9160d46f-4d3f-4b36-b4a5-5e99fa8b911b" />
 
 Ik heb ook mijn songtekst meer vormgegeven doormiddel van een glow effect en animatie. Als je over de woorden, name, books, family en history hovert dan worden de woorden duidelijk leesbaar. Ik heb gekozen voor een donkere achtergrondkleur en de 'if you had no' in wit. omdat ik dat een mooi contrast vind. Het is ook een koude kleur donkerblauw. <br> <img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/7c7c6d51-a2d1-4832-9533-15330165add6" /> <br> <br>
@@ -334,12 +334,12 @@ Op deze screenshot kan je zien dat ik een donkere laag met tekst heb toegevoegd 
 <details> <summary>Lees meer</summary>
 Vandaag is het laatste feedback moment. Ik heb na de les met Christina nog een aantal dingen toegevoegd aan mijn website.
 Bijvoorbeeld dit icoontje bovenaan
-<img width="238" height="26" alt="Image" src="https://github.com/user-attachments/assets/e9a14878-a330-43bf-b18f-9ef19a5720cd" />
+<img width="238" height="26" alt="Image" src="https://github.com/user-attachments/assets/e9a14878-a330-43bf-b18f-9ef19a5720cd" /> <br>
 We hebben ook een animatie gemaakt voor de kroonluchter. Deze beweegt heel kort van links naar rechts als een bootje als iemand de pagina opent. Dit duurde lang en we hebben heel lang moeten denken over hoe de kroonluchter mooi kan bewegen.
-Ook hebben we de glow van de kroonluchter omhoog gezet met top -em zodat het lijkt alsof het licht uit de kroonluchter komt als je op light mode bent. <img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/6fb3c965-80f9-4a79-90a8-6f4e5cf0d477" />
-Ik heb ook een aparte afbeelding van de toverstaf cursor gemaakt voor als hover. Zo is het duidelijker waar je wel of niet op kan klikken.
-<img width="519" height="730" alt="Image" src="https://github.com/user-attachments/assets/0b84c305-7733-41e9-8bb7-e3e6328d7e6e" />
-<img width="519" height="730" alt="Image" src="https://github.com/user-attachments/assets/f42b4ec3-6db6-48ca-930a-b3b3f99973c6" />
+Ook hebben we de glow van de kroonluchter omhoog gezet met top -em zodat het lijkt alsof het licht uit de kroonluchter komt als je op light mode bent. <br> <img width="400" alt="Image" src="https://github.com/user-attachments/assets/6fb3c965-80f9-4a79-90a8-6f4e5cf0d477" /> <br>
+Ik heb ook een aparte afbeelding van de toverstaf cursor gemaakt voor als hover. Zo is het duidelijker waar je wel of niet op kan klikken. <br>
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/0b84c305-7733-41e9-8bb7-e3e6328d7e6e" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/f42b4ec3-6db6-48ca-930a-b3b3f99973c6" />
 </details>
 
 ### Zondag 25 okt:
@@ -349,8 +349,8 @@ Ik heb mijn Learning Log aangevuld en getest of alles lukt met tab en screenread
 
 ### Maandag 26 okt:
 <details> <summary>Lees meer</summary>
-Vandaag is de expo. Ik schrijf dit nu maandagmiddag. De expo ging goed, we hebben van iedereen de website bekeken en stickers geplakt op de werkbladen van de personen die we erg goed vonden.
-<img width="3127" height="2270" alt="Image" src="https://github.com/user-attachments/assets/a153d803-3acb-441f-84dd-1444c34273a9" />
-<img width="2327" height="3311" alt="Image" src="https://github.com/user-attachments/assets/488a71bc-e596-437c-9667-e00906aab8b9" />
-<img width="2654" height="3671" alt="Image" src="https://github.com/user-attachments/assets/da5e6332-d1ca-43bb-b99f-65c26104d39d" />
+Vandaag is de expo. Ik schrijf dit nu maandagmiddag. De expo ging goed, we hebben van iedereen de website bekeken en stickers geplakt op de werkbladen van de personen die we erg goed vonden. <br>
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/a153d803-3acb-441f-84dd-1444c34273a9" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/488a71bc-e596-437c-9667-e00906aab8b9" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/da5e6332-d1ca-43bb-b99f-65c26104d39d" />
 </details>
