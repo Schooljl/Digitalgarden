@@ -1,4 +1,3 @@
-
 /* Ik laad mijn eigen lettertypes in, zodat ik ze op verschillende plekken op mijn website kan gebruiken. */
 @font-face {
   font-family: "Comic Relief";
@@ -21,7 +20,6 @@
   font-style: normal;
 }
 
-
 /* Ik gebruik variabelen voor mijn kleuren, zodat ik ze makkelijk kan aanpassen en hergebruiken. */
 :root {
   color-scheme: light;
@@ -35,7 +33,6 @@
   --h1-kleur: #633858;
   --figcaption-kleur: #2c1a0b;
 }
-
 
 /* In dark mode verander ik de kleuren, zodat de pagina ook in een donker thema bij mijn ontwerp past. */
 body.dark-mode {
@@ -51,7 +48,6 @@ body.dark-mode {
   --figcaption-kleur: #f3beed;
 }
 
-
 /* Ik gebruik grid voor de pagina en haal de standaardmarge van de body weg. Ook stel ik mijn lettertype, achtergrond en cursor in. */
 body {
   display: grid;
@@ -59,15 +55,15 @@ body {
   background-color: var(--achtergrondkleur);
   color: var(--tekstkleur);
   font-family: "Comic Relief", system-ui, sans-serif;
-  cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, auto;
+  cursor:
+    url("../../kleineafbeeldingen/toverstaf.png") 4 4,
+    auto;
 }
-
 
 /* Ik centreer de inhoud van de header. */
 header {
   text-align: center;
 }
-
 
 /* Het logo schaalt mee met het scherm, maar wordt niet groter dan 20rem. */
 header img {
@@ -75,7 +71,6 @@ header img {
   max-width: 20rem;
   height: auto;
 }
-
 
 /* Voor de hoofdtitel gebruik ik een sierlijk lettertype en een animatie, zodat de titel rustig verschijnt. */
 h1 {
@@ -85,7 +80,6 @@ h1 {
   font-size: 2.5em;
   animation: verschijnen 1s ease-out;
 }
-
 
 /* Mobiele navigatie */
 
@@ -98,7 +92,6 @@ h1 {
   background-size: auto 3em;
 }
 
-
 /* De summary is het onderdeel waarop je kunt klikken om het mobiele menu open en dicht te klappen. */
 .mobiel-menu summary {
   cursor: url("../../kleineafbeeldingen/toverstafhover.png"), pointer;
@@ -110,7 +103,6 @@ h1 {
   list-style-position: inside;
 }
 
-
 /* Ik zet de navigatielinks onder elkaar en centreer ze, zodat ze overzichtelijk zijn op een mobiel scherm. */
 .mobiel-menu nav {
   display: flex;
@@ -119,7 +111,6 @@ h1 {
   gap: 1.3em;
   padding: 1em;
 }
-
 
 /* Ik gebruik hetzelfde sierlijke lettertype voor de links in het mobiele en desktopmenu. */
 .mobiel-menu a,
@@ -132,13 +123,11 @@ h1 {
   transition: transform 0.3s ease;
 }
 
-
 /* Als ik met de muis over een link ga, wordt deze iets groter. */
 .mobiel-menu a:hover,
 .desktop-nav a:hover {
   transform: scale(1.2);
 }
-
 
 /* In dark mode gebruik ik een donkere kantafbeelding voor de navigatie. */
 body.dark-mode .mobiel-menu,
@@ -146,12 +135,10 @@ body.dark-mode .desktop-nav {
   background-image: url("../../kleineafbeeldingen/kantdark.jpg");
 }
 
-
 /* Het desktopmenu is standaard verborgen, zodat het mobiele menu op kleine schermen wordt gebruikt. */
 .desktop-nav {
   display: none;
 }
-
 
 /* Inhoud van de inspiratiepagina */
 
@@ -165,7 +152,6 @@ body.dark-mode .desktop-nav {
   margin: 2rem auto;
 }
 
-
 /* Het tekstvak krijgt eigen kleuren, padding en een rand, zodat de tekst duidelijk losstaat van de achtergrond. */
 .inspiratie-tekst {
   padding: 1.5rem;
@@ -174,14 +160,12 @@ body.dark-mode .desktop-nav {
   border: 0.15rem solid var(--rand);
 }
 
-
 /* Ik centreer de tussenkop en gebruik mijn sierlijke lettertype. */
 .inspiratie-tekst h2 {
   margin-top: 0;
   text-align: center;
   font-family: "The Garden of lights", sans-serif;
 }
-
 
 /* Ik geef de tekst extra regelafstand, zodat de paragrafen prettiger leesbaar zijn. */
 .inspiratie-tekst p {
@@ -190,7 +174,6 @@ body.dark-mode .desktop-nav {
   line-height: 1.7;
 }
 
-
 /* Ik centreer de Pinterest-preview en haal de standaardmarge van figure weg. */
 .pinterest-preview {
   align-self: center;
@@ -198,12 +181,10 @@ body.dark-mode .desktop-nav {
   text-align: center;
 }
 
-
 /* De link neemt de volledige breedte van het element in. */
 .pinterest-preview a {
   display: block;
 }
-
 
 /* De afbeelding vult de beschikbare breedte en krijgt een schaduw en een vloeiende overgang. */
 .pinterest-preview img {
@@ -214,12 +195,10 @@ body.dark-mode .desktop-nav {
   transition: transform 0.3s ease;
 }
 
-
 /* Bij hover wordt de Pinterest-afbeelding een klein beetje groter. */
 .pinterest-preview img:hover {
   transform: scale(1.03);
 }
-
 
 /* Ik geef het bijschrift wat ruimte boven de tekst en gebruik een kleinere lettergrootte. */
 figcaption {
@@ -229,7 +208,6 @@ figcaption {
   font-family: serif;
   font-weight: 400;
 }
-
 
 /* Deze animatie laat elementen langzaam verschijnen en een klein stukje omhoog bewegen. */
 @keyframes verschijnen {
@@ -244,14 +222,14 @@ figcaption {
   }
 }
 
-
 /* Ik gebruik mijn toverstafcursor voor links, knoppen en afbeeldingen. */
 a,
 button,
 img {
-  cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, pointer;
+  cursor:
+    url("../../kleineafbeeldingen/toverstaf.png") 4 4,
+    pointer;
 }
-
 
 /* Voor deze interactieve elementen gebruik ik mijn tweede cursorafbeelding. */
 a,
@@ -261,7 +239,6 @@ select,
 summary {
   cursor: url("../../kleineafbeeldingen/toverstafhover.png"), pointer;
 }
-
 
 /* Navigatie en pagina-inhoud op grotere schermen */
 

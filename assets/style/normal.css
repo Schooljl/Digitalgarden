@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: "The Garden of Lights";
   src: url("../type/The%20Garden%20of%20Lights.ttf") format("truetype");
@@ -12,7 +11,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 
 /* Kleuren voor light mode. Ik gebruik variabelen zodat ik de kleuren makkelijk kan aanpassen. */
 
@@ -34,7 +32,6 @@
   --paragraafkleur: inherit;
 }
 
-
 /* Kleuren voor dark mode. Door dezelfde variabelen andere waarden te geven, kan ik het uiterlijk veranderen zonder alle CSS apart aan te passen. */
 
 body.dark-mode {
@@ -55,13 +52,11 @@ body.dark-mode {
   --paragraafkleur: #f3beed;
 }
 
-
 /* Met border-box vallen padding en randen binnen de opgegeven breedte en hoogte. */
 
 * {
   box-sizing: border-box;
 }
-
 
 /* Algemene instellingen voor de pagina. Ik gebruik grid om de pagina minimaal de hoogte van het scherm te laten vullen. */
 
@@ -72,15 +67,15 @@ body {
   grid-template-rows: auto 1fr;
 
   font-family: "Comic Relief", system-ui;
- 
-  
+
   background-color: var(--achtergrondkleurbeneden);
   color: var(--tekstkleur);
 
   /* Ik gebruik een toverstaf als cursor om bij de sprookjesachtige stijl van mijn website te blijven. */
-  cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, auto;
+  cursor:
+    url("../../kleineafbeeldingen/toverstaf.png") 4 4,
+    auto;
 }
-
 
 /* Ik gebruik een sierlijk lettertype voor de hoofdtitels, zodat ze opvallen. */
 
@@ -91,13 +86,11 @@ h1 {
   margin-top: 1.5em;
 }
 
-
 /* De paragrafen nemen standaard de tekstkleur over, tenzij ik in een andere modus een aparte kleur instel. */
 
 p {
   color: var(--paragraafkleur);
 }
-
 
 /* De kroonluchter is mijn knop om tussen light mode en dark mode te wisselen. */
 
@@ -118,9 +111,10 @@ p {
   animation-duration: 2s;
   animation-iteration-count: 1;
 
-  cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, pointer;
+  cursor:
+    url("../../kleineafbeeldingen/toverstaf.png") 4 4,
+    pointer;
 }
-
 
 #kroonluchter {
   display: block;
@@ -129,9 +123,10 @@ p {
 
   /* De lichte gloed geeft de kroonluchter een magisch effect. */
   filter: drop-shadow(0 -1em 0.8em rgb(255, 255, 198));
-  transition: 0.3s ease, filter 0.3s ease;
+  transition:
+    0.3s ease,
+    filter 0.3s ease;
 }
-
 
 /* Als ik met de muis over de kroonluchter ga, zakt deze een stukje naar beneden. */
 
@@ -139,13 +134,11 @@ p {
   transform: translateY(2em);
 }
 
-
 /* In dark mode haal ik de lichte gloed weg, zodat die beter bij de donkere vormgeving past. */
 
 body.dark-mode #kroonluchter {
   filter: none;
 }
-
 
 /* Het logo staat in het midden en krijgt een maximale breedte, zodat het niet te groot wordt op brede schermen. */
 
@@ -160,16 +153,13 @@ header img {
   height: auto;
 }
 
-
 /* Navigatie */
-
 
 /* In dark mode krijgt het mobiele menu de donkere kantachtergrond. */
 
 body.dark-mode .mobiel-menu {
   background-image: url("../../kleineafbeeldingen/kantdark.jpg");
 }
-
 
 /* Het mobiele menu is zichtbaar op kleinere schermen. De kantafbeelding past bij de stijl van mijn website. */
 
@@ -181,7 +171,6 @@ body.dark-mode .mobiel-menu {
   background-size: auto 3em;
 }
 
-
 /* De samenvatting is de tekst waarop je kunt klikken om het mobiele menu te openen. */
 
 .mobiel-menu summary {
@@ -190,7 +179,6 @@ body.dark-mode .mobiel-menu {
   font-size: 1.4em;
   cursor: pointer;
 }
-
 
 /* Ik zet de links onder elkaar en geef ze ruimte, zodat ze op een mobiel scherm makkelijk te gebruiken zijn. */
 
@@ -203,13 +191,11 @@ body.dark-mode .mobiel-menu {
   background: none;
 }
 
-
 /* Het desktopmenu is standaard verborgen. */
 
 .desktop-nav {
   display: none;
 }
-
 
 /* Ik geef de navigatielinks hetzelfde sierlijke lettertype en laat ze iets groter worden als je eroverheen gaat. */
 
@@ -228,14 +214,12 @@ body.dark-mode .mobiel-menu {
   transform: scale(1.2);
 }
 
-
 /* Ik gebruik de navigatieachtergrondvariabele ook voor de donkere modus. */
 
 body.dark-mode .mobiel-menu,
 body.dark-mode .desktop-nav {
   background-image: var(--navigatieachtergrond);
 }
-
 
 /* Vanaf 45rem gebruik ik het desktopmenu in plaats van het mobiele menu. */
 
@@ -258,14 +242,12 @@ body.dark-mode .desktop-nav {
   }
 }
 
-
 /* De afbeelding onder de header vult de beschikbare ruimte en blijft op verschillende schermformaten in verhouding. */
 
 body > picture {
   display: grid;
   min-height: 0;
 }
-
 
 body > picture img {
   display: block;
@@ -276,7 +258,6 @@ body > picture img {
   object-position: center top;
 }
 
-
 /* Op bredere schermen zet ik de navigatie horizontaal en centreer ik de links. */
 
 @media (min-width: 35em) {
@@ -284,9 +265,7 @@ body > picture img {
     flex-direction: row;
     justify-content: center;
   }
-
 }
-
 
 /* Op grotere schermen kunnen de secties in main in twee kolommen worden verdeeld. */
 
@@ -295,9 +274,6 @@ body > picture img {
     grid-template-columns: 1fr 1fr;
   }
 }
-
-
-
 
 /* Cookie-pop-up. Ik gebruik visibility en opacity om de pop-up verborgen te houden totdat de active-klasse wordt toegevoegd. */
 
@@ -313,14 +289,12 @@ body > picture img {
   font-family: "The Garden of Lights", serif;
 }
 
-
 /* Deze klasse maakt de pop-up zichtbaar. */
 
 .popup-screen.active {
   visibility: visible;
   opacity: 1;
 }
-
 
 /* De donkere laag ligt achter de pop-up en maakt de rest van de pagina minder opvallend. De blur zorgt voor een wazig effect. */
 
@@ -332,7 +306,6 @@ body > picture img {
   background-color: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(0.3em);
 }
-
 
 /* De pop-up staat in het midden van het scherm. Met max-height en overflow kan de inhoud scrollen als die niet helemaal past. */
 
@@ -362,14 +335,12 @@ body > picture img {
   font-family: "The Garden of Lights", serif;
 }
 
-
 /* De titel schaalt mee met het scherm. overflow-wrap voorkomt dat lange woorden buiten de pop-up vallen. */
 
 .privacy-popup h1 {
   font-size: clamp(1.5rem, 5vw, 2.5rem);
   overflow-wrap: break-word;
 }
-
 
 /* Ik gebruik een regelhoogte van 1.5 voor de leesbaarheid en laat de tekstgrootte meeschalen met het scherm. */
 
@@ -378,7 +349,6 @@ body > picture img {
   line-height: 1.5;
   overflow-wrap: break-word;
 }
-
 
 /* De knop krijgt eigen kleuren en een rand, zodat hij duidelijk opvalt in de pop-up. */
 
@@ -394,7 +364,6 @@ body > picture img {
   font-size: clamp(0.9rem, 2.5vw, 1.1rem);
 }
 
-
 /* Met deze knop kan de bezoeker de cookie- of privacy-pop-up opnieuw openen. */
 
 #cookies-opnieuw {
@@ -408,9 +377,10 @@ body > picture img {
   border: none;
   background: none;
 
-  cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, pointer;
+  cursor:
+    url("../../kleineafbeeldingen/toverstaf.png") 4 4,
+    pointer;
 }
-
 
 #cookies-opnieuw img {
   display: block;
@@ -422,7 +392,6 @@ body > picture img {
   filter: drop-shadow(0.3em 0.3em rgba(0, 0, 0, 0.2));
 }
 
-
 /* Bij hover schuift de afbeelding naar rechts en krijgt die een lichte gloed. */
 
 #cookies-opnieuw:hover img {
@@ -430,20 +399,19 @@ body > picture img {
   transform: translateX(3em);
 }
 
-
 #cookies-opnieuw:hover {
   box-shadow: none;
 }
-
 
 /* Ik gebruik mijn eigen cursorafbeeldingen om de sprookjesachtige stijl op de hele website terug te laten komen. */
 
 a,
 button,
 img {
-  cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, pointer;
+  cursor:
+    url("../../kleineafbeeldingen/toverstaf.png") 4 4,
+    pointer;
 }
-
 
 a,
 button,
@@ -453,7 +421,6 @@ summary {
   cursor: url("../../kleineafbeeldingen/toverstafhover.png"), default;
 }
 
-
 /* Knoppen krijgen een vloeiende overgang, zodat de hover- en klikbewegingen niet abrupt zijn. */
 
 button {
@@ -462,7 +429,6 @@ button {
     transform 0.3s ease,
     background-color 0.3s ease;
 }
-
 
 /* Bij hover krijgen de knoppen een roze gloed en worden ze iets groter. */
 
@@ -475,20 +441,17 @@ button:hover {
   transform: scale(1.05);
 }
 
-
 /* Als je op een knop klikt, wordt die iets kleiner als feedback. */
 
 button:active {
   transform: scale(0.97);
 }
 
-
 /* Ik haal de standaard focusrand van de pop-up weg. Ik moet er wel voor zorgen dat toetsenbordgebruikers nog een zichtbare focus hebben op interactieve elementen. */
 
 .privacy-popup:focus {
   outline: none;
 }
-
 
 /* De kroonluchter draait een klein beetje heen en weer tijdens de animatie. */
 
@@ -510,7 +473,6 @@ button:active {
   }
 }
 
-
 /* Navigatie voor brede schermen. Ik gebruik flexbox om de links naast elkaar te zetten en te laten doorlopen als er niet genoeg ruimte is. */
 
 @media (min-width: 45rem) {
@@ -524,10 +486,7 @@ button:active {
     justify-content: center;
     flex-wrap: wrap;
   }
-
-  
 }
-
 
 /*
 Bronnen die ik heb gebruikt om CSS-eigenschappen en voorbeelden beter te begrijpen:
@@ -544,8 +503,3 @@ Bronnen die ik heb gebruikt om CSS-eigenschappen en voorbeelden beter te begrijp
 - [W3Schools – HTML Accessibility](https://www.w3schools.com/html/html_accessibility.asp) — Rekening houden met toegankelijkheid, alternatieve teksten en semantische HTML.
 - [W3Schools – Accessibility Tutorial](https://www.w3schools.com/accessibility/) — Meer leren over headings, landmarks, links, knoppen en toetsenbordnavigatie.
 */
-
-
-
-
-
