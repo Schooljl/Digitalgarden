@@ -532,53 +532,17 @@ button:active {
 /*
 Bronnen die ik heb gebruikt om CSS-eigenschappen en voorbeelden beter te begrijpen:
 
-- MDN Web Docs – @font-face:
-  https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face
+## Bronnen:
 
-- MDN Web Docs – CSS custom properties (variabelen):
-  https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
-
-- MDN Web Docs – box-sizing:
-  https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
-
-- MDN Web Docs – CSS Grid Layout:
-  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout
-
-- MDN Web Docs – Flexbox:
-  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout
-
-- MDN Web Docs – Media queries:
-  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
-
-- MDN Web Docs – clamp():
-  https://developer.mozilla.org/en-US/docs/Web/CSS/clamp
-
-- MDN Web Docs – transform:
-  https://developer.mozilla.org/en-US/docs/Web/CSS/transform
-
-- MDN Web Docs – transition:
-  https://developer.mozilla.org/en-US/docs/Web/CSS/transition
-
-- MDN Web Docs – CSS animations:
-  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations
-
-- MDN Web Docs – cursor:
-  https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
-
-- MDN Web Docs – filter:
-  https://developer.mozilla.org/en-US/docs/Web/CSS/filter
-
-- MDN Web Docs – overflow:
-  https://developer.mozilla.org/en-US/docs/Web/CSS/overflow
-
-- MDN Web Docs – visibility:
-  https://developer.mozilla.org/en-US/docs/Web/CSS/visibility
-
-- MDN Web Docs – opacity:
-  https://developer.mozilla.org/en-US/docs/Web/CSS/opacity
-
-- MDN Web Docs – backdrop-filter:
-  https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter
+- [W3Schools – HTML Tutorial](https://www.w3schools.com/html/) — De basis van HTML en de structuur van mijn webpagina's. 
+- [W3Schools – HTML The Picture Element](https://www.w3schools.com/html/html_images_picture.asp) — Het `picture`-element gebruiken voor afbeeldingen.
+- [W3Schools – HTML Buttons](https://www.w3schools.com/html/html_buttons.asp) — Knoppen toevoegen aan mijn website.
+- [W3Schools – HTML Classes](https://www.w3schools.com/html/html_classes.asp) — Classes gebruiken om elementen te groeperen en te stylen.
+- [W3Schools – HTML Id](https://www.w3schools.com/html/html_id.asp) — Een uniek ID aan een HTML-element geven.
+- [W3Schools – HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp) — Semantische elementen gebruiken, zoals `header`, `nav`, `main` en `footer`.
+- [W3Schools – HTML Responsive](https://www.w3schools.com/html/html_responsive.asp) — HTML-pagina's geschikt maken voor verschillende schermformaten.
+- [W3Schools – HTML Accessibility](https://www.w3schools.com/html/html_accessibility.asp) — Rekening houden met toegankelijkheid, alternatieve teksten en semantische HTML.
+- [W3Schools – Accessibility Tutorial](https://www.w3schools.com/accessibility/) — Meer leren over headings, landmarks, links, knoppen en toetsenbordnavigatie.
 */
 
 
