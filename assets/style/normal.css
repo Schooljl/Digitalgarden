@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "The Garden of Lights";
   src: url("../type/The%20Garden%20of%20Lights.ttf") format("truetype");
@@ -13,7 +14,7 @@
 }
 
 
-/* Kleuren voor light mode */
+/* Kleuren voor light mode. Ik gebruik variabelen zodat ik de kleuren makkelijk kan aanpassen. */
 
 :root {
   color-scheme: light;
@@ -34,7 +35,7 @@
 }
 
 
-/* Kleuren voor dark mode */
+/* Kleuren voor dark mode. Door dezelfde variabelen andere waarden te geven, kan ik het uiterlijk veranderen zonder alle CSS apart aan te passen. */
 
 body.dark-mode {
   color-scheme: dark;
@@ -55,12 +56,14 @@ body.dark-mode {
 }
 
 
+/* Met border-box vallen padding en randen binnen de opgegeven breedte en hoogte. */
+
 * {
   box-sizing: border-box;
 }
 
 
-/* Algemene pagina */
+/* Algemene instellingen voor de pagina. Ik gebruik grid om de pagina minimaal de hoogte van het scherm te laten vullen. */
 
 body {
   margin: 0;
@@ -74,9 +77,12 @@ body {
   background-color: var(--achtergrondkleurbeneden);
   color: var(--tekstkleur);
 
+  /* Ik gebruik een toverstaf als cursor om bij de sprookjesachtige stijl van mijn website te blijven. */
   cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, auto;
 }
 
+
+/* Ik gebruik een sierlijk lettertype voor de hoofdtitels, zodat ze opvallen. */
 
 h1 {
   font-family: "The Garden of Lights", serif;
@@ -86,12 +92,14 @@ h1 {
 }
 
 
+/* De paragrafen nemen standaard de tekstkleur over, tenzij ik in een andere modus een aparte kleur instel. */
+
 p {
   color: var(--paragraafkleur);
 }
 
 
-/* Kroonluchter: light/dark mode */
+/* De kroonluchter is mijn knop om tussen light mode en dark mode te wisselen. */
 
 #light-darkknop {
   position: fixed;
@@ -105,6 +113,7 @@ p {
   box-shadow: none;
   transform: none;
 
+  /* De kroonluchter beweegt kort wanneer de pagina wordt geladen. */
   animation-name: beweeg;
   animation-duration: 2s;
   animation-iteration-count: 1;
@@ -118,26 +127,27 @@ p {
   width: clamp(6em, 18vw, 14em);
   height: auto;
 
+  /* De lichte gloed geeft de kroonluchter een magisch effect. */
   filter: drop-shadow(0 -1em 0.8em rgb(255, 255, 198));
   transition: 0.3s ease, filter 0.3s ease;
 }
 
 
-/* De kroonluchter zakt bij hover */
+/* Als ik met de muis over de kroonluchter ga, zakt deze een stukje naar beneden. */
 
 #light-darkknop:hover #kroonluchter {
   transform: translateY(2em);
 }
 
 
-/* Geen witte gloed in dark mode */
+/* In dark mode haal ik de lichte gloed weg, zodat die beter bij de donkere vormgeving past. */
 
 body.dark-mode #kroonluchter {
   filter: none;
 }
 
 
-/* Logo */
+/* Het logo staat in het midden en krijgt een maximale breedte, zodat het niet te groot wordt op brede schermen. */
 
 header {
   text-align: center;
@@ -154,17 +164,15 @@ header img {
 /* Navigatie */
 
 
+/* In dark mode krijgt het mobiele menu de donkere kantachtergrond. */
 
-
-/* Dark mode */
 body.dark-mode .mobiel-menu {
   background-image: url("../../kleineafbeeldingen/kantdark.jpg");
 }
 
 
-/* Navigatie */
+/* Het mobiele menu is zichtbaar op kleinere schermen. De kantafbeelding past bij de stijl van mijn website. */
 
-/* Mobiel menu */
 .mobiel-menu {
   display: block;
   padding: 1em;
@@ -172,6 +180,9 @@ body.dark-mode .mobiel-menu {
   background-repeat: repeat-x;
   background-size: auto 3em;
 }
+
+
+/* De samenvatting is de tekst waarop je kunt klikken om het mobiele menu te openen. */
 
 .mobiel-menu summary {
   color: var(--navigatietekstkleur);
@@ -181,8 +192,8 @@ body.dark-mode .mobiel-menu {
 }
 
 
+/* Ik zet de links onder elkaar en geef ze ruimte, zodat ze op een mobiel scherm makkelijk te gebruiken zijn. */
 
-/* Links in het mobiele menu */
 .mobiel-menu nav {
   display: flex;
   flex-direction: column;
@@ -192,12 +203,16 @@ body.dark-mode .mobiel-menu {
   background: none;
 }
 
-/* Desktopmenu standaard verbergen */
+
+/* Het desktopmenu is standaard verborgen. */
+
 .desktop-nav {
   display: none;
 }
 
-/* Links */
+
+/* Ik geef de navigatielinks hetzelfde sierlijke lettertype en laat ze iets groter worden als je eroverheen gaat. */
+
 .mobiel-menu nav a,
 .desktop-nav a {
   color: var(--navigatietekstkleur);
@@ -213,13 +228,17 @@ body.dark-mode .mobiel-menu {
   transform: scale(1.2);
 }
 
-/* Donkere modus */
+
+/* Ik gebruik de navigatieachtergrondvariabele ook voor de donkere modus. */
+
 body.dark-mode .mobiel-menu,
 body.dark-mode .desktop-nav {
   background-image: var(--navigatieachtergrond);
 }
 
-/* Brede schermen */
+
+/* Vanaf 45rem gebruik ik het desktopmenu in plaats van het mobiele menu. */
+
 @media (min-width: 45rem) {
   .mobiel-menu {
     display: none;
@@ -239,7 +258,8 @@ body.dark-mode .desktop-nav {
   }
 }
 
-/* Achtergrondafbeelding */
+
+/* De afbeelding onder de header vult de beschikbare ruimte en blijft op verschillende schermformaten in verhouding. */
 
 body > picture {
   display: grid;
@@ -257,7 +277,7 @@ body > picture img {
 }
 
 
-/* Responsive navigatie */
+/* Op bredere schermen zet ik de navigatie horizontaal en centreer ik de links. */
 
 @media (min-width: 35em) {
   nav {
@@ -268,6 +288,8 @@ body > picture img {
 }
 
 
+/* Op grotere schermen kunnen de secties in main in twee kolommen worden verdeeld. */
+
 @media (min-width: 50em) {
   main section {
     grid-template-columns: 1fr 1fr;
@@ -277,7 +299,7 @@ body > picture img {
 
 
 
-/* Cookie-pop-up */
+/* Cookie-pop-up. Ik gebruik visibility en opacity om de pop-up verborgen te houden totdat de active-klasse wordt toegevoegd. */
 
 .popup-screen {
   position: fixed;
@@ -292,13 +314,15 @@ body > picture img {
 }
 
 
+/* Deze klasse maakt de pop-up zichtbaar. */
+
 .popup-screen.active {
   visibility: visible;
   opacity: 1;
 }
 
 
-/* Donkere laag achter de pop-up */
+/* De donkere laag ligt achter de pop-up en maakt de rest van de pagina minder opvallend. De blur zorgt voor een wazig effect. */
 
 .donkerelaag-cookie {
   position: absolute;
@@ -310,7 +334,7 @@ body > picture img {
 }
 
 
-/* Pop-up zelf */
+/* De pop-up staat in het midden van het scherm. Met max-height en overflow kan de inhoud scrollen als die niet helemaal past. */
 
 .privacy-popup {
   position: fixed;
@@ -326,6 +350,7 @@ body > picture img {
   padding: clamp(2.5em, 8vw, 4em) clamp(2em, 8vw, 3.5em);
   text-align: center;
 
+  /* Ik gebruik een eigen achtergrondafbeelding om de pop-up bij het ontwerp te laten passen. */
   background-image: var(--cookie-achtergrond);
   background-size: 100% 100%;
   background-position: center;
@@ -338,7 +363,7 @@ body > picture img {
 }
 
 
-/* Titel in de pop-up */
+/* De titel schaalt mee met het scherm. overflow-wrap voorkomt dat lange woorden buiten de pop-up vallen. */
 
 .privacy-popup h1 {
   font-size: clamp(1.5rem, 5vw, 2.5rem);
@@ -346,7 +371,7 @@ body > picture img {
 }
 
 
-/* Tekst in de pop-up */
+/* Ik gebruik een regelhoogte van 1.5 voor de leesbaarheid en laat de tekstgrootte meeschalen met het scherm. */
 
 .privacy-popup p {
   font-size: clamp(0.85rem, 2.5vw, 1rem);
@@ -355,7 +380,7 @@ body > picture img {
 }
 
 
-/* Knop in de pop-up */
+/* De knop krijgt eigen kleuren en een rand, zodat hij duidelijk opvalt in de pop-up. */
 
 .privacy-popup button {
   max-width: 100%;
@@ -370,7 +395,7 @@ body > picture img {
 }
 
 
-/* Pop-up opnieuw openen */
+/* Met deze knop kan de bezoeker de cookie- of privacy-pop-up opnieuw openen. */
 
 #cookies-opnieuw {
   position: fixed;
@@ -398,6 +423,8 @@ body > picture img {
 }
 
 
+/* Bij hover schuift de afbeelding naar rechts en krijgt die een lichte gloed. */
+
 #cookies-opnieuw:hover img {
   filter: drop-shadow(0 0 2em white);
   transform: translateX(3em);
@@ -409,7 +436,7 @@ body > picture img {
 }
 
 
-/* Cursor */
+/* Ik gebruik mijn eigen cursorafbeeldingen om de sprookjesachtige stijl op de hele website terug te laten komen. */
 
 a,
 button,
@@ -427,7 +454,7 @@ summary {
 }
 
 
-/* Knoppen en hover-effecten */
+/* Knoppen krijgen een vloeiende overgang, zodat de hover- en klikbewegingen niet abrupt zijn. */
 
 button {
   transition:
@@ -436,6 +463,8 @@ button {
     background-color 0.3s ease;
 }
 
+
+/* Bij hover krijgen de knoppen een roze gloed en worden ze iets groter. */
 
 button:hover {
   box-shadow:
@@ -447,15 +476,21 @@ button:hover {
 }
 
 
+/* Als je op een knop klikt, wordt die iets kleiner als feedback. */
+
 button:active {
   transform: scale(0.97);
 }
+
+
+/* Ik haal de standaard focusrand van de pop-up weg. Ik moet er wel voor zorgen dat toetsenbordgebruikers nog een zichtbare focus hebben op interactieve elementen. */
 
 .privacy-popup:focus {
   outline: none;
 }
 
-/* Animatie kroonluchter */
+
+/* De kroonluchter draait een klein beetje heen en weer tijdens de animatie. */
 
 @keyframes beweeg {
   0% {
@@ -475,7 +510,9 @@ button:active {
   }
 }
 
-/* Navigatie voor brede schermen */
+
+/* Navigatie voor brede schermen. Ik gebruik flexbox om de links naast elkaar te zetten en te laten doorlopen als er niet genoeg ruimte is. */
+
 @media (min-width: 45rem) {
   .mobiel-menu {
     display: none;
@@ -490,6 +527,59 @@ button:active {
 
   
 }
+
+
+/*
+Bronnen die ik heb gebruikt om CSS-eigenschappen en voorbeelden beter te begrijpen:
+
+- MDN Web Docs – @font-face:
+  https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face
+
+- MDN Web Docs – CSS custom properties (variabelen):
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+
+- MDN Web Docs – box-sizing:
+  https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+
+- MDN Web Docs – CSS Grid Layout:
+  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout
+
+- MDN Web Docs – Flexbox:
+  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout
+
+- MDN Web Docs – Media queries:
+  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
+
+- MDN Web Docs – clamp():
+  https://developer.mozilla.org/en-US/docs/Web/CSS/clamp
+
+- MDN Web Docs – transform:
+  https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+- MDN Web Docs – transition:
+  https://developer.mozilla.org/en-US/docs/Web/CSS/transition
+
+- MDN Web Docs – CSS animations:
+  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations
+
+- MDN Web Docs – cursor:
+  https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
+
+- MDN Web Docs – filter:
+  https://developer.mozilla.org/en-US/docs/Web/CSS/filter
+
+- MDN Web Docs – overflow:
+  https://developer.mozilla.org/en-US/docs/Web/CSS/overflow
+
+- MDN Web Docs – visibility:
+  https://developer.mozilla.org/en-US/docs/Web/CSS/visibility
+
+- MDN Web Docs – opacity:
+  https://developer.mozilla.org/en-US/docs/Web/CSS/opacity
+
+- MDN Web Docs – backdrop-filter:
+  https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter
+*/
 
 
 
