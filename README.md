@@ -111,7 +111,7 @@ Vandaag hebben we voortgangsgesprekken gevoerd en hebben we de retrospect gedaan
 Ik heb met mn groep bepaald waar een goede tekening aan moet voldoen. Hieronder: <br> <img width="400" alt="Image" src="https://github.com/user-attachments/assets/80f578db-0946-4d1d-99be-376902498931" />
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/26019380-f1fb-4896-8ef9-bb3f348f5c3f" />
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/afd66037-9492-4716-afce-e7ff84d5b064" />
-<img width="400" alt="Image" src="https://github.com/user-attachments/assets/3104c833-7165-4b75-8c73-a17d0c079b5d" /> <br>
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/3104c833-7165-4b75-8c73-a17d0c079b5d" /> <br> <br>
 ## Checkout:
 Vragen en termen<br>
 1. Waarom geven de docenten deze opdracht? <br>
