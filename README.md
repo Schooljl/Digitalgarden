@@ -23,7 +23,7 @@ Moet ik nog uitzoeken want ik heb nog geen aanpassingen aan mijn pagina gemaakt.
 ### 3 sept - [Workshop] 
 <details> <summary>Lees meer</summary>
 Ik heb 2 workshops gevolgd deze dag. Een over schetsen van Charley. We hebben geoefend met het maken van rechte lijnen en vierkanten.
-We moesten een website opzoeken en natekenen. Dit is zalando.  
+We moesten een website opzoeken en natekenen. Dit is zalando. <br>
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/f32190a0-f7de-4bef-9706-ebfe0faf8d53" />
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/c130b8ae-d5de-450d-9964-39e9aea87908" />
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/53e7f652-64d0-4762-8428-c9691577e671" />  
