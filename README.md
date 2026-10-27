@@ -69,7 +69,7 @@ We begonnen met sfeerwoorden bedenken. Ik had: "Ik voel me creatief, fantasierij
 Daarna hebben we afbeeldingen verzameld die passen bij deze sfeerwoorden. We hebben dus visueel beeld gezocht. Daarna hebben we nog een abstracte visuele vertaling gemaakt. Daarvoor hebben we gekeken naar fonts op posters. ALs laatste hebben we nog opgeschreven waarom deze posters passen bij de sfeer.
 Link naar miro: https://miro.com/app/board/uXjVHq1zApo=/?share_link_id=829585340391 <br>
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/5eda9872-6713-434a-977a-4ad19009737c" /> <img width="400" alt="Image" src="https://github.com/user-attachments/assets/bdd435e0-fd7c-452f-bf61-dccd2ebb9b39" />
-</details>
+
 
 ## Check out: Mijn garden gaat over mijn creaties, en ik wil het een prinsessenachtige of sprookjesachtige sfeer geven.
 </details>
