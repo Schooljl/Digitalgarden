@@ -384,6 +384,14 @@ Vandaag is de expo. Ik schrijf dit nu maandagmiddag. De expo ging goed, we hebbe
 
 ## Bronnen CSS: <br>
 
+Ik heb vooral DLO gebruikt als hulpmiddel en de code zelf aangepast aan mijn website. Daarnaast heb ik de volgende bronnen van W3Schools gebruikt als naslagwerk voor CSS:
+
+- [W3Schools - CSS Variables](https://www.w3schools.com/css/css3_variables.asp)
+- [W3Schools - CSS Media Queries](https://www.w3schools.com/css/css3_mediaqueries.asp)
+- [W3Schools - CSS Animations](https://www.w3schools.com/css/css3_animations.asp)
+- [W3Schools - CSS Transitions](https://www.w3schools.com/css/css3_transitions.asp)
+- [W3Schools - CSS @font-face](https://www.w3schools.com/cssref/atrule_font-face.php)
+- [W3Schools - CSS Cursor](https://www.w3schools.com/cssref/pr_class_cursor.php)
 
 ## Bronnen HTML <br>
 
