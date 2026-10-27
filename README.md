@@ -33,11 +33,10 @@ Bij Diederik heb ik een workshop gevolgd over typografie. De workshop begon met 
 ### Sprint 1 maandag 7 september
 <details> <summary>Lees meer</summary>
 We hebben in groepjes artikelen gelezen en daarna klassikaal besproken.
-Ik heb 'A Brief History & Ethos of the Digital Garden' gelezen en daarna een korte samenvatting gemaakt zonder weer in het artikel te kijken tijdens het maken van de samenvatting.
+Ik heb 'A Brief History & Ethos of the Digital Garden' gelezen en daarna een korte samenvatting gemaakt zonder weer in het artikel te kijken tijdens het maken van de samenvatting.:
 
 Een digital garden is een plek op het web waar er veel ruimte is voor groei. Er wordt niet zo zeer gelet op wanneer iets is gepubliceerd als het wordt aanbevolen, er wordt meer gelet op de inhoud. Je ziet naast de datum dat het is gepubliceerd ook de datum waar er het laast aan is gewerkt. 
 Een digital garden is een persoonlijke plek waar je alles zo persoonlijk en gek kan maken als je wil en deze is nooit klaar met groeien.
-
 
 In groepjes hebben we websites bekeken en beoordeeld hoe 'webby' ze zijn. Wij hebben een formulier met criteria ingevuld. Daarna hebben we als groep de websites besproken en bepaald welke van deze websites het meest en minst webby is. Daar kwam uit:
 <img width="4032" height="3024" alt="Image" src="https://github.com/user-attachments/assets/4f976837-47d6-422c-bbf4-8bd612ac5b71" />
@@ -49,18 +48,16 @@ Ik ga nu verder met het huiswerk.
 Dit betekent dat ik kijk naar welk onderwerp ik wil gebruiken voor mijn website en hoe ik wil dat het er ongeveer uit gaat zien.
 
 **Check-out**
-1. Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.
-2. Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren.
-3. Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma.
-
-1. Een digital garden is een plek op het web waar er veel ruimte is voor groei. Er wordt niet zo zeer gelet op wanneer iets is gepubliceerd als het wordt aanbevolen, er wordt meer gelet op de inhoud. Je ziet naast de datum dat het is gepubliceerd ook de datum waar er het laast aan is gewerkt. 
+1. Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website: <br>
+Een digital garden is een plek op het web waar er veel ruimte is voor groei. Er wordt niet zo zeer gelet op wanneer iets is gepubliceerd als het wordt aanbevolen, er wordt meer gelet op de inhoud. Je ziet naast de datum dat het is gepubliceerd ook de datum waar er het laast aan is gewerkt. 
 Een digital garden is een persoonlijke plek waar je alles zo persoonlijk en gek kan maken als je wil en deze is nooit klaar met groeien.
+<br>
+2. Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren: <br>
+ Een website is webby als het fluïde, interactief, toegankelijk, volwassen, expressief en leuk/verassend is. Ik weet nu niet uit mijn hoofd welke websites me inspireren. <br>
+3. Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma: <br> 3. Ik wil in mijn website gebruik maken van animaties en ik vind een focus-state en hover state ook erg belangrijk.
+<br>
 
-2. Een website is webby als het fluïde, interactief, toegankelijk, volwassen, expressief en leuk/verassend is. Ik weet nu niet uit mijn hoofd welke websites me inspireren.
-
-3. Ik wil in mijn website gebruik maken van animaties en ik vind een focus-state en hover state ook erg belangrijk.
-
-<img width="3464" height="3464" alt="Image" src="https://github.com/user-attachments/assets/bdd435e0-fd7c-452f-bf61-dccd2ebb9b39" />
+<img width="750" alt="Image" src="https://github.com/user-attachments/assets/bdd435e0-fd7c-452f-bf61-dccd2ebb9b39" />
 </details>
 
 ### Sprint 1 woensdag 9 sept
