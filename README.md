@@ -157,8 +157,8 @@ ziek thuis dus achterstand opgelopen. Ik heb thuis niet gewerkt
 
 ### Maandag 28 sept:
 <details> <summary>Lees meer</summary>
-Vandaag was Bi-weekly geek 2
-<img width="400" alt="Image" src="https://github.com/user-attachments/assets/a14eb88a-623b-485a-a3f3-690cd13e2744" />
+Vandaag was Bi-weekly geek 2 <br>
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/a14eb88a-623b-485a-a3f3-690cd13e2744" /> <br>
 -Wat bedoelt Vasilis met de uitspraak: Semantiek doet mij niet zo veel, ik ben liever bezig met de UX van HTML?
 Hiermee bedoelt Vasilis dat hij minder waarde hecht aan de betekenis/structuur van HTML-elementen en vooral kijkt naar hoe HTML zich gedraagt en hoe prettig het voor de gebruiker werkt.
 
