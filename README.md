@@ -5,14 +5,13 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 ### 31 aug - Kickoff
 <details> <summary>Lees meer</summary>
 
-Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github omgeving.
+Ik heb een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github omgeving.
 
 ## Check-out (Met Christina)
 De checkout vragen voor vandaag:
-
-Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.
-Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren.
-Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma.
+-Leg uit wat een source hosting platform is en voor welke jij gekozen hebt.
+-Vertel welke domeinnaam jij gekozen hebt en hoe je die hebt gekoppeld aan jouw pagina.
+-Beschrijf hoe je aanpassingen aan jouw pagina kunt maken en hoe je er voor zorgt dat die op het web gepubliceerd worden.
 
 1. Een source hosting platform (broncodehostingsplatform) is een online platform waar ontwikkelaars de broncode van hun software opslaan, beheren en samen bewerken via versiebeheersystemen. Wij hadden keuze tussen Github en Codeberg, maar ik had vernomen dat Github makkelijker is en ik had daar al een account van dus ik heb gekozen voor Github.
 
@@ -50,12 +49,16 @@ Ik ga nu verder met het huiswerk.
 Dit betekent dat ik kijk naar welk onderwerp ik wil gebruiken voor mijn website en hoe ik wil dat het er ongeveer uit gaat zien.
 
 **Check-out**
+-Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.
+-Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren.
+-Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma.
+
 1. Een digital garden is een plek op het web waar er veel ruimte is voor groei. Er wordt niet zo zeer gelet op wanneer iets is gepubliceerd als het wordt aanbevolen, er wordt meer gelet op de inhoud. Je ziet naast de datum dat het is gepubliceerd ook de datum waar er het laast aan is gewerkt. 
 Een digital garden is een persoonlijke plek waar je alles zo persoonlijk en gek kan maken als je wil en deze is nooit klaar met groeien.
 
 2. Een website is webby als het fluïde, interactief, toegankelijk, volwassen, expressief en leuk/verassend is. Ik weet nu niet uit mijn hoofd welke websites me inspireren.
 
-3. Ik wil in mijn website gebruik maken van animaties en ik vind een focus-state en hover state ook erg belangrijk. Ik ga van tevoren ook een kleurenpalet maken zodat het er aesthetic uit ziet.
+3. Ik wil in mijn website gebruik maken van animaties en ik vind een focus-state en hover state ook erg belangrijk.
 
 <img width="3464" height="3464" alt="Image" src="https://github.com/user-attachments/assets/bdd435e0-fd7c-452f-bf61-dccd2ebb9b39" />
 </details>
