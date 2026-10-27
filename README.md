@@ -50,9 +50,10 @@ Dit betekent dat ik kijk naar welk onderwerp ik wil gebruiken voor mijn website 
 1. Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website: <br>
 Een digital garden is een plek op het web waar er veel ruimte is voor groei. Er wordt niet zo zeer gelet op wanneer iets is gepubliceerd als het wordt aanbevolen, er wordt meer gelet op de inhoud. Je ziet naast de datum dat het is gepubliceerd ook de datum waar er het laast aan is gewerkt. 
 Een digital garden is een persoonlijke plek waar je alles zo persoonlijk en gek kan maken als je wil en deze is nooit klaar met groeien.
-<br>
+<br>  
 2. Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren: <br>
- Een website is webby als het fluïde, interactief, toegankelijk, volwassen, expressief en leuk/verassend is. Ik weet nu niet uit mijn hoofd welke websites me inspireren. <br>
+Een website is webby als het fluïde, interactief, toegankelijk, volwassen, expressief en leuk/verassend is. Ik weet nu niet uit mijn hoofd welke websites me inspireren. <br>  
+
 3. Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma: <br> Ik wil in mijn website gebruik maken van animaties en ik vind een focus-state en hover state ook erg belangrijk.
 <br>
 
