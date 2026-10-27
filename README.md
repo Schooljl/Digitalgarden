@@ -302,8 +302,8 @@ vakantie
 We hebben gezamenlijk een paar artikelen gelezen over special tension en hoe je tekst kan positioneren.
 Maandag heb ik na school nog een paar uur gewerkt aan mijn website. Ik heb in illustrator afbeeldingen gemaakt die ik heb gebruikt voor de light en dark mode van de cookie's
 
-<img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/a2acd080-5263-488e-beae-73fcd48f7899" />
-<img width="1364" height="1067" alt="Image" src="https://github.com/user-attachments/assets/ec052d2e-9a0f-4908-b608-e6d0438cc60e" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/a2acd080-5263-488e-beae-73fcd48f7899" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/ec052d2e-9a0f-4908-b608-e6d0438cc60e" />
 </details>
 
 ### Woensdag 21 okt:
@@ -311,20 +311,23 @@ Maandag heb ik na school nog een paar uur gewerkt aan mijn website. Ik heb in il
 We zijn de les begonnen met klasikaal naar elkaars werk kijken van de songteksten.
 Daarna zijn we begonnen met de Bi-Weekly.
 Dit ging over betrouwbare informatie op het internet.
-<img width="2880" height="1992" alt="Image" src="https://github.com/user-attachments/assets/24ece9cc-488c-4b66-aa5f-471854446a3b" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/24ece9cc-488c-4b66-aa5f-471854446a3b" />
 We hebben zelf vragen bedacht die antwoord kunnen geven op de hoofdvraag met onderzoekmethodes.
 Ik heb in illustrator de afbeelding voor de cookie knop gemaakt. Dit lijkt net op een prijskaartje van een kledingstuk,
-<img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/a7d0960f-d42a-440d-919d-313474df0410" />
-<img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/b514d047-2284-4b66-9398-6b95035737da" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/a7d0960f-d42a-440d-919d-313474df0410" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/b514d047-2284-4b66-9398-6b95035737da" />
 Dit is mijn vernieuwde cookie pop up
 </details>
  
 ### Donderdag 22 okt:
 <details> <summary>Lees meer</summary>
 Ik heb de hele dag thuis gewerkt. ik heb de light dark mode knop toegevoegd op de home page. Meer animatie's toegevoegd, een cookie knop toegevoegd zodat de bezoeker terug kan naar de cookies informatie. Ook heb ik een laag met tekst toegevoeg bij mijn creaties als je eroverheen hovert. Dit was makkelijker dan ik had gedacht.
-<img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/9160d46f-4d3f-4b36-b4a5-5e99fa8b911b" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/9160d46f-4d3f-4b36-b4a5-5e99fa8b911b" />
 
-Ik heb ook mijn songtekst meer vormgegeven doormiddel van een glow effect en animatie. Als je over de woorden, name, books, family en history hovert dan worden de woorden duidelijk leesbaar. Ik heb gekozen voor een donkere achtergrondkleur en de 'if you had no' in wit. omdat ik dat een mooi contrast vind. Het is ook een koude kleur donkerblauw. 
+Ik heb ook mijn songtekst meer vormgegeven doormiddel van een glow effect en animatie. Als je over de woorden, name, books, family en history hovert dan worden de woorden duidelijk leesbaar. Ik heb gekozen voor een donkere achtergrondkleur en de 'if you had no' in wit. omdat ik dat een mooi contrast vind. Het is ook een koude kleur donkerblauw. <br> <img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/7c7c6d51-a2d1-4832-9533-15330165add6" /> <br> <br>
+
+<img width="400"  alt="Image" src="https://github.com/user-attachments/assets/a5edd762-c89f-4a90-b725-5dac271e985a" />
+Op deze screenshot kan je zien dat ik een donkere laag met tekst heb toegevoegd aan mijn foto's op de creaties pagina. Dit heb ik gedaan om meer informatie over mijn creaties te delen zonder dat de pagina nog veel langer word. Het is gelukt met tekst-overlay in html
 </details>
 
 ### Vrijdag 23 okt:
