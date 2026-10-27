@@ -255,14 +255,14 @@ Dat kan je zelf bepalen. Het hangt er ook vanaf wat het doel van je ontwerp is. 
 ### Vrijdag 9 okt:
 <details> <summary>Lees meer</summary>
  Vandaag hebben we onze website's klasikaal gepresenteerd. Het plan was om dit in duo's te doen, maar er waren maar 7 mensen aanwegzig, dus we hebben het klasikaal gedaan en feedback gekregen.
- Daarna heeft een student mij goed geholpen met het positioneren van mijn lyrics dmv grid.
+ Daarna heeft een student mij goed geholpen met het positioneren van mijn lyrics dmv grid. <br>
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/bbbd6ed1-d82d-48dd-b2a5-0cd1bdb8a826" />
 
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/0294fa9b-f98f-47b8-95d7-e759f1db3e15" />
 
 <img width="400" alt="Image" src="https://github.com/user-attachments/assets/a2ab495c-dd6f-4216-a382-48c6c2458eb9" />
 
-<img width="400" alt="Image" src="https://github.com/user-attachments/assets/ba41e70b-5934-4be6-b11f-9806ee919e13" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/ba41e70b-5934-4be6-b11f-9806ee919e13" /> <br>
 Mijn feedback:
 
 Songtekst:
