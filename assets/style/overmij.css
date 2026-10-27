@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Comic Relief";
   src: url("../type/ComicRelief-Regular.woff2") format("woff2");
@@ -5,6 +6,7 @@
   font-style: normal;
 }
 
+/* Dit lettertype gebruik ik voor de grote titels op mijn website. */
 @font-face {
   font-family: "Romantic";
   src: url("../type/ROMANTIC.TTF") format("truetype");
@@ -12,6 +14,7 @@
   font-style: normal;
 }
 
+/* Dit lettertype heb ik toegevoegd zodat ik het ook op mijn website kan gebruiken. */
 @font-face {
   font-family: "Roffelia";
   src: url("../type/Roffelia.otf") format("opentype");
@@ -19,6 +22,7 @@
   font-style: normal;
 }
 
+/* Hier laad ik nog een lettertype in dat bij de stijl van mijn website past. */
 @font-face {
   font-family: "The Garden of lights";
   src: url("../type/The\ Garden\ of\ Lights.ttf") format("truetype");
@@ -28,7 +32,7 @@
 
 
 
-/* Dit zijn de kleuren die worden gebruikt voor de light mode. Hiervoor heb ik custom property gebruikt.*/
+/* Dit zijn de kleuren die worden gebruikt voor de light mode. Hiervoor heb ik custom properties gebruikt. */
 
 :root {
   color-scheme: light;
@@ -41,7 +45,7 @@
 }
 
 
-/* Deze kleuren worden gebruikt bij dark mode. Ook met custom property */
+/* Deze kleuren gebruik ik bij dark mode. Door custom properties te gebruiken kan ik de kleuren makkelijk aanpassen. */
 
 body.dark-mode {
   color-scheme: dark;
@@ -55,6 +59,7 @@ body.dark-mode {
 
 
 
+/* Zo tellen padding en borders mee in de totale breedte en hoogte van elementen. */
 * {
   box-sizing: border-box;
 }
@@ -64,14 +69,17 @@ body {
   font-family: "The Garden of Lights", sans-serif;
   background: var(--achtergrondkleur);
   color: var(--tekstkleur);
+  /* Ik gebruik een toverstaf als cursor zodat het bij mijn thema past. */
   cursor: url("../../kleineafbeeldingen/toverstaf.png") 4 4, auto;
 }
 
+/* Als ik over links, knoppen en andere klikbare onderdelen ga, verandert de cursor. */
 a, button, select, .pinterest-preview img, summary {
     cursor: url('../../kleineafbeeldingen/toverstafhover.png'), default;
 }
 
 
+/* De titel krijgt een ander lettertype en een animatie als de pagina verschijnt. */
 h1 {
   font-family: "Romantic", serif;
   font-weight: 400;
@@ -84,10 +92,12 @@ h1 {
 
 
 
+/* Ik zorg ervoor dat de inhoud van de header in het midden staat. */
 header {
   text-align: center;
 }
 
+/* Het logo blijft netjes in het midden en wordt niet te groot op een groot scherm. */
 header #logo {
   display: block;
   width: 60%;
@@ -97,11 +107,11 @@ header #logo {
 }
 
 
-/* code voor de naviagtie. Ik heb transform toegevoegd zodat er iets meer animatie in de website zit*/
+/* Hier staat de code voor mijn navigatie. Ik heb transform toegevoegd zodat de links een kleine animatie krijgen als ik eroverheen ga. */
 
 /* Navigatie */
 
-/* Hamburger-menu op kleine schermen */
+/* Het hamburger-menu gebruik ik op kleine schermen. */
 .mobiel-menu {
   display: block;
   padding: 1em;
@@ -117,7 +127,7 @@ header #logo {
   cursor: pointer;
 }
 
-
+/* De links onder het mobiele menu staan onder elkaar en hebben ruimte ertussen. */
 .mobiel-menu nav {
   display: flex;
   flex-direction: column;
@@ -127,12 +137,12 @@ header #logo {
   background: none;
 }
 
-/* Desktopmenu standaard verborgen */
+/* Op kleine schermen verberg ik het desktopmenu. */
 .desktop-nav {
   display: none;
 }
 
-/* Navigatielinks */
+/* Ik geef de navigatielinks dezelfde stijl en laat ze iets groter worden als ik eroverheen ga. */
 .mobiel-menu nav a,
 .desktop-nav a {
   color: var(--navigatiekleur);
@@ -143,18 +153,19 @@ header #logo {
   transition: transform 0.3s ease;
 }
 
+/* Deze animatie zorgt ervoor dat de links groter worden als ik er met mijn muis overheen ga. */
 .mobiel-menu nav a:hover,
 .desktop-nav a:hover {
   transform: scale(1.2);
 }
 
-/* Donkere modus */
+/* In dark mode gebruik ik een donkere kant-afbeelding voor de navigatie. */
 body.dark-mode .mobiel-menu,
 body.dark-mode .desktop-nav {
   background-image: url("../../kleineafbeeldingen/kantdark.jpg");
 }
 
-/* Desktopmenu op brede schermen */
+/* Vanaf dit schermformaat wordt het mobiele menu vervangen door het desktopmenu. */
 @media (min-width: 45rem) {
   .mobiel-menu {
     display: none;
@@ -173,12 +184,14 @@ body.dark-mode .desktop-nav {
     background-size: auto 3em;
   }
 
+  /* Ook op desktop blijft de donkere achtergrond zichtbaar in dark mode. */
   body.dark-mode .desktop-nav {
     background-image: url("../../kleineafbeeldingen/kantdark.jpg");
   }
 }
 
 
+/* Ik gebruik grid om de inhoud van mijn pagina netjes te verdelen. */
 main {
   display: grid;
   grid-template-columns: 1fr;
@@ -187,7 +200,7 @@ main {
   align-items: start;
 }
 
-
+/* De selfie neemt de beschikbare breedte in en schaalt mee met het scherm. */
 main > #selfie {
   display: block;
   width: 100%;
@@ -197,6 +210,7 @@ main > #selfie {
 
 /* Verhaalpagina */
 
+/* De achtergrond en de tekst van mijn verhaal komen in dezelfde grid-cel te staan. */
 figure.verhaal {
   display: grid;
   grid-template-columns: 1fr;
@@ -205,6 +219,7 @@ figure.verhaal {
   position: relative;
 }
 
+/* De afbeelding vormt de achtergrond van het verhaal. */
 .verhaal-achtergrond {
   grid-area: 1 / 1;
   display: block;
@@ -212,6 +227,7 @@ figure.verhaal {
   height: auto;
 }
 
+/* Ik plaats de tekst over de achtergrond en gebruik padding zodat de tekst goed op de afbeelding past. */
 figure.verhaal > p {
   grid-area: 1 / 1;
   z-index: 1;
@@ -227,8 +243,7 @@ figure.verhaal > p {
   overflow-wrap: break-word;
 }
 
-/* Decoratieve beginletter */
-
+/* Deze afbeelding gebruik ik als decoratieve beginletter van het verhaal. */
 .beginletter {
   float: left;
   width: 25%;
@@ -237,8 +252,7 @@ figure.verhaal > p {
   margin-right: 0.5em;
 }
 
-/* Navigatie op grotere schermen */
-
+/* Op iets grotere schermen zet ik de navigatie horizontaal. */
 @media (min-width: 35em) {
   nav {
     flex-direction: row;
@@ -246,19 +260,20 @@ figure.verhaal > p {
   }
 }
 
-/* Selfie links en verhaal rechts op een breed scherm */
-
+/* Op brede schermen staan de selfie en het verhaal naast elkaar. */
 @media (min-width: 50em) {
   main {
     grid-template-columns: 1fr 1fr;
   }
 }
 
+/* Op kleine schermen geef ik het verhaal een minimale hoogte zodat de achtergrond goed zichtbaar blijft. */
 @media (max-width: 35em) {
   figure.verhaal {
     min-height: 35rem;
   }
 
+  /* De achtergrond vult het beschikbare vak op kleine schermen. */
   .verhaal-achtergrond {
     width: 100%;
     height: 100%;
