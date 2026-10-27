@@ -124,7 +124,6 @@ Naast de gebruikte techniek zijn er eigenlijk altijd ook andere randvoorwaarden.
 Wees je bewust van de mogelijkheden en de onmogelijkheden van HTML en CSS. HTML is om content te structureren en om interactie mogelijk te maken. CSS is om vorm te geven, om dingen te verduidelijken, en om interactie prettiger te maken.<br> <br>
 5. Wat kan er allemaal met CSS? <br>
 Niemand weet wat er allemaal kan met CSS, er kan zoveel, steeds meer, en nog niet alles is ontdekt. Maar je kan wel een heel goed beeld krijgen van wat er allemaal ongeveer kan. Je kan op allerlei manieren dingen layouten, je kan eindeloze hoeveelheden visuele effecten toepassen, en je kan op talloze manieren dingen laten animeren. Je hoeft natuurlijk niet alles te kunnen, daar is dit blok veel te kort voor, maar het is wel lang genoeg om te zien wat er allemaal kan. Dan kan je kiezen wat je wil gaan leren, zowel tijdens het blok als daarna.
-</details>
 
 ### Sprint 2 maandag 21 sept.
 <details> <summary>Lees meer</summary>
@@ -144,7 +143,8 @@ Heading elementen zijn koppen die de structuur en hiërarchie van een webpagina 
 
 3.Hoe ga jij met cookies om? Beschrijf jouw beweegredenen en of die zijn veranderd na het volgen van dit college. <br>
 Ik accepteerde nooit functionele cookies en nu na deze las nog steeds niet
-   
+</details>
+
 ### Woensdag 23 sept
 <details> <summary>Lees meer</summary>
 Ziek thuis dus achterstand opgelopen. Ik heb thuis gewerkt.
