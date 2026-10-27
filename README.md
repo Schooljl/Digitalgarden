@@ -86,8 +86,12 @@ Vandaag hebben we aan de hand van schetsen een begin gemaakt aan html. Hier had 
  
 ### Maandag 14 sept
 <details> <summary>Lees meer</summary>
+Als huiswerk heb ik veel gewerkt in illustrator en photoshop aangezien we alleen eigen content mogen gebruiken. Daarna heb ik deze ook aangepast om extra afbeeldingen te krijgen voor dark mode.
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/07ffb199-4fbd-40e7-8f2a-4f89b7931034" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/930e28b0-9706-4e5e-b2fe-88eb36197871" />
+<br> <br>
 Vandaag was de bi-weekly geek 1.
-<img width="2838" height="2002" alt="Image" src="https://github.com/user-attachments/assets/31b5cc58-a667-4420-8f99-a501bf9fac0e" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/31b5cc58-a667-4420-8f99-a501bf9fac0e" />
 We hebben onderzoeksvragen bedacht in groepen van 4. Daarna hebben we ons blad met vragen doorgegeven en onderzoekmethodes gekoppeld aan de vragen van een ander groepje.
 
 Check out met Ella:
@@ -99,13 +103,6 @@ De volgende stappen om mijn website responsive te maken zijn de afbeeldingen op 
 Ik kan de bouw van mijn digital garden misschien wel uitleggen in 'Webby vocabulaire.'
 
 Ik heb thuis ook afbeeldingen ontworpen in illustrator: <img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/a4e31698-eb4c-4eee-8729-8c7a37898142" />
-</details>
-
-### Week tot 18 sept
-<details> <summary>Lees meer</summary>
-Ik heb veel gewerkt in illustrator en photoshop aangezien we alleen eigen content mogen gebruiken. Daarna heb ik deze ook aangepast om extra afbeeldingen te krijgen voor dark mode. Ik heb ook een hover toegevoegd bij de nav en ik heb een klikbare afbeelding naar mijn pinterest board gezet op mijn website.
-<img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/07ffb199-4fbd-40e7-8f2a-4f89b7931034" />
-<img width="1470" height="956" alt="Image" src="https://github.com/user-attachments/assets/930e28b0-9706-4e5e-b2fe-88eb36197871" />
 </details>
 
 ### Vrijdag 18 sept
