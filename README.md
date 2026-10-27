@@ -128,20 +128,37 @@ Niemand weet wat er allemaal kan met CSS, er kan zoveel, steeds meer, en nog nie
 
 ### Sprint 2 maandag 21 sept.
 <details> <summary>Lees meer</summary>
-Vandaag hebben we gekeken naar bestaande cookie pop ups van website's. Bijvoorbeeld van de volkskrant. 
-![alt text](image.png)
-Na het bekijken van de websites hebben we een formulier ingevuld. en we hebben uitleg gekregen over de html structuur.
-<img width="842" height="595" alt="Image" src="https://github.com/user-attachments/assets/b9e6e1b5-3350-421f-9451-bf68b5d18834" />
+Vandaag hebben we gekeken naar bestaande cookie pop ups van website's. Bijvoorbeeld van de volkskrant. <br>
+   Weet jij waarmee je precies akkoord gaat als je op “accepteren” klikt? <br>
+
+Om deze vraag te beantwoorden ga je drie verschillende cookiemeldingen onderzoeken. Een cookiepopup van de Volkskrant, en twee hele verschillende van Paradiso.
+![alt text](image.png) <br>
+Na het bekijken van de websites hebben we een formulier ingevuld. en we hebben uitleg gekregen over de html structuur. De docent was aan het coderen en we keken mee. <br>
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/b9e6e1b5-3350-421f-9451-bf68b5d18834" />
+
+## Check-out
+1.Wat zijn HTML landmark role elements? <br>
+HTML landmark role elements zijn elementen die de belangrijkste onderdelen van een webpagina aangeven. Ze helpen bezoekers en screenreadergebruikers om snel door een website te navigeren. Voorbeelden zijn `<header>`, `<nav>`, `<main>`, `<aside>` en `<footer>`. Je kunt hiermee de structuur van een pagina duidelijk maken. <br> <br>
+2.Wat zijn heading elementen en hoe horen deze 'genest' te worden? <br>
+Heading elementen zijn koppen die de structuur en hiërarchie van een webpagina aangeven. Ze lopen van `<h1>` tot en met `<h6>`, waarbij `<h1>` de belangrijkste kop is en `<h6>` de minst belangrijke. Je hoort ze in een logische volgorde te gebruiken, waarbij je de structuur van de inhoud volgt. Bijvoorbeeld: een `<h1>` voor de paginatitel, `<h2>` voor de hoofdonderdelen en `<h3>` voor subonderdelen binnen een `<h2>`. Sla niet zomaar kopniveaus over, bijvoorbeeld van `<h2>` naar `<h4>`. <br> <br>
+
+3.Hoe ga jij met cookies om? Beschrijf jouw beweegredenen en of die zijn veranderd na het volgen van dit college. <br>
+Ik accepteerde nooit functionele cookies en nu na deze las nog steeds niet
+   
 ### Woensdag 23 sept
-Ziek thuis dus achterstand opgelopen
+<details> <summary>Lees meer</summary>
+Ziek thuis dus achterstand opgelopen. Ik heb thuis gewerkt.
+</details>
+
 ### Vrijdag 25 sept
-ziek thuis dus achterstand opgelopen
+<details> <summary>Lees meer</summary>
+ziek thuis dus achterstand opgelopen. Ik heb thuis niet gewerkt
 </details>
 
 ### Maandag 28 sept:
 <details> <summary>Lees meer</summary>
 Vandaag was Bi-weekly geek 2
-<img width="2863" height="2147" alt="Image" src="https://github.com/user-attachments/assets/a14eb88a-623b-485a-a3f3-690cd13e2744" />
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/a14eb88a-623b-485a-a3f3-690cd13e2744" />
 -Wat bedoelt Vasilis met de uitspraak: Semantiek doet mij niet zo veel, ik ben liever bezig met de UX van HTML?
 Hiermee bedoelt Vasilis dat hij minder waarde hecht aan de betekenis/structuur van HTML-elementen en vooral kijkt naar hoe HTML zich gedraagt en hoe prettig het voor de gebruiker werkt.
 
